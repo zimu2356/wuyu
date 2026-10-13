@@ -1,0 +1,93 @@
+{
+  "action_cost": 0.002,
+  "body_drift": [
+    0.004,
+    0.004
+  ],
+  "body_relaxation": 0.003,
+  "bootstrap_resamples": 5000,
+  "bootstrap_seed": 730131,
+  "calibration": {
+    "choices": "Checkpoint by full-buffer coverage only; N by SD only. No parameter/architecture changes based on effect.",
+    "development_effect_sd": 0.03625872060804058,
+    "expected_halfwidths": {
+      "128": 0.006281502868678007,
+      "256": 0.00444169327448497,
+      "512": 0.0031407514343390034
+    },
+    "formation_coverage_qualified": true,
+    "full_buffer_fraction": 0.90625,
+    "precision_target_expected_met": true
+  },
+  "change_tick": 1600,
+  "checkpoints": [
+    400,
+    800,
+    1200,
+    2000,
+    2400
+  ],
+  "claim_boundaries": "Given two body dimensions, zero setpoint, feature map, affine model class, score, exploration bias, WAIT and action channels. No learned skills, goal-category generation, value-standard formation, social interaction, consciousness, or unseen-physics generalization.",
+  "development_calibration": "Report full-buffer coverage and one-step ground-truth oracle versus uniformly random regret at each diagnostic task. Check feasibility and information; parameters and candidate selection cannot be changed to maximize observed intervention effect. Any implementation fix gets a dated note and affected cohort rerun in new directory.",
+  "development_seeds": {
+    "count": 32,
+    "start": 31000
+  },
+  "exploration_weight": 0.15,
+  "fatigue_penalty": 0.08,
+  "holdout_count_candidates": [
+    128,
+    256,
+    512
+  ],
+  "holdout_seed_start": 41000,
+  "holdout_seeds": {
+    "count": 128,
+    "start": 41000
+  },
+  "interventions": [
+    "retain",
+    "erase_axis0",
+    "erase_axis1",
+    "restore_axis0"
+  ],
+  "life_ticks": 2400,
+  "material_period": 80,
+  "model_window": 24,
+  "noise_sd": 0.003,
+  "precision_selection": "After checkpoint selection, use development SD of S only. Choose smallest count in [128,256,512] with 1.96*SD/sqrt(n)<=0.025. If none, choose 512 and record expected precision shortfall. No holdout-based sample extension.",
+  "precision_target_halfwidth": 0.025,
+  "predictor_comparisons": [
+    "conditional",
+    "action_mean"
+  ],
+  "primary_checkpoint_candidates": [
+    400,
+    800,
+    1200
+  ],
+  "primary_checkpoint_selection": "Earliest candidate at which at least 90% of development individuals have full buffers for all four tools; if none, use 1200 and flag inadequate formation coverage. Never select by intervention effect or candidate winning.",
+  "primary_endpoint": "At the selected checkpoint, paired selective interaction S = ((J(erase0,task0)-J(erase1,task0))+(J(erase1,task1)-J(erase0,task1)))/2. J is the mean squared two-dimensional body deviation after 12 actual actions; positive indicates task-specific rather than generic memory deletion effects.",
+  "primary_interpretation": "Require lower percentile paired-seed bootstrap 95% bound above 0 AND absolute retained/erased/restored outcomes plus predictor selectivity and controls. This is a causal effect of imposed model-memory intervention under this architecture, not a proof of subjective personal history or emergent goals.",
+  "probe_body_level": 0.6,
+  "probe_fatigue": 0.25,
+  "probe_material": 0.5,
+  "probe_tasks": [
+    0,
+    1
+  ],
+  "probe_ticks": 12,
+  "randomness": "Exogenous body noise keyed only by seed, absolute tick and channel; two matched branch worlds share exogenous noise despite different actions. Material schedule deterministic from seed and clock. Decision RNG cloned with agent.",
+  "recording": "All main life events, every checkpoint agent/world state, every diagnostic branch, all model erasures and sample counts, mean-predictor probes, online versus frozen continuation after the hidden change. Every seed and missing formation event stays in denominators.",
+  "ridge": 0.002,
+  "selected_primary_checkpoint": 400,
+  "stopping": "Finite 2400-tick lives. WAIT advances the world. Main lives never reset; only cloned diagnostic worlds have matched body/fatigue/material. Formal protocol and source hashes frozen after development and before holdout. Reproduction uses separate output directory.",
+  "study": "WUYU continuing state and selective learned-history interventions",
+  "training_materials": [
+    0.2,
+    0.8
+  ],
+  "version": 1,
+  "wait_recovery": 0.12,
+  "work_fatigue": 0.045
+}

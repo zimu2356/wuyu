@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-12T10:54:02.635098+00:00",
+  "development_worlds": 12,
+  "formal_worlds": 160,
+  "all_five_world_seed_sets_disjoint": true,
+  "same_algorithm_configurations_across_all_five": true,
+  "all_formal_protocols_created_before_first_formal_start": true,
+  "first_formal_start": "2026-10-12T10:18:30Z",
+  "frozen_source_files_per_formal": {
+    "relation_holdout_main": 174,
+    "relation_holdout_scenarios": 174,
+    "relation_holdout_long": 174
+  },
+  "formal_protocol_digests": {
+    "relation_holdout_main": "159d05c2d25d51977842dc45570687f243d42a126fb94c5f0b0eb0b7e8fef134",
+    "relation_holdout_scenarios": "054965a8ffa0e8e9749dfdd46168e57cb064f8467552355341bc3eaa05a3514b",
+    "relation_holdout_long": "e537ec7edf3f5120045462db642a2722eb6f64cd7cc346203fb837b6755a67c5"
+  },
+  "formal_expected_lives": {
+    "relation_holdout_main": 3072,
+    "relation_holdout_scenarios": 768,
+    "relation_holdout_long": 64
+  },
+  "note": "Only main cohort carries the confirmatory r_combined primary test. Auxiliary and long-window checks are secondary; shared runner metadata is not another independent primary test."
+}

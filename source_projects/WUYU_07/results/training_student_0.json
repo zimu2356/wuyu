@@ -1,0 +1,69 @@
+{
+  "initialization": 0,
+  "parameters": 4680,
+  "active_actor_parameters": 4647,
+  "per_individual_plastic_parameters": 168,
+  "logs": [
+    {
+      "update": 64,
+      "teacher_accuracy": 0.5380859375,
+      "seconds": 9.676753522000581
+    },
+    {
+      "update": 128,
+      "teacher_accuracy": 0.7958984375,
+      "seconds": 20.598086908999903
+    },
+    {
+      "update": 192,
+      "teacher_accuracy": 0.8173828125,
+      "seconds": 32.361893658000554
+    },
+    {
+      "update": 256,
+      "teacher_accuracy": 0.802734375,
+      "seconds": 44.42661071100156
+    },
+    {
+      "update": 320,
+      "teacher_accuracy": 0.826171875,
+      "seconds": 56.253094904001046
+    },
+    {
+      "update": 384,
+      "teacher_accuracy": 0.794921875,
+      "seconds": 65.80837059400073
+    },
+    {
+      "update": 448,
+      "teacher_accuracy": 0.80078125,
+      "seconds": 75.86376052200103
+    },
+    {
+      "update": 512,
+      "teacher_accuracy": 0.7958984375,
+      "seconds": 86.27360052299991
+    }
+  ],
+  "validation": [
+    {
+      "update": 256,
+      "file": "model_student_0_256.npz",
+      "survival": 0.5827229817708333,
+      "body_area": 0.9965369368489571
+    },
+    {
+      "update": 512,
+      "file": "model_student_0_512.npz",
+      "survival": 0.963623046875,
+      "body_area": 1.696577534993487
+    }
+  ],
+  "selected": {
+    "update": 512,
+    "file": "model_student_0_512.npz",
+    "survival": 0.963623046875,
+    "body_area": 1.696577534993487
+  },
+  "seconds": 88.2252015869999
+}

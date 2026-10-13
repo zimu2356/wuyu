@@ -1,0 +1,13 @@
+test_frozen_keeps_weights_but_history_advances (test_core.Mechanisms.test_frozen_keeps_weights_but_history_advances) ... ok
+test_original_gradients_finite_difference (test_core.Mechanisms.test_original_gradients_finite_difference) ... ok
+test_prediction_does_not_update_weights (test_core.Mechanisms.test_prediction_does_not_update_weights) ... ok
+test_rates_bounded_and_statistics_use_past (test_core.Mechanisms.test_rates_bounded_and_statistics_use_past) ... ok
+test_replay_preserves_preceding_invalid_events_without_future (test_core.Mechanisms.test_replay_preserves_preceding_invalid_events_without_future) ... ok
+test_restore_reproduces_outputs_and_all_serialized_state (test_core.Mechanisms.test_restore_reproduces_outputs_and_all_serialized_state) ... ok
+test_vector_rng_is_individual_and_batch_independent (test_core.Mechanisms.test_vector_rng_is_individual_and_batch_independent) ... ok
+test_vector_update_matches_original_scalar_update (test_core.Mechanisms.test_vector_update_matches_original_scalar_update) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.200s
+
+OK

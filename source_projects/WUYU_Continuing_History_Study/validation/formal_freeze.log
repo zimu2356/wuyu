@@ -1,0 +1,13 @@
+{
+  "formation_coverage_qualified": true,
+  "full_buffer_fraction": 0.90625,
+  "expected_halfwidths": {
+    "128": 0.006281502868678007,
+    "256": 0.00444169327448497,
+    "512": 0.0031407514343390034
+  },
+  "precision_target_expected_met": true,
+  "development_effect_sd": 0.03625872060804058,
+  "choices": "Checkpoint by full-buffer coverage only; N by SD only. No parameter/architecture changes based on effect."
+}
+Frozen: checkpoint=400, N=128

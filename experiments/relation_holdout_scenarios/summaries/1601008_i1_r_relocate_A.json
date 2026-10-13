@@ -1,0 +1,75 @@
+{
+  "total_burden": 0.0157978412072658,
+  "challenge_burden": 0.014398079952799582,
+  "late_burden": 0.0160813369661458,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 112,
+  "live_route_denials": 5,
+  "live_structural_denials": 5,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 0,
+  "contradiction_observed": true,
+  "first_denial": 1606,
+  "mean_movement_brier": 0.055670893814240396,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.20336627850417582,
+  "actor_updates": 0,
+  "mean_kl": 0.0,
+  "post_contradiction_denials": 4,
+  "post_contradiction_live_steps": 953,
+  "recovery_live_steps": 525,
+  "recovery_denials": 1,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.014398079952799582,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601008,
+  "initialization": 1,
+  "mode": "A",
+  "case": "r_relocate",
+  "elapsed_seconds": 6.654068058000121,
+  "trace_sha256": "d49a7be20a9dda1811ec51363f83d955954c179b1107f657d3247fe5db74b1c7",
+  "raw_array_sha256": "ecd1b7bcfdfb860553368992ffe8783cbba65a1176bb342294b5b3c6c0ee4963",
+  "final_state_sha256": "f6b0a1650550573d61d422acd97d769845f7a12cf73f753d25deb93d6ff837ea",
+  "diagnostics": [],
+  "actor_parameters": 0,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1363,
+      "kind": "route_closed",
+      "blocked_edge": [
+        1,
+        2
+      ]
+    },
+    {
+      "tick": 2035,
+      "kind": "route_relocated",
+      "blocked_edge": [
+        0,
+        1
+      ]
+    }
+  ],
+  "change_tick": 1363,
+  "recovery_tick": 2035,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

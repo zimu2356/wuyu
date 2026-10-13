@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "events": 1173,
+  "pause_at": 1097,
+  "resumed_events": 76,
+  "event_bytes_equal": true,
+  "checkpoint_bytes_equal": true,
+  "events_sha256": "2ce54ca77968fb7bcb3ca7508ae827e988f630f0b384579d4b5b5ac6b5fd500b",
+  "checkpoint_sha256": "253fe658e9bd54f5118568660fb460f5860a4011e0ae7b17b02ca84ea9340dc7",
+  "commands": [
+    [
+      "run",
+      "--profile",
+      "whole",
+      "--mode",
+      "R10",
+      "--case",
+      "r_combined",
+      "--seed",
+      "1770100",
+      "--horizon",
+      "2560",
+      "--steps",
+      "1173",
+      "--out",
+      "validation/system_acceptance_2026-10-13/full/cli/continuous"
+    ],
+    [
+      "run",
+      "--profile",
+      "whole",
+      "--mode",
+      "R10",
+      "--case",
+      "r_combined",
+      "--seed",
+      "1770100",
+      "--horizon",
+      "2560",
+      "--steps",
+      "1097",
+      "--out",
+      "validation/system_acceptance_2026-10-13/full/cli/prefix"
+    ],
+    [
+      "resume",
+      "validation/system_acceptance_2026-10-13/full/cli/prefix/state.wuyu",
+      "--steps",
+      "76",
+      "--out",
+      "validation/system_acceptance_2026-10-13/full/cli/resumed"
+    ],
+    [
+      "inspect",
+      "validation/system_acceptance_2026-10-13/full/cli/resumed/state.wuyu"
+    ]
+  ]
+}

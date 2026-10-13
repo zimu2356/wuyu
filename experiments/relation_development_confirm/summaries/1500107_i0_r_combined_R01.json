@@ -1,0 +1,197 @@
+{
+  "total_burden": 0.03358753033832098,
+  "challenge_burden": 0.0300472413169926,
+  "late_burden": 0.03893568835286567,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 932,
+  "live_route_denials": 237,
+  "live_structural_denials": 237,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 133,
+  "contradiction_observed": true,
+  "first_denial": 1873,
+  "mean_movement_brier": 0.00408672205062835,
+  "mean_tau": 0.8874282836914062,
+  "mean_entropy": 0.31354216517690925,
+  "actor_updates": 80,
+  "mean_kl": 0.02753940224647522,
+  "post_contradiction_denials": 236,
+  "post_contradiction_live_steps": 686,
+  "recovery_live_steps": 471,
+  "recovery_denials": 164,
+  "death_tick": null,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1500107,
+  "initialization": 0,
+  "mode": "R01",
+  "case": "r_combined",
+  "elapsed_seconds": 5.762586010000632,
+  "trace_sha256": "67741c0f73083d94e9e28f9b11a044cd45a2ec3d6049dea5896e2ae59d158423",
+  "raw_array_sha256": "ed8becde66829be3e7272b3d58d9d7bf139e08bb43cf3a99bfca7fd267825598",
+  "final_state_sha256": "74c83baa57005eeab4cb21de42cba360747d57190f3a30d1330d700df08344be",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 192,
+      "kind": "need_opportunity",
+      "shock": [
+        1,
+        0.22
+      ]
+    },
+    {
+      "tick": 320,
+      "kind": "need_opportunity",
+      "shock": [
+        0,
+        0.22
+      ]
+    },
+    {
+      "tick": 384,
+      "kind": "role_exposure_0",
+      "requirements": [
+        -1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "tick": 512,
+      "kind": "need_opportunity",
+      "shock": [
+        0,
+        0.24
+      ]
+    },
+    {
+      "tick": 640,
+      "kind": "role_exposure_1",
+      "requirements": [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "tick": 768,
+      "kind": "need_opportunity",
+      "shock": [
+        1,
+        0.24
+      ]
+    },
+    {
+      "tick": 896,
+      "kind": "familiar_recovery",
+      "requirements": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "tick": 1024,
+      "kind": "prerequisite",
+      "requirements": [
+        -1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "shock": [
+        1,
+        0.3
+      ]
+    },
+    {
+      "tick": 1459,
+      "kind": "interruption",
+      "shock": [
+        0,
+        0.4
+      ]
+    },
+    {
+      "tick": 1854,
+      "kind": "alternative_route",
+      "blocked_edge": [
+        3,
+        4
+      ],
+      "recipe_site": 5,
+      "recipe": [
+        1,
+        2
+      ],
+      "shock": [
+        1,
+        0.24
+      ]
+    },
+    {
+      "tick": 2240,
+      "kind": "benefit_removed",
+      "inactive_site": 5,
+      "shock": [
+        1,
+        0.22
+      ]
+    }
+  ],
+  "change_tick": 1854,
+  "recovery_tick": 2089,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [
+      {
+        "tick": 384,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 640,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 896,
+        "max_depth": 0,
+        "known_recipe_action_bound": 8,
+        "fuel_cost_bound": 0.0176,
+        "body1_drift_bound": 0.0144
+      },
+      {
+        "tick": 1024,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      }
+    ],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

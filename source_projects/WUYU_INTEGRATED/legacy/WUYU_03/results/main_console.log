@@ -1,0 +1,142 @@
+A completed q__0__0
+A completed q__0__1
+A completed q__1__0
+A completed q__1__1
+A completed replay__0__0
+A completed replay__0__1
+A completed replay__1__0
+A completed replay__1__1
+A completed dyna__0__0
+A completed dyna__0__1
+A completed dyna__1__0
+A completed dyna__1__1
+validation rate 0.005 score 0.6636421109281656
+validation rate 0.02 score 0.8375787901634391
+validation rate 0.05 score 0.8781345678842979
+B completed online A accuracy 0.8815 reward 0.512
+B completed online B accuracy 0.881 reward 0.4587
+B completed online A_return accuracy 0.881 reward 0.5229
+B completed online A_reversed accuracy 0.8853 reward 0.5321
+B completed online A_restored accuracy 0.8916 reward 0.5365
+B completed online B_return accuracy 0.8832 reward 0.5231
+B completed repeat A accuracy 0.8692 reward 0.4972
+B completed repeat B accuracy 0.8751 reward 0.4774
+B completed repeat A_return accuracy 0.8643 reward 0.4953
+B completed repeat A_reversed accuracy 0.8721 reward 0.5112
+B completed repeat A_restored accuracy 0.8793 reward 0.5144
+B completed repeat B_return accuracy 0.8615 reward 0.4867
+B completed replay A accuracy 0.8789 reward 0.5032
+B completed replay B accuracy 0.8804 reward 0.4272
+B completed replay A_return accuracy 0.8772 reward 0.5145
+B completed replay A_reversed accuracy 0.8789 reward 0.5219
+B completed replay A_restored accuracy 0.89 reward 0.5474
+B completed replay B_return accuracy 0.8769 reward 0.5016
+B completed frozen A accuracy 0.8815 reward 0.512
+B completed frozen B accuracy 0.2993 reward -0.2631
+B completed frozen A_return accuracy 0.8802 reward 0.514
+B completed frozen A_reversed accuracy 0.2506 reward -0.3578
+B completed frozen A_restored accuracy 0.893 reward 0.5052
+B completed frozen B_return accuracy 0.2783 reward -0.2955
+B completed no_memory A accuracy 0.4949 reward -0.0773
+B completed no_memory B accuracy 0.5035 reward -0.0604
+B completed no_memory A_return accuracy 0.492 reward -0.0817
+B completed no_memory A_reversed accuracy 0.5001 reward -0.0758
+B completed no_memory A_restored accuracy 0.4895 reward -0.0897
+B completed no_memory B_return accuracy 0.4999 reward -0.0692
+{
+  "A": {
+    "q_support_reduction_autonomous": {
+      "mean": 0.00201416015625,
+      "low": -0.00024490356445312496,
+      "high": 0.005615234375,
+      "n_units": 64
+    },
+    "q_support_reduction_equal_probe": {
+      "mean": 0.006439208984375,
+      "low": -0.00201568603515625,
+      "high": 0.015350341796875,
+      "n_units": 64
+    },
+    "probe_effect_on_reduction": {
+      "mean": 0.004425048828125,
+      "low": -0.0037567138671875,
+      "high": 0.012667083740234363,
+      "n_units": 64
+    },
+    "replay_minus_q_maintenance_support_probe0": {
+      "mean": -0.0665283203125,
+      "low": -0.07986602783203126,
+      "high": -0.05276412963867188,
+      "n_units": 64
+    },
+    "replay_minus_q_maintenance_support_probe1": {
+      "mean": -0.066009521484375,
+      "low": -0.079742431640625,
+      "high": -0.05224533081054688,
+      "n_units": 64
+    },
+    "dyna_minus_q_maintenance_support_probe0": {
+      "mean": -0.13482666015625,
+      "low": -0.15347518920898437,
+      "high": -0.11553802490234376,
+      "n_units": 64
+    },
+    "dyna_minus_q_maintenance_support_probe1": {
+      "mean": -0.129913330078125,
+      "low": -0.14956817626953126,
+      "high": -0.11004638671875,
+      "n_units": 64
+    }
+  },
+  "B": {
+    "memory_contribution_A": {
+      "mean": 0.099853515625,
+      "low": 0.0804443359375,
+      "high": 0.1201171875,
+      "n_units": 32
+    },
+    "reversal_online_minus_frozen": {
+      "mean": 0.1968994140625,
+      "low": 0.1769989013671875,
+      "high": 0.2171630859375,
+      "n_units": 32
+    },
+    "replay_minus_repeat_retained_A_after_B": {
+      "mean": 0.0196533203125,
+      "low": 0.0079345703125,
+      "high": 0.033935546875,
+      "n_units": 32
+    },
+    "online_A_retention_change_after_B": {
+      "mean": -0.203857421875,
+      "low": -0.218994140625,
+      "high": -0.1893310546875,
+      "n_units": 32
+    },
+    "repeat_A_retention_change_after_B": {
+      "mean": -0.19287109375,
+      "low": -0.2048370361328125,
+      "high": -0.18004760742187503,
+      "n_units": 32
+    },
+    "replay_A_retention_change_after_B": {
+      "mean": -0.14111328125,
+      "low": -0.1651641845703125,
+      "high": -0.11632690429687503,
+      "n_units": 32
+    },
+    "replay_minus_repeat_new_B_after_B": {
+      "mean": -0.027587890625,
+      "low": -0.0416259765625,
+      "high": -0.012814331054687517,
+      "n_units": 32
+    }
+  },
+  "gates": {
+    "B1_learned_decoding": true,
+    "B2_memory_used": true,
+    "B3_reversal_adaptation": true,
+    "B4_replay_retention_advantage": false,
+    "B5_exact_checkpoint_restore": "verified by mandatory pre-run test"
+  }
+}

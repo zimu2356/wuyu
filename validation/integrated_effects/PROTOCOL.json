@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "scope": "integration acceptance; exploratory paired effects, no parameter optimization",
+  "seeds": [
+    920000,
+    920001,
+    920002,
+    920003,
+    920004,
+    920005,
+    920006,
+    920007,
+    920008,
+    920009,
+    920010,
+    920011,
+    920012,
+    920013,
+    920014,
+    920015,
+    920016,
+    920017,
+    920018,
+    920019,
+    920020,
+    920021,
+    920022,
+    920023,
+    920024,
+    920025,
+    920026,
+    920027,
+    920028,
+    920029,
+    920030,
+    920031
+  ],
+  "initialization_rule": "(seed-920000)%4; conditional on four supplied trained policies",
+  "horizon": 1536,
+  "cases": [
+    "stationary",
+    "recipe_change",
+    "developmental"
+  ],
+  "methods": [
+    "prior",
+    "replay",
+    "online",
+    "evidence",
+    "update",
+    "revision",
+    "combined",
+    "combined_no_memory"
+  ],
+  "worlds": {
+    "stationary": "Original world, phase held at 0, no shocks; no resource dependencies",
+    "recipe_change": "Same as stationary; at tick 768 replace the two hidden button codes at the original preselected changed site; no notification to agent",
+    "developmental": "Original 1536-tick four-phase world with dependencies, recipe changes and six bodily shocks"
+  },
+  "comparison": "Within seed, same trained initialization, initial state and coupled private action draw; histories may subsequently diverge",
+  "learning": "One real primitive action at a time; only observed feedback trains heads. Continuous body and inventory; WAIT has physical cost. No teacher/planner/oracle at runtime.",
+  "combined": "Fixed 0.5 neural/0.5 evidence predicted utility, clipped to [-1,1], plus E; U updates evidence head; neural head trains online and prefix replay",
+  "combined_no_memory": "Disable associative transition/effect/motor learning from birth; observation bookkeeping continues. Diagnostic ablation, not a new autonomous mode.",
+  "budget": "1536 primitive actions per run, INCLUDING post-death absorbing ticks; extra compute counted, not matched and not charged to body",
+  "endpoints": {
+    "alive_fraction": "Fraction alive AFTER action over the full declared lifetime",
+    "burden": "Mean sum((1-body)^2); an absorbing dead state scores 2",
+    "late_burden": "Same over last 384 ticks; includes every dead individual",
+    "late_deliveries": "Actual successful takes (body resources or materials) over last 384 ticks",
+    "final_alive": "Alive at the declared horizon"
+  },
+  "acceptance": "Combined vs prior, in EACH case: paired-seed descriptive bootstrap95 lower(alive_fraction delta)>-0.02 AND upper(burden delta)<0.02. This is a declared engineering nondegradation screen, not confirmatory general superiority. Failure to clear is failure to establish compatibility, not proof of equivalence or harm.",
+  "bootstrap_seed": 927401,
+  "bootstrap_resamples": 10000,
+  "limitations": [
+    "32 seeds; four selected pretrained policies, each used for eight worlds, not a full seed-by-initialization cross",
+    "New feature transfer and fixed mixture are engineering choices; no theoretical guarantee of beneficial composition",
+    "Stationary and recipe-change controls have no dependencies; developmental case mixes changes and bodily shocks",
+    "No new desires, learned value standards, social relations, self-model, subjective experience or long-chain generalization tested"
+  ]
+}

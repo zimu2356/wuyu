@@ -1,0 +1,72 @@
+{
+  "total_burden": 0.033781288843750965,
+  "challenge_burden": 0.023173557633464414,
+  "late_burden": 0.01632123925781293,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 323,
+  "live_route_denials": 219,
+  "live_structural_denials": 219,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 0,
+  "contradiction_observed": true,
+  "first_denial": 1270,
+  "mean_movement_brier": 0.017369412481687878,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.16749297566508936,
+  "actor_updates": 0,
+  "mean_kl": 0.0,
+  "post_contradiction_denials": 218,
+  "post_contradiction_live_steps": 1289,
+  "recovery_live_steps": 452,
+  "recovery_denials": 0,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.023173557633464414,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 3,
+  "first_reopened_crossing_latency": 286,
+  "seed": 1601006,
+  "initialization": 0,
+  "mode": "A",
+  "case": "r_reopen",
+  "elapsed_seconds": 5.819153313999777,
+  "trace_sha256": "ced4d63f92cbc0c05a6e0deab1fdbbebfecb7ba093b55954488278eede243c53",
+  "raw_array_sha256": "e294c0b195446fc698d292d569fbffb79eff07766a8955724bb3cc0b5d70729d",
+  "final_state_sha256": "4cd704f629a074b4df361e5a35dc8984b6090b6d06154d45a8f59add096ec80d",
+  "diagnostics": [],
+  "actor_parameters": 0,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1254,
+      "kind": "route_closed",
+      "blocked_edge": [
+        3,
+        4
+      ]
+    },
+    {
+      "tick": 2108,
+      "kind": "route_reopened",
+      "open_route": true
+    }
+  ],
+  "change_tick": 1254,
+  "recovery_tick": 2108,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

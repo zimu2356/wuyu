@@ -1,0 +1,72 @@
+{
+  "total_burden": 0.024752272586758682,
+  "challenge_burden": 0.03074400519368602,
+  "late_burden": 0.049180036829429424,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 314,
+  "live_route_denials": 188,
+  "live_structural_denials": 188,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 0,
+  "contradiction_observed": true,
+  "first_denial": 1242,
+  "mean_movement_brier": 0.027383098915503015,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.1869752499994632,
+  "actor_updates": 0,
+  "mean_kl": 0.0,
+  "post_contradiction_denials": 187,
+  "post_contradiction_live_steps": 1317,
+  "recovery_live_steps": 529,
+  "recovery_denials": 0,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.03074400519368602,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 5,
+  "first_reopened_crossing_latency": 152,
+  "seed": 1601003,
+  "initialization": 0,
+  "mode": "A",
+  "case": "r_reopen",
+  "elapsed_seconds": 6.544845084001281,
+  "trace_sha256": "9dde80be9e60d541e2b59c4eb13b06c2d9c715978545a059377ec0de8fa3530d",
+  "raw_array_sha256": "528623e2f2b008136dc8a6f762e2e6efb27d56657d3b251b896c179bde9d3996",
+  "final_state_sha256": "e048fe080f2e2705528e70c0ccd38f3a9a696d297f2c6834cbb32311f1919d7e",
+  "diagnostics": [],
+  "actor_parameters": 0,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1188,
+      "kind": "route_closed",
+      "blocked_edge": [
+        4,
+        5
+      ]
+    },
+    {
+      "tick": 2031,
+      "kind": "route_reopened",
+      "open_route": true
+    }
+  ],
+  "change_tick": 1188,
+  "recovery_tick": 2031,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

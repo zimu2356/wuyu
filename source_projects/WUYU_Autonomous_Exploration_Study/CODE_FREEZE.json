@@ -1,0 +1,28 @@
+{
+  "before_holdout": true,
+  "development_run_completed_utc": "2026-10-12T04:09:14.613792+00:00",
+  "files": {
+    "GIVEN_AND_LEARNED.md": "40c38cbf904189f1fc82394ce5b6fe9f940dce283574b8a689135e00b526fdaf",
+    "PROTOCOL_FREEZE.json": "b17e22bf36081fbe1de7870ad639451e30facdb8cd5334566014109c2c4c065f",
+    "SPECIFICATION.md": "88344e663258f62f9d2fe2808ac20584ff5f439dd01faca50ebb2d600929d7ee",
+    "analyze.py": "1af389ada2ec21534226e04f3e7c54f18d8b59622df2fb6496863c490166beb1",
+    "audit_data.py": "278d4945e6e0352961281bdab60fd026c7525afc2877a238b21102de6237c78c",
+    "baseline/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "baseline/wuyu_goal_study/__init__.py": "a73507ba8e3c5bf5d7729acb6f54ca1c5feb2ffe7ce696e4faf079543c8add90",
+    "baseline/wuyu_goal_study/core.py": "ce6037b61a59d99bb350e7aec6512888bdd519dbf79266687ac36c59add909c3",
+    "compare_runs.py": "29b32c9e7c5e4d2fc51ba05e0fb930d4daa798c4a406b96d530123f20488f2c3",
+    "freeze_code.py": "503babbd59fa05d36f67ca0113400c14632ced8349cff65f15bbad3031eb60a1",
+    "protocol.json": "7c4ae41827276a63b76db2dbb495f1c714d2d99560cc5a61d83b5f726e122ef7",
+    "run_study.py": "7c52ab49d6f84b88a8d2bef1609dc84b21b02e88fb92aa9cc62f8c75795568cc",
+    "study.py": "f54b550a37d2a0ae2d06ea2af212d2b4bdedebbe7c3aa9c109356054f8508088",
+    "tests/test_study.py": "33b93a3d4874c82d7aa32721b00421d4bd7649b47beef1f1b4604959cfa9f9cd"
+  },
+  "frozen_utc": "2026-10-12T04:11:13.116379+00:00",
+  "statement": "No outcome-driven changes to parameters or algorithms after development run.",
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "completed_utc": "2026-10-12T04:09:07.327561+00:00",
+    "exit_code": 0,
+    "tests": 14
+  }
+}

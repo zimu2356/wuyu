@@ -1,0 +1,197 @@
+{
+  "total_burden": 0.031299478357578715,
+  "challenge_burden": 0.015023706547721583,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "death_tick": null,
+  "products": 498,
+  "blocked_takes": 85,
+  "route_denials": 162,
+  "lost_yield_takes": 0,
+  "changes_vs_base": 49,
+  "changes_vs_native": 47,
+  "actor_updates": 80,
+  "neural_updates": 5119,
+  "memory_updates": 1522,
+  "revisions": 1,
+  "mean_kl": 0.003342649433761835,
+  "physical_cost": [
+    5.108510000000136,
+    4.607999999999885
+  ],
+  "mean_prediction_mse": 0.050598993047543575,
+  "actual_dependent_token_acquisitions": [
+    2,
+    3
+  ],
+  "both_dependent_token_roles_experienced": true,
+  "low_benefit_body_productions": 205,
+  "windows": [
+    {
+      "start": 1024,
+      "body_burden": 0.013497349303906322,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": true,
+      "return_latency": 10,
+      "partial_device_at_start": false,
+      "blocked_takes": 8
+    },
+    {
+      "start": 1408,
+      "body_burden": 0.00825477016276048,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": true,
+      "return_latency": 21,
+      "partial_device_at_start": true,
+      "blocked_takes": 7
+    },
+    {
+      "start": 1792,
+      "body_burden": 0.006705940011979192,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": true,
+      "return_latency": 8,
+      "partial_device_at_start": true,
+      "blocked_takes": 4
+    },
+    {
+      "start": 2176,
+      "body_burden": 0.03163676671224034,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": true,
+      "return_latency": 7,
+      "partial_device_at_start": false,
+      "blocked_takes": 3
+    }
+  ],
+  "completed_return_windows": 4,
+  "observed_blocked_windows": 4,
+  "seed": 1300100,
+  "initialization": 1,
+  "mode": "D",
+  "case": "challenge",
+  "elapsed_seconds": 8.733424672000183,
+  "actor_parameters": 22120,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [
+      {
+        "tick": 384,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 640,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 896,
+        "max_depth": 0,
+        "known_recipe_action_bound": 8,
+        "fuel_cost_bound": 0.0176,
+        "body1_drift_bound": 0.0144
+      },
+      {
+        "tick": 1024,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      }
+    ],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  },
+  "diagnostics": [
+    {
+      "tick": 1408,
+      "alive": true,
+      "parent_state_sha256": "359a5345c6e4f6dfd267f6198df79fd4e45bef3b89b8333419bc26366ee7605c",
+      "exact_restore": true,
+      "parent_unchanged": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 0.009414641718750102,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "suppressed": {
+          "mean_burden": 0.009414641718750102,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "matched_history": {
+          "mean_burden": 0.009414641718750102,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "restored": {
+          "mean_burden": 0.009414641718750102,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        }
+      },
+      "donor_available": true,
+      "donor_tick": 1341,
+      "donor_observation_distance": 0.2203176797263442,
+      "donor_state_distance": 0.12552983921778466,
+      "suppression_distance": 0.9551309379427405,
+      "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+    },
+    {
+      "tick": 1792,
+      "alive": true,
+      "parent_state_sha256": "cfc4994b00e3e97cd5afe78d54fab219ce77cd80341285a81367f0370ed5b925",
+      "exact_restore": true,
+      "parent_unchanged": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 0.020756484960937606,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "suppressed": {
+          "mean_burden": 0.020756484960937606,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "matched_history": {
+          "mean_burden": 0.020756484960937606,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "restored": {
+          "mean_burden": 0.020756484960937606,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        }
+      },
+      "donor_available": true,
+      "donor_tick": 1728,
+      "donor_observation_distance": 0.4173137458795242,
+      "donor_state_distance": 0.20815690188320918,
+      "suppression_distance": 0.7102167500613356,
+      "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+    }
+  ],
+  "trace_sha256": "448fd996e29805ddaa75399fb4bcad58fbe2dd727b532d9593be4a105a8c8554",
+  "final_state_sha256": "a5eb8080483116240024b98a9242ddb5f3958d39469cb314ff21a5dffc47491e"
+}

@@ -1,0 +1,2778 @@
+{
+  "protocol_digest": "e1db7c16cd57aa9ca0cbd3bcf5ec72ef7a6a763262e3a9b2dce61a4acbd95ee8",
+  "complete_lives": 192,
+  "averages": {
+    "r_stable": {
+      "A": {
+        "challenge_burden": 0.010304819021403707,
+        "total_burden": 0.014700993976807531,
+        "late_burden": 0.011762775812175361,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "live_steps": 2560.0,
+        "movement_attempts": 118.875,
+        "live_route_denials": 0.0,
+        "live_structural_denials": 0.0,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 0.0,
+        "live_action_changes": 0.0,
+        "contradiction_observed": 0.0,
+        "mean_movement_brier": 0.0,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.1840212970003388,
+        "actor_updates": 0.0,
+        "mean_kl": 0.0,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 5.0133960294375015,
+        "lives": 16,
+        "survivors": 16,
+        "diagnostics_triggered": 0
+      },
+      "R00": {
+        "challenge_burden": 0.0051389531193037526,
+        "total_burden": 0.009666692536133378,
+        "late_burden": 0.003406051346028886,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "live_steps": 2560.0,
+        "movement_attempts": 251.5625,
+        "live_route_denials": 0.0,
+        "live_structural_denials": 0.0,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 0.0,
+        "live_action_changes": 122.25,
+        "contradiction_observed": 0.0,
+        "mean_movement_brier": 0.0,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.27887407608334885,
+        "actor_updates": 80.0,
+        "mean_kl": 0.032412478962214664,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 6.031472354374955,
+        "lives": 16,
+        "survivors": 16,
+        "diagnostics_triggered": 0
+      },
+      "R10": {
+        "challenge_burden": 0.0051389531193037526,
+        "total_burden": 0.009666692536133378,
+        "late_burden": 0.003406051346028886,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "live_steps": 2560.0,
+        "movement_attempts": 251.5625,
+        "live_route_denials": 0.0,
+        "live_structural_denials": 0.0,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 0.0,
+        "live_action_changes": 122.25,
+        "contradiction_observed": 0.0,
+        "mean_movement_brier": 0.0,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.27887407608334885,
+        "actor_updates": 80.0,
+        "mean_kl": 0.032412478962214664,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 6.261728560374991,
+        "lives": 16,
+        "survivors": 16,
+        "diagnostics_triggered": 0
+      },
+      "R01": {
+        "challenge_burden": 0.0022232106787110706,
+        "total_burden": 0.005883699915039332,
+        "late_burden": 0.0016834332552084375,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "live_steps": 2560.0,
+        "movement_attempts": 366.75,
+        "live_route_denials": 0.0,
+        "live_structural_denials": 0.0,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 0.0,
+        "live_action_changes": 211.875,
+        "contradiction_observed": 0.0,
+        "mean_movement_brier": 0.0,
+        "mean_tau": 0.844503853470087,
+        "mean_entropy": 0.4082559286015198,
+        "actor_updates": 80.0,
+        "mean_kl": 0.06668073672335595,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 5.99905785437511,
+        "lives": 16,
+        "survivors": 16,
+        "diagnostics_triggered": 0
+      },
+      "R11": {
+        "challenge_burden": 0.0022232106787110706,
+        "total_burden": 0.005883699915039332,
+        "late_burden": 0.0016834332552084375,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "live_steps": 2560.0,
+        "movement_attempts": 366.75,
+        "live_route_denials": 0.0,
+        "live_structural_denials": 0.0,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 0.0,
+        "live_action_changes": 211.875,
+        "contradiction_observed": 0.0,
+        "mean_movement_brier": 0.0,
+        "mean_tau": 0.844503853470087,
+        "mean_entropy": 0.4082559286015198,
+        "actor_updates": 80.0,
+        "mean_kl": 0.06668073672335595,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 6.290865984437403,
+        "lives": 16,
+        "survivors": 16,
+        "diagnostics_triggered": 0
+      },
+      "RT": {
+        "challenge_burden": 0.003289258289388231,
+        "total_burden": 0.006728253640625335,
+        "late_burden": 0.0019474961295574097,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "live_steps": 2560.0,
+        "movement_attempts": 302.25,
+        "live_route_denials": 0.0,
+        "live_structural_denials": 0.0,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 0.0,
+        "live_action_changes": 162.9375,
+        "contradiction_observed": 0.0,
+        "mean_movement_brier": 0.0,
+        "mean_tau": 0.8999999761581421,
+        "mean_entropy": 0.3429334386156669,
+        "actor_updates": 80.0,
+        "mean_kl": 0.0426163361989893,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 6.090732664562552,
+        "lives": 16,
+        "survivors": 16,
+        "diagnostics_triggered": 0
+      }
+    },
+    "r_combined": {
+      "A": {
+        "challenge_burden": 0.7537277184164042,
+        "total_burden": 0.4711190087945938,
+        "late_burden": 1.5882147642260602,
+        "final_alive": 0.125,
+        "alive_fraction": 0.8128173828125,
+        "live_steps": 2081.6875,
+        "movement_attempts": 756.25,
+        "live_route_denials": 181.9375,
+        "live_structural_denials": 181.9375,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 102.25,
+        "live_action_changes": 0.0,
+        "contradiction_observed": 0.8125,
+        "mean_movement_brier": 0.007082543507121144,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.299890056458363,
+        "actor_updates": 0.0,
+        "mean_kl": 0.0,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 4.716924234124917,
+        "lives": 16,
+        "survivors": 2,
+        "diagnostics_triggered": 0
+      },
+      "R00": {
+        "challenge_burden": 0.8079248902186177,
+        "total_burden": 0.554661985183744,
+        "late_burden": 1.2373003845447625,
+        "final_alive": 0.375,
+        "alive_fraction": 0.7670166015625,
+        "live_steps": 1964.1875,
+        "movement_attempts": 731.0,
+        "live_route_denials": 199.25,
+        "live_structural_denials": 199.25,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 124.9375,
+        "live_action_changes": 71.0,
+        "contradiction_observed": 0.75,
+        "mean_movement_brier": 0.007119835319947061,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.3096642624432125,
+        "actor_updates": 61.75,
+        "mean_kl": 0.011826528869278263,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 5.5812645960000395,
+        "lives": 16,
+        "survivors": 6,
+        "diagnostics_triggered": 0
+      },
+      "R10": {
+        "challenge_burden": 0.6864478264456995,
+        "total_burden": 0.48177574691999314,
+        "late_burden": 0.9944322576812343,
+        "final_alive": 0.4375,
+        "alive_fraction": 0.7959228515625,
+        "live_steps": 2038.125,
+        "movement_attempts": 671.6875,
+        "live_route_denials": 14.3125,
+        "live_structural_denials": 14.3125,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 149.4375,
+        "live_action_changes": 77.0625,
+        "contradiction_observed": 0.75,
+        "mean_movement_brier": 0.011445464809842877,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.3182398825052437,
+        "actor_updates": 64.0,
+        "mean_kl": 0.012238453411555383,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 6.002191206000077,
+        "lives": 16,
+        "survivors": 7,
+        "diagnostics_triggered": 0
+      },
+      "R01": {
+        "challenge_burden": 0.7846637508054499,
+        "total_burden": 0.540320417489762,
+        "late_burden": 1.226019481032278,
+        "final_alive": 0.375,
+        "alive_fraction": 0.7666503906250001,
+        "live_steps": 1963.25,
+        "movement_attempts": 775.375,
+        "live_route_denials": 212.75,
+        "live_structural_denials": 212.75,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 122.25,
+        "live_action_changes": 96.125,
+        "contradiction_observed": 0.75,
+        "mean_movement_brier": 0.0053836059651115745,
+        "mean_tau": 0.8977293185889721,
+        "mean_entropy": 0.37886815862706813,
+        "actor_updates": 61.75,
+        "mean_kl": 0.01516430007177405,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 5.791990750625018,
+        "lives": 16,
+        "survivors": 6,
+        "diagnostics_triggered": 0
+      },
+      "R11": {
+        "challenge_burden": 0.5876550042322268,
+        "total_burden": 0.4221151695458282,
+        "late_burden": 0.8149558878350593,
+        "final_alive": 0.5625,
+        "alive_fraction": 0.8154296875,
+        "live_steps": 2087.9375,
+        "movement_attempts": 731.4375,
+        "live_route_denials": 18.75,
+        "live_structural_denials": 18.75,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 124.5,
+        "live_action_changes": 97.3125,
+        "contradiction_observed": 0.75,
+        "mean_movement_brier": 0.00987942254058398,
+        "mean_tau": 0.9008768796920776,
+        "mean_entropy": 0.3644408118990571,
+        "actor_updates": 65.5625,
+        "mean_kl": 0.015956050396198407,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 6.039297043999852,
+        "lives": 16,
+        "survivors": 9,
+        "diagnostics_triggered": 0
+      },
+      "RT": {
+        "challenge_burden": 0.7616125902555911,
+        "total_burden": 0.5271195977712018,
+        "late_burden": 1.0171431725455242,
+        "final_alive": 0.5,
+        "alive_fraction": 0.7673583984375,
+        "live_steps": 1964.9375,
+        "movement_attempts": 663.3125,
+        "live_route_denials": 16.0,
+        "live_structural_denials": 16.0,
+        "live_noise_failures": 0.0,
+        "live_blocked_takes": 152.375,
+        "live_action_changes": 92.1875,
+        "contradiction_observed": 0.6875,
+        "mean_movement_brier": 0.008790736456250203,
+        "mean_tau": 0.8999999463558197,
+        "mean_entropy": 0.3637486089816626,
+        "actor_updates": 61.625,
+        "mean_kl": 0.016945643117651343,
+        "reopened_crossings": 0.0,
+        "elapsed_seconds": 5.959915423812561,
+        "lives": 16,
+        "survivors": 8,
+        "diagnostics_triggered": 0
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "case": "r_stable",
+      "contrast": "R11-R00",
+      "metric": "challenge_burden",
+      "delta": -0.002915742440592682,
+      "ci95": [
+        -0.004104682483724281,
+        -0.0019122848767091532
+      ],
+      "world_sd": 0.0017116102581752229,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.002781828662109574,
+        -0.0020110385319012025,
+        -0.004511225117187838,
+        -0.0028222805598960383,
+        -0.006282470921224485,
+        -0.0016413636263022517,
+        -0.0009701432714844327,
+        -0.0023055888346356305
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R00",
+      "metric": "total_burden",
+      "delta": -0.0037829926210940475,
+      "ci95": [
+        -0.005243007722778704,
+        -0.0024632619971011013
+      ],
+      "world_sd": 0.0021534830800704736,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.002266074802734438,
+        -0.0062630769218754035,
+        -0.005073614542969144,
+        -0.0027319952656252454,
+        -0.0073449447207036694,
+        -0.0018487567773438898,
+        -0.0030024084023441665,
+        -0.001733069535156422
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R00",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R00",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R00",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R00",
+      "metric": "mean_entropy",
+      "delta": 0.12938185251817097,
+      "ci95": [
+        0.1074143713544533,
+        0.1547951590605907
+      ],
+      "world_sd": 0.03625905370413578,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.13856373640432162,
+        0.1337749414058551,
+        0.20171195365355238,
+        0.14752438859803602,
+        0.11516871022336278,
+        0.10241759748080459,
+        0.11574021659213385,
+        0.08015327578730141
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-R00",
+      "metric": "challenge_burden",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-R00",
+      "metric": "total_burden",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-R00",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-R00",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-R00",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-R00",
+      "metric": "mean_entropy",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-A",
+      "metric": "challenge_burden",
+      "delta": -0.005165865902099954,
+      "ci95": [
+        -0.007095162456950436,
+        -0.0031538360510254
+      ],
+      "world_sd": 0.003017583901025749,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.007862967812500551,
+        -0.0075209198730474686,
+        -0.006334802011719296,
+        -0.0031281889876304918,
+        -0.00027286719075479866,
+        -0.003316775631510622,
+        -0.00916251164713627,
+        -0.0037278940625001334
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-A",
+      "metric": "total_burden",
+      "delta": -0.005034301440674153,
+      "ci95": [
+        -0.008378729807617665,
+        -0.0024549161407410786
+      ],
+      "world_sd": 0.004659218673181317,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.014673332501953948,
+        -0.0024982662812504386,
+        -0.0037687093027346276,
+        -0.0020882491875001685,
+        -0.0022248968886719248,
+        -0.0017734319023438123,
+        -0.009686122162110004,
+        -0.0035614032988282992
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-A",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-A",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-A",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R10-A",
+      "metric": "mean_entropy",
+      "delta": 0.09485277908301004,
+      "ci95": [
+        0.07122316135044386,
+        0.11657626882987263
+      ],
+      "world_sd": 0.03479991690931098,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.09159379960396283,
+        0.09149158836521093,
+        0.1054442277136583,
+        0.03289100748029261,
+        0.06611949907944509,
+        0.10196395680026527,
+        0.11951595728578468,
+        0.14980219633546066
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R01-R00",
+      "metric": "challenge_burden",
+      "delta": -0.002915742440592682,
+      "ci95": [
+        -0.004104682483724281,
+        -0.0019122848767091532
+      ],
+      "world_sd": 0.0017116102581752229,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.002781828662109574,
+        -0.0020110385319012025,
+        -0.004511225117187838,
+        -0.0028222805598960383,
+        -0.006282470921224485,
+        -0.0016413636263022517,
+        -0.0009701432714844327,
+        -0.0023055888346356305
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R01-R00",
+      "metric": "total_burden",
+      "delta": -0.0037829926210940475,
+      "ci95": [
+        -0.005243007722778704,
+        -0.0024632619971011013
+      ],
+      "world_sd": 0.0021534830800704736,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.002266074802734438,
+        -0.0062630769218754035,
+        -0.005073614542969144,
+        -0.0027319952656252454,
+        -0.0073449447207036694,
+        -0.0018487567773438898,
+        -0.0030024084023441665,
+        -0.001733069535156422
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R01-R00",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R01-R00",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R01-R00",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R01-R00",
+      "metric": "mean_entropy",
+      "delta": 0.12938185251817097,
+      "ci95": [
+        0.1074143713544533,
+        0.1547951590605907
+      ],
+      "world_sd": 0.03625905370413578,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.13856373640432162,
+        0.1337749414058551,
+        0.20171195365355238,
+        0.14752438859803602,
+        0.11516871022336278,
+        0.10241759748080459,
+        0.11574021659213385,
+        0.08015327578730141
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R10",
+      "metric": "challenge_burden",
+      "delta": -0.002915742440592682,
+      "ci95": [
+        -0.004104682483724281,
+        -0.0019122848767091532
+      ],
+      "world_sd": 0.0017116102581752229,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.002781828662109574,
+        -0.0020110385319012025,
+        -0.004511225117187838,
+        -0.0028222805598960383,
+        -0.006282470921224485,
+        -0.0016413636263022517,
+        -0.0009701432714844327,
+        -0.0023055888346356305
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R10",
+      "metric": "total_burden",
+      "delta": -0.0037829926210940475,
+      "ci95": [
+        -0.005243007722778704,
+        -0.0024632619971011013
+      ],
+      "world_sd": 0.0021534830800704736,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.002266074802734438,
+        -0.0062630769218754035,
+        -0.005073614542969144,
+        -0.0027319952656252454,
+        -0.0073449447207036694,
+        -0.0018487567773438898,
+        -0.0030024084023441665,
+        -0.001733069535156422
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R10",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R10",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R10",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R10",
+      "metric": "mean_entropy",
+      "delta": 0.12938185251817097,
+      "ci95": [
+        0.1074143713544533,
+        0.1547951590605907
+      ],
+      "world_sd": 0.03625905370413578,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.13856373640432162,
+        0.1337749414058551,
+        0.20171195365355238,
+        0.14752438859803602,
+        0.11516871022336278,
+        0.10241759748080459,
+        0.11574021659213385,
+        0.08015327578730141
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R01",
+      "metric": "challenge_burden",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R01",
+      "metric": "total_burden",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R01",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R01",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R01",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-R01",
+      "metric": "mean_entropy",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-RT",
+      "metric": "challenge_burden",
+      "delta": -0.00106604761067716,
+      "ci95": [
+        -0.001899960958252106,
+        -0.00040086936158246236
+      ],
+      "world_sd": 0.0011637228536256644,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.0006046070312500816,
+        -0.001176713639322933,
+        -0.003423027666015854,
+        -0.00213348321940125,
+        -0.00011268019856771564,
+        -0.0006742878222656544,
+        -0.00015970327799480488,
+        -0.0002438780305989872
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-RT",
+      "metric": "total_burden",
+      "delta": -0.0008445537255860032,
+      "ci95": [
+        -0.0018211003481202767,
+        9.043466259765933e-05
+      ],
+      "world_sd": 0.0014561800064068003,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0014320047890626231,
+        -0.0010395846875000348,
+        -0.0035763128398440193,
+        -0.0017399570273439265,
+        -0.0011352386445313625,
+        -9.696797265623842e-05,
+        -0.0005473280937500387,
+        -5.304532812502871e-05
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-RT",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-RT",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-RT",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-RT",
+      "metric": "mean_entropy",
+      "delta": 0.06532248998585295,
+      "ci95": [
+        0.04700221466074281,
+        0.09125745217600373
+      ],
+      "world_sd": 0.03607426025072504,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.047579957397084316,
+        0.07855995472383281,
+        0.14874482212082557,
+        0.04063757154612546,
+        0.05505491209651686,
+        0.0524158774329232,
+        0.06196918380229388,
+        0.037617640767221516
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-A",
+      "metric": "challenge_burden",
+      "delta": -0.008081608342692635,
+      "ci95": [
+        -0.009678333992198482,
+        -0.006462362526855824
+      ],
+      "world_sd": 0.002430296346751965,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.010644796474610125,
+        -0.009531958404948672,
+        -0.010846027128907134,
+        -0.00595046954752653,
+        -0.0065553381119792834,
+        -0.004958139257812874,
+        -0.010132654918620702,
+        -0.006033482897135764
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-A",
+      "metric": "total_burden",
+      "delta": -0.0088172940617682,
+      "ci95": [
+        -0.011868670377631483,
+        -0.006109530884521955
+      ],
+      "world_sd": 0.004422363222441456,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.016939407304688386,
+        -0.008761343203125842,
+        -0.008842323845703772,
+        -0.0048202444531254135,
+        -0.009569841609375594,
+        -0.003622188679687702,
+        -0.01268853056445417,
+        -0.005294472833984721
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-A",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-A",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-A",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "R11-A",
+      "metric": "mean_entropy",
+      "delta": 0.224234631601181,
+      "ci95": [
+        0.1999157761236655,
+        0.25276439340410806
+      ],
+      "world_sd": 0.04004461209628908,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.23015753600828445,
+        0.22526652977106604,
+        0.3071561813672107,
+        0.18041539607832863,
+        0.18128820930280787,
+        0.20438155428106985,
+        0.23525617387791853,
+        0.22995547212276207
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "RT-R10",
+      "metric": "challenge_burden",
+      "delta": -0.0018496948299155215,
+      "ci95": [
+        -0.0031895976379397385,
+        -0.0009581000405070966
+      ],
+      "world_sd": 0.0018374305588201103,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.0021772216308594923,
+        -0.0008343248925782695,
+        -0.0010881974511719843,
+        -0.0006887973404947883,
+        -0.006169790722656769,
+        -0.0009670758040365973,
+        -0.0008104399934896278,
+        -0.0020617108040366433
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "RT-R10",
+      "metric": "total_burden",
+      "delta": -0.0029384388955080443,
+      "ci95": [
+        -0.004256069632336756,
+        -0.0017891095539552303
+      ],
+      "world_sd": 0.0019120088587549365,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.003698079591797061,
+        -0.005223492234375369,
+        -0.0014973017031251253,
+        -0.000992038238281319,
+        -0.006209706076172307,
+        -0.0017517888046876514,
+        -0.002455080308594128,
+        -0.0016800242070313933
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "RT-R10",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "RT-R10",
+      "metric": "live_structural_denials",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "RT-R10",
+      "metric": "mean_movement_brier",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "RT-R10",
+      "metric": "mean_entropy",
+      "delta": 0.06405936253231802,
+      "ci95": [
+        0.05112196981724188,
+        0.0799906319410455
+      ],
+      "world_sd": 0.022496606097940512,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.09098377900723731,
+        0.05521498668202229,
+        0.05296713153272681,
+        0.10688681705191055,
+        0.06011379812684592,
+        0.05000172004788139,
+        0.05377103278983997,
+        0.0425356350200799
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "interaction",
+      "metric": "challenge_burden",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_stable",
+      "contrast": "interaction",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R00",
+      "metric": "challenge_burden",
+      "delta": -0.22026988598639075,
+      "ci95": [
+        -0.6956316130317011,
+        0.2878500963627099
+      ],
+      "world_sd": 0.7619040399895245,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.8154440780244541,
+        -1.2593497905224615,
+        0.921465699675486,
+        -0.04071794609007179,
+        0.8099502191732417,
+        -0.5175519701147473,
+        -0.5973601253969404,
+        -0.2631510965911784
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R00",
+      "metric": "total_burden",
+      "delta": -0.13254681563791598,
+      "ci95": [
+        -0.47547543402240766,
+        0.2363295218141111
+      ],
+      "world_sd": 0.5535079936253472,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.4917983091854342,
+        -0.8928461659914846,
+        0.6883811709840811,
+        -0.016759334899433598,
+        0.6299286769737887,
+        -0.31361088158494244,
+        -0.5000117545346487,
+        -0.16365792686525393
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R00",
+      "metric": "final_alive",
+      "delta": 0.1875,
+      "ci95": [
+        -0.1875,
+        0.5625
+      ],
+      "world_sd": 0.5938674695827104,
+      "n_worlds": 8,
+      "paired_differences": [
+        1.0,
+        1.0,
+        -0.5,
+        0.0,
+        -0.5,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R00",
+      "metric": "live_structural_denials",
+      "delta": -180.5,
+      "ci95": [
+        -306.3828125,
+        -92.12343750000002
+      ],
+      "world_sd": 166.3992616741862,
+      "n_worlds": 8,
+      "paired_differences": [
+        -558.5,
+        -105.0,
+        -234.0,
+        -61.5,
+        -206.0,
+        -147.0,
+        -55.5,
+        -76.5
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R00",
+      "metric": "mean_movement_brier",
+      "delta": 0.0027595872206369197,
+      "ci95": [
+        -0.000720339394962575,
+        0.006194949187940413
+      ],
+      "world_sd": 0.005334274625123019,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.010055636253117924,
+        0.008660277113521648,
+        -0.003429915127662382,
+        0.002431554038576684,
+        -0.0055865752753637395,
+        0.003237662385550135,
+        0.004383513493908664,
+        0.0023245448834464215
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R00",
+      "metric": "mean_entropy",
+      "delta": 0.054776549455844606,
+      "ci95": [
+        0.03696442313331135,
+        0.07394334119248948
+      ],
+      "world_sd": 0.028183567070674473,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.05040513257600843,
+        0.0625801830538486,
+        0.03277087687046576,
+        0.04797768966720689,
+        0.1048951016678547,
+        0.07998326969339992,
+        0.013144484918280241,
+        0.0464556571996923
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-R00",
+      "metric": "challenge_burden",
+      "delta": -0.12147706377291823,
+      "ci95": [
+        -0.19572360572535277,
+        -0.05343866344189742
+      ],
+      "world_sd": 0.10932588126893648,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.27865501233213563,
+        -0.2672346569181323,
+        -0.04671999156855733,
+        -0.18260308170680362,
+        -0.08400857650944032,
+        -0.09984377788492949,
+        -0.009640166248372939,
+        -0.0031112470149741167
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-R00",
+      "metric": "total_burden",
+      "delta": -0.07288623826375096,
+      "ci95": [
+        -0.11743416343521167,
+        -0.03206319806513847
+      ],
+      "world_sd": 0.06559552876136189,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.1671930073992814,
+        -0.16034079415087943,
+        -0.028031994941134383,
+        -0.10956184902408214,
+        -0.050405145905664195,
+        -0.059906266730958,
+        -0.005784099749023719,
+        -0.00186674820898447
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-R00",
+      "metric": "final_alive",
+      "delta": 0.0625,
+      "ci95": [
+        -0.125,
+        0.25
+      ],
+      "world_sd": 0.32043497223082784,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.5,
+        0.5,
+        0.0,
+        0.0,
+        -0.5,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-R00",
+      "metric": "live_structural_denials",
+      "delta": -184.9375,
+      "ci95": [
+        -309.75,
+        -97.18437500000005
+      ],
+      "world_sd": 166.71841904840628,
+      "n_worlds": 8,
+      "paired_differences": [
+        -566.5,
+        -123.0,
+        -225.0,
+        -60.5,
+        -205.5,
+        -161.5,
+        -62.5,
+        -75.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-R00",
+      "metric": "mean_movement_brier",
+      "delta": 0.004325629489895816,
+      "ci95": [
+        0.0025163171037020427,
+        0.006462178630750161
+      ],
+      "world_sd": 0.002986309411082133,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.010445885605592295,
+        0.0032223153932995725,
+        0.004758714116631636,
+        0.0039380720306624265,
+        -4.1332317081081704e-05,
+        0.002861280015444896,
+        0.005685620474608213,
+        0.003734480600008574
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-R00",
+      "metric": "mean_entropy",
+      "delta": 0.00857562006203122,
+      "ci95": [
+        -0.0020720941175502872,
+        0.02090624400525065
+      ],
+      "world_sd": 0.017482784245387455,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.04109372740289946,
+        -4.012109438966682e-05,
+        -0.0062095193292734385,
+        -0.011746435117111487,
+        0.023987860327900234,
+        0.016579444064028614,
+        0.002728991517750412,
+        0.002211012724445627
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-A",
+      "metric": "challenge_burden",
+      "delta": -0.06727989197070475,
+      "ci95": [
+        -0.5190460008436593,
+        0.29404136991092344
+      ],
+      "world_sd": 0.6271562249669886,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.28077783010704016,
+        0.37373663820963343,
+        -1.3464944654208653,
+        -0.4754266566592451,
+        -0.013864511831998383,
+        0.3981108038528953,
+        0.5581693112410474,
+        0.24830757494993472
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-A",
+      "metric": "total_burden",
+      "delta": 0.01065673812539937,
+      "ci95": [
+        -0.28479230318591464,
+        0.2639026122947233
+      ],
+      "world_sd": 0.4246162081678667,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.1652893018964115,
+        0.363811197559569,
+        -0.8064579145235935,
+        -0.2824041512367773,
+        -0.011521115301601353,
+        0.37997395051326044,
+        0.4525206168122454,
+        0.1546206230765037
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-A",
+      "metric": "final_alive",
+      "delta": 0.3125,
+      "ci95": [
+        0.0625,
+        0.5625
+      ],
+      "world_sd": 0.37201190457142247,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-A",
+      "metric": "live_structural_denials",
+      "delta": -167.625,
+      "ci95": [
+        -304.565625,
+        -56.25
+      ],
+      "world_sd": 192.48872879804085,
+      "n_worlds": 8,
+      "paired_differences": [
+        -541.5,
+        -313.0,
+        16.0,
+        -51.5,
+        -85.5,
+        -277.5,
+        -74.5,
+        -13.5
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-A",
+      "metric": "mean_movement_brier",
+      "delta": 0.004362921302721733,
+      "ci95": [
+        0.001308786100180223,
+        0.007216440880105097
+      ],
+      "world_sd": 0.0044896857505583405,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.008205568199149096,
+        0.0033878384191647244,
+        0.009686243421282993,
+        0.0067447738158938255,
+        0.0005818767666215495,
+        -0.003133349560354161,
+        0.007927269498905617,
+        0.0015031498611102184
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R10-A",
+      "metric": "mean_entropy",
+      "delta": 0.0183498260468807,
+      "ci95": [
+        0.0035698993935191817,
+        0.03391009498798546
+      ],
+      "world_sd": 0.023497643740572467,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.044519735286990825,
+        0.022579025586276003,
+        0.009426637811392968,
+        0.010094943151839564,
+        -0.008553736654660082,
+        -0.010282045767317505,
+        0.022542085480721008,
+        0.05647196347980282
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R01-R00",
+      "metric": "challenge_burden",
+      "delta": -0.02326113941316768,
+      "ci95": [
+        -0.4799320847878951,
+        0.44186304931045983
+      ],
+      "world_sd": 0.7152812762358699,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.2981010622042356,
+        -0.8761770754996377,
+        0.9045213661499647,
+        0.4640539377900721,
+        0.8124130591496739,
+        0.04907517161539632,
+        -0.9829557643587886,
+        -0.25891874794778635
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R01-R00",
+      "metric": "total_burden",
+      "delta": -0.014341567693982121,
+      "ci95": [
+        -0.3548697021570392,
+        0.33053895285423285
+      ],
+      "world_sd": 0.5308766513594413,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.18139249969330318,
+        -0.6629425369777902,
+        0.6782145708687684,
+        0.28610379542865255,
+        0.6314063809596481,
+        0.026365403453143754,
+        -0.7313691379117576,
+        -0.1611185176792187
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R01-R00",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        -0.3125,
+        0.3125
+      ],
+      "world_sd": 0.4629100498862757,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.5,
+        0.5,
+        -0.5,
+        -0.5,
+        -0.5,
+        0.0,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R01-R00",
+      "metric": "live_structural_denials",
+      "delta": 13.5,
+      "ci95": [
+        -99.875,
+        138.06562499999995
+      ],
+      "world_sd": 183.2287797107368,
+      "n_worlds": 8,
+      "paired_differences": [
+        -13.0,
+        342.5,
+        -185.5,
+        81.5,
+        -205.0,
+        -103.5,
+        154.5,
+        36.5
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R01-R00",
+      "metric": "mean_movement_brier",
+      "delta": -0.0017362293548354858,
+      "ci95": [
+        -0.003684375620993128,
+        9.612478669295842e-05
+      ],
+      "world_sd": 0.0029094554128130876,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0003587083940864901,
+        0.002440790375872807,
+        -0.003406543739265913,
+        -0.003443761953895643,
+        -0.007091482484713092,
+        -0.0014769764135725704,
+        -0.00011445219862315885,
+        -0.001156116818572808
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R01-R00",
+      "metric": "mean_entropy",
+      "delta": 0.06920389618385561,
+      "ci95": [
+        0.04974043920693225,
+        0.08912990595132408
+      ],
+      "world_sd": 0.02988755287863227,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.08375001312455688,
+        0.06471146694629637,
+        0.04174397802159657,
+        0.07219183304721732,
+        0.11481076906803189,
+        0.09902646470508097,
+        0.024077072626130125,
+        0.053319571931934706
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R10",
+      "metric": "challenge_burden",
+      "delta": -0.09879282221347252,
+      "ci95": [
+        -0.5357229221165035,
+        0.388266583946272
+      ],
+      "world_sd": 0.7109900166094932,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.5367890656923184,
+        -0.9921151336043293,
+        0.9681856912440434,
+        0.14188513561673183,
+        0.893958795682682,
+        -0.4177081922298178,
+        -0.5877199591485675,
+        -0.2600398495762043
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R10",
+      "metric": "total_burden",
+      "delta": -0.05966057737416497,
+      "ci95": [
+        -0.3855397673519084,
+        0.29574596816651133
+      ],
+      "world_sd": 0.5254896055950083,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.3246053017861528,
+        -0.7325053718406052,
+        0.7164131659252155,
+        0.09280251412464854,
+        0.6803338228794529,
+        -0.25370461485398443,
+        -0.49422765478562497,
+        -0.16179117865626946
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R10",
+      "metric": "final_alive",
+      "delta": 0.125,
+      "ci95": [
+        -0.125,
+        0.375
+      ],
+      "world_sd": 0.3535533905932738,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.5,
+        0.5,
+        -0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R10",
+      "metric": "live_structural_denials",
+      "delta": 4.4375,
+      "ci95": [
+        -1.1265624999999986,
+        10.4375
+      ],
+      "world_sd": 9.0571104663684,
+      "n_worlds": 8,
+      "paired_differences": [
+        8.0,
+        18.0,
+        -9.0,
+        -1.0,
+        -0.5,
+        14.5,
+        7.0,
+        -1.5
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R10",
+      "metric": "mean_movement_brier",
+      "delta": -0.001566042269258897,
+      "ci95": [
+        -0.004196169414993948,
+        0.0010049554629270496
+      ],
+      "world_sd": 0.004035588909843833,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.00039024935247437137,
+        0.005437961720222075,
+        -0.008188629244294018,
+        -0.0015065179920857423,
+        -0.005545242958282658,
+        0.00037638237010523875,
+        -0.0013021069806995484,
+        -0.0014099357165621527
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R10",
+      "metric": "mean_entropy",
+      "delta": 0.046200929393813386,
+      "ci95": [
+        0.028992230533085306,
+        0.06234513160273049
+      ],
+      "world_sd": 0.02577467745520486,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.009311405173108966,
+        0.06262030414823827,
+        0.0389803961997392,
+        0.05972412478431838,
+        0.08090724133995447,
+        0.0634038256293713,
+        0.01041549340052983,
+        0.044244644475246675
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R01",
+      "metric": "challenge_burden",
+      "delta": -0.19700874657322304,
+      "ci95": [
+        -0.4105177474387875,
+        0.03418904595791816
+      ],
+      "world_sd": 0.34409749736024614,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.5173430158202185,
+        -0.38317271502282385,
+        0.01694433352552127,
+        -0.5047718838801438,
+        -0.002462839976432152,
+        -0.5666271417301436,
+        0.38559563896184823,
+        -0.004232348643392059
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R01",
+      "metric": "total_burden",
+      "delta": -0.1182052479439338,
+      "ci95": [
+        -0.24631064846327239,
+        0.020513427574750893
+      ],
+      "world_sd": 0.20645849841614763,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.31040580949213104,
+        -0.22990362901369432,
+        0.010166600115312785,
+        -0.30286313032808615,
+        -0.0014777039858593355,
+        -0.3399762850380862,
+        0.23135738337710893,
+        -0.0025394091860352352
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R01",
+      "metric": "final_alive",
+      "delta": 0.1875,
+      "ci95": [
+        -0.0625,
+        0.4375
+      ],
+      "world_sd": 0.37201190457142247,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.5,
+        0.5,
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        -0.5,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R01",
+      "metric": "live_structural_denials",
+      "delta": -194.0,
+      "ci95": [
+        -335.0203125,
+        -76.36875000000009
+      ],
+      "world_sd": 199.39264924121093,
+      "n_worlds": 8,
+      "paired_differences": [
+        -545.5,
+        -447.5,
+        -48.5,
+        -143.0,
+        -1.0,
+        -43.5,
+        -210.0,
+        -113.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R01",
+      "metric": "mean_movement_brier",
+      "delta": 0.0044958165754724055,
+      "ci95": [
+        0.002640736651527951,
+        0.006488282414754097
+      ],
+      "world_sd": 0.0029850255309735755,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.009696927859031434,
+        0.006219486737648841,
+        -2.3371388396468962e-05,
+        0.005875315992472327,
+        0.0015049072093493527,
+        0.004714638799122706,
+        0.004497965692531823,
+        0.0034806617020192296
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R01",
+      "metric": "mean_entropy",
+      "delta": -0.014427346728011,
+      "ci95": [
+        -0.021640418197250114,
+        -0.0081152750763605
+      ],
+      "world_sd": 0.010321105841405605,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.03334488054854845,
+        -0.002131283892447766,
+        -0.008973101151130813,
+        -0.024214143380010433,
+        -0.009915667400177186,
+        -0.019043195011681058,
+        -0.010932587707849883,
+        -0.006863914732242404
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-RT",
+      "metric": "challenge_burden",
+      "delta": -0.17395758602336425,
+      "ci95": [
+        -0.4186088236927695,
+        -0.0015023555328693321
+      ],
+      "world_sd": 0.31597735102684765,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.009341762278385504,
+        -0.0008747453355143278,
+        0.0036992393767258935,
+        -0.6259786850901701,
+        -0.7405134842954426,
+        -0.00018164232666006974,
+        0.006574837269173295,
+        -0.025044445506640534
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-RT",
+      "metric": "total_burden",
+      "delta": -0.10500442822537355,
+      "ci95": [
+        -0.24721984218049076,
+        -0.002782850755800805
+      ],
+      "world_sd": 0.18630740917986605,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.01167349200484396,
+        -0.0027127000738671886,
+        0.0022195436260354917,
+        -0.3651359647363675,
+        -0.44405902127599595,
+        -0.0013299031706835995,
+        0.004877558861816511,
+        -0.022221447029082186
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-RT",
+      "metric": "final_alive",
+      "delta": 0.0625,
+      "ci95": [
+        0.0,
+        0.1875
+      ],
+      "world_sd": 0.1767766952966369,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-RT",
+      "metric": "live_structural_denials",
+      "delta": 2.75,
+      "ci95": [
+        0.375,
+        4.9375
+      ],
+      "world_sd": 3.453776401067595,
+      "n_worlds": 8,
+      "paired_differences": [
+        4.0,
+        -3.0,
+        1.0,
+        7.5,
+        5.0,
+        5.5,
+        2.5,
+        -0.5
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-RT",
+      "metric": "mean_movement_brier",
+      "delta": 0.001088686084333778,
+      "ci95": [
+        -0.0002528912358411941,
+        0.0026100396747623066
+      ],
+      "world_sd": 0.002199115602434181,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.0008374955478446643,
+        4.973798167107191e-05,
+        -0.0012255324062115788,
+        0.004132602185381846,
+        0.00454342930710597,
+        -0.00044301780433346656,
+        0.001008257700345799,
+        0.0014815072585552458
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-RT",
+      "metric": "mean_entropy",
+      "delta": 0.0006922029173944758,
+      "ci95": [
+        -0.010505551882995026,
+        0.01360136060061005
+      ],
+      "world_sd": 0.018492163469722038,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.01926657522693287,
+        0.017379657852041985,
+        0.006791665956764836,
+        -0.016915982255584383,
+        -0.0027904907601796203,
+        -0.00836650284438789,
+        0.03559233654155958,
+        -0.006886485924125829
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-A",
+      "metric": "challenge_burden",
+      "delta": -0.16607271418417724,
+      "ci95": [
+        -0.478026550068237,
+        0.1991079256408965
+      ],
+      "world_sd": 0.5155433734749661,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.8175668957993586,
+        -0.6183784953946959,
+        -0.37830877417682185,
+        -0.3335415210425133,
+        0.8800942838506837,
+        -0.019597388376922487,
+        -0.029550647907520045,
+        -0.011732274626269579
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-A",
+      "metric": "total_burden",
+      "delta": -0.04900383924876561,
+      "ci95": [
+        -0.26176533867811724,
+        0.19709652219393012
+      ],
+      "world_sd": 0.3516945145906667,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.4898946036825643,
+        -0.3686941742810361,
+        -0.09004474859837797,
+        -0.1896016371121288,
+        0.6688127075778516,
+        0.126269335659276,
+        -0.041707037973379546,
+        -0.007170555579765758
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-A",
+      "metric": "final_alive",
+      "delta": 0.4375,
+      "ci95": [
+        0.1875,
+        0.6875
+      ],
+      "world_sd": 0.4172614801981401,
+      "n_worlds": 8,
+      "paired_differences": [
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-A",
+      "metric": "live_structural_denials",
+      "delta": -163.1875,
+      "ci95": [
+        -297.25,
+        -56.4375
+      ],
+      "world_sd": 186.22469866496533,
+      "n_worlds": 8,
+      "paired_differences": [
+        -533.5,
+        -295.0,
+        7.0,
+        -52.5,
+        -86.0,
+        -263.0,
+        -67.5,
+        -15.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-A",
+      "metric": "mean_movement_brier",
+      "delta": 0.0027968790334628357,
+      "ci95": [
+        -0.0005582421767014249,
+        0.0060789761118353455
+      ],
+      "world_sd": 0.005102005344705085,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.007815318846674725,
+        0.008825800139386799,
+        0.0014976141769889764,
+        0.005238255823808083,
+        -0.004963366191661108,
+        -0.0027569671902489224,
+        0.006625162518206069,
+        9.321414454806567e-05
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-A",
+      "metric": "mean_entropy",
+      "delta": 0.06455075544069408,
+      "ci95": [
+        0.0508921133824141,
+        0.0787361838846598
+      ],
+      "world_sd": 0.021801869826764464,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.05383114046009979,
+        0.08519932973451427,
+        0.048407034011132166,
+        0.06981906793615794,
+        0.07235350468529439,
+        0.0531217798620538,
+        0.03295757888125084,
+        0.1007166079550495
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "RT-R10",
+      "metric": "challenge_burden",
+      "delta": 0.07516476380989175,
+      "ci95": [
+        -0.4950333766572632,
+        0.7014878756591267
+      ],
+      "world_sd": 0.92502095677614,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.5274473034139329,
+        -0.991240388268815,
+        0.9644864518673175,
+        0.767863820706902,
+        1.6344722799781246,
+        -0.41752654990315774,
+        -0.5942947964177407,
+        -0.23499540406956376
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "RT-R10",
+      "metric": "total_burden",
+      "delta": 0.045343850851208595,
+      "ci95": [
+        -0.35150155871898686,
+        0.4812448777510962
+      ],
+      "world_sd": 0.6470143861034118,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.31293180978130886,
+        -0.7297926717667379,
+        0.71419362229918,
+        0.457938478861016,
+        1.124392844155449,
+        -0.25237471168330083,
+        -0.4991052136474415,
+        -0.13956973162718728
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "RT-R10",
+      "metric": "final_alive",
+      "delta": 0.0625,
+      "ci95": [
+        -0.1875,
+        0.3125
+      ],
+      "world_sd": 0.4172614801981401,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.5,
+        0.5,
+        -0.5,
+        -0.5,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "RT-R10",
+      "metric": "live_structural_denials",
+      "delta": 1.6875,
+      "ci95": [
+        -4.5,
+        8.8125
+      ],
+      "world_sd": 10.274578545405856,
+      "n_worlds": 8,
+      "paired_differences": [
+        4.0,
+        21.0,
+        -10.0,
+        -8.5,
+        -5.5,
+        9.0,
+        4.5,
+        -1.0
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "RT-R10",
+      "metric": "mean_movement_brier",
+      "delta": -0.002654728353592675,
+      "ci95": [
+        -0.005773645132088447,
+        0.0005859290639959828
+      ],
+      "world_sd": 0.004917718246729472,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.00044724619537029296,
+        0.0053882237385510035,
+        -0.006963096838082439,
+        -0.0056391201774675884,
+        -0.010088672265388628,
+        0.0008194001744387053,
+        -0.0023103646810453474,
+        -0.0028914429751173984
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "RT-R10",
+      "metric": "mean_entropy",
+      "delta": 0.04550872647641891,
+      "ci95": [
+        0.02072941837207041,
+        0.06661746237121553
+      ],
+      "world_sd": 0.03507021579864377,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.028577980400041836,
+        0.045240646296196285,
+        0.03218873024297436,
+        0.07664010703990276,
+        0.08369773210013409,
+        0.07177032847375919,
+        -0.025176843141029748,
+        0.051131130399372504
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "interaction",
+      "metric": "challenge_burden",
+      "delta": -0.07553168280030485,
+      "ci95": [
+        -0.24959004004964586,
+        0.10645080101616691
+      ],
+      "world_sd": 0.2708104802136763,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.23868800348808283,
+        -0.1159380581046916,
+        0.06366432509407866,
+        -0.3221688021733402,
+        0.08154573653300812,
+        -0.4667833638452141,
+        0.39523580521022117,
+        -0.001121101628417942
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "interaction",
+      "metric": "final_alive",
+      "delta": 0.125,
+      "ci95": [
+        -0.125,
+        0.375
+      ],
+      "world_sd": 0.3535533905932738,
+      "n_worlds": 8,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.0
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "interpretation": "Primary contrast predeclared; secondary intervals unadjusted. Steps, branches and crossed fixed initializations are not independent worlds."
+}

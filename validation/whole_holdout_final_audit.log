@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "lives": 1024,
+  "physical_steps": 2621440,
+  "checks": [
+    "all declared lives, no exclusions",
+    "all raw trajectory SHA256",
+    "every pre/post observation matches independent world replay",
+    "both target body and same-device stage semantics",
+    "physical shock ledger",
+    "absorbing deaths and stopped actor updates",
+    "body-loss summaries recomputed from raw observations",
+    "valid action distributions"
+  ]
+}

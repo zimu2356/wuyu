@@ -1,0 +1,32 @@
+[
+  {
+    "native_file": "wuyu_core/world.py",
+    "source": "legacy/WUYU_08/wuyu08/world.py",
+    "source_sha256": "c9d7cbce9c48e2289ccd21565ae0f32e2c078ed2d09503638c03bb45663a4c42",
+    "change": "Byte-identical copy"
+  },
+  {
+    "native_file": "wuyu_core/network.py",
+    "source": "legacy/WUYU_08/wuyu08/network.py",
+    "source_sha256": "74bab319edee7b0d81d9bd0db914f674ab6c107420c99bbf287b7d2e34100565",
+    "change": "Byte-identical copy"
+  },
+  {
+    "native_file": "wuyu_core/features.py",
+    "source": "legacy/WUYU_08/wuyu08/features.py",
+    "source_sha256": "44f0cd9fef2638848a65af425a4b27ef2e5bab9f4cbe07435af673d25f55959b",
+    "change": "Remove observation writes; now pure"
+  },
+  {
+    "native_file": "wuyu_core/state.py",
+    "source": "legacy/WUYU_08/wuyu08/state.py",
+    "source_sha256": "94c966c7db15415d4a478370adaa36b44c82da7ad460ce6307236ce28817a9be",
+    "change": "Byte-identical copy"
+  },
+  {
+    "native_file": "wuyu_core/memory.py",
+    "source": "legacy/WUYU_08/wuyu08/memory.py",
+    "source_sha256": "b7eb2568f2ee29c8bc46124e34552b8fd7c1e6614d1a50f6ecd8fec541236e63",
+    "change": "Remove act, plan, _route and distance; rename factual memory class"
+  }
+]

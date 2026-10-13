@@ -1,0 +1,67 @@
+{
+  "total_burden": 0.015197325604102179,
+  "challenge_burden": 0.020861879029297797,
+  "late_burden": 0.008955269561198154,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 362,
+  "live_route_denials": 97,
+  "live_structural_denials": 97,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 210,
+  "contradiction_observed": true,
+  "first_denial": 1305,
+  "mean_movement_brier": 0.015496793342035346,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.38555905797626144,
+  "actor_updates": 80,
+  "mean_kl": 0.09791995584964752,
+  "post_contradiction_denials": 96,
+  "post_contradiction_live_steps": 1254,
+  "recovery_live_steps": 626,
+  "recovery_denials": 38,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.020861879029297797,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601011,
+  "initialization": 0,
+  "mode": "R00",
+  "case": "r_block",
+  "elapsed_seconds": 15.693639737000012,
+  "trace_sha256": "42d7e6ea757cf149442dcaf54b5c0c6792b288fc01fecef71b157688fb857ee6",
+  "raw_array_sha256": "ec0865873c1203d3218cc770f01110e887e39b703f59ca29a3594b45885365b1",
+  "final_state_sha256": "396eb50b9d5763061e56d71039deb82717f7fa48884798eeb817ba550a304091",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1293,
+      "kind": "route_closed",
+      "blocked_edge": [
+        5,
+        0
+      ]
+    }
+  ],
+  "change_tick": 1293,
+  "recovery_tick": 1934,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

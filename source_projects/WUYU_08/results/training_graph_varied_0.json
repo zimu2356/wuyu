@@ -1,0 +1,158 @@
+{
+  "cell": "graph_varied",
+  "initialization": 0,
+  "parameters": 11345,
+  "recurrent_state_scalars": 240,
+  "logs": [
+    {
+      "update": 128,
+      "loss": 1.2355010484239262,
+      "active": 49152,
+      "alive": 1.0,
+      "seconds": 11.226880021000397
+    },
+    {
+      "update": 256,
+      "loss": 0.8383547106181657,
+      "active": 98304,
+      "alive": 1.0,
+      "seconds": 21.625577123999392
+    },
+    {
+      "update": 384,
+      "loss": 0.6245991270944078,
+      "active": 147456,
+      "alive": 1.0,
+      "seconds": 32.24337562499932
+    },
+    {
+      "update": 512,
+      "loss": 0.5046810900085221,
+      "active": 196608,
+      "alive": 1.0,
+      "seconds": 42.83672824400128
+    },
+    {
+      "update": 640,
+      "loss": 0.29452186983954964,
+      "active": 245760,
+      "alive": 1.0,
+      "seconds": 53.31104551400131
+    },
+    {
+      "update": 768,
+      "loss": 0.39230954446409266,
+      "active": 294912,
+      "alive": 1.0,
+      "seconds": 63.98393779899925
+    },
+    {
+      "update": 896,
+      "loss": 0.4649025830294659,
+      "active": 344064,
+      "alive": 1.0,
+      "seconds": 74.97928026199952
+    },
+    {
+      "update": 1024,
+      "loss": 0.1296913515571332,
+      "active": 393216,
+      "alive": 1.0,
+      "seconds": 85.83345525900222
+    },
+    {
+      "update": 1152,
+      "loss": 0.30684482692404624,
+      "active": 442368,
+      "alive": 1.0,
+      "seconds": 98.26202302100137
+    },
+    {
+      "update": 1280,
+      "loss": 0.9096522918338842,
+      "active": 491520,
+      "alive": 1.0,
+      "seconds": 109.92684859700239
+    },
+    {
+      "update": 1408,
+      "loss": 0.17504849716627266,
+      "active": 540672,
+      "alive": 1.0,
+      "seconds": 119.77155002200016
+    },
+    {
+      "update": 1536,
+      "loss": 0.6824678135055329,
+      "active": 589824,
+      "alive": 1.0,
+      "seconds": 129.4052797789991
+    },
+    {
+      "update": 1664,
+      "loss": 0.9696288476619906,
+      "active": 638976,
+      "alive": 1.0,
+      "seconds": 140.41550156499943
+    },
+    {
+      "update": 1792,
+      "loss": 0.2534196255564442,
+      "active": 688128,
+      "alive": 1.0,
+      "seconds": 150.4479399720003
+    },
+    {
+      "update": 1920,
+      "loss": 0.2860476112887863,
+      "active": 737280,
+      "alive": 1.0,
+      "seconds": 160.27152735100026
+    },
+    {
+      "update": 2048,
+      "loss": 1.0285410364252414,
+      "active": 785376,
+      "alive": 0.9583333333333334,
+      "seconds": 169.42720662200009
+    }
+  ],
+  "candidates": [
+    {
+      "update": 1024,
+      "file": "model_graph_varied_0_1024.npz",
+      "score": 0.875,
+      "independent": 0.8125,
+      "dependency": 0.9375,
+      "agreement": 0.6875
+    },
+    {
+      "update": 1536,
+      "file": "model_graph_varied_0_1536.npz",
+      "score": 0.984375,
+      "independent": 1.0,
+      "dependency": 0.96875,
+      "agreement": 0.625
+    },
+    {
+      "update": 2048,
+      "file": "model_graph_varied_0_2048.npz",
+      "score": 0.96875,
+      "independent": 1.0,
+      "dependency": 0.9375,
+      "agreement": 0.625
+    }
+  ],
+  "selected": {
+    "update": 1536,
+    "file": "model_graph_varied_0_1536.npz",
+    "score": 0.984375,
+    "independent": 1.0,
+    "dependency": 0.96875,
+    "agreement": 0.625
+  },
+  "active_examples": 785376,
+  "planned_examples": 786432,
+  "seconds": 170.7425869200015,
+  "pilot": false
+}

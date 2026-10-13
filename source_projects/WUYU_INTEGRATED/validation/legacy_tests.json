@@ -1,0 +1,50 @@
+[
+  {
+    "version": 1,
+    "returncode": 0,
+    "seconds": 0.266,
+    "tail": "est_experiment.ExperimentTests.test_bounds_and_finite_outputs) ... ok\ntest_complete_checkpoint_resumes_exactly (test_experiment.ExperimentTests.test_complete_checkpoint_resumes_exactly) ... ok\ntest_intervention_changes_only_specified_mediators (test_experiment.ExperimentTests.test_intervention_changes_only_specified_mediators) ... ok\ntest_reproducible_and_state_equivalent (test_experiment.ExperimentTests.test_reproducible_and_state_equivalent) ... ok\ntest_single_candidate_agrees_with_batched_candidates (test_experiment.ExperimentTests.test_single_candidate_agrees_with_batched_candidates) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.155s\n\nOK\n"
+  },
+  {
+    "version": 2,
+    "returncode": 0,
+    "seconds": 0.192,
+    "tail": "_input_mutation) ... ok\ntest_bayes_matches_enumeration (test_mechanisms.MechanismTests.test_bayes_matches_enumeration) ... ok\ntest_checkpoint_and_intervention_isolation (test_mechanisms.MechanismTests.test_checkpoint_and_intervention_isolation) ... ok\ntest_delayed_credit_assignment (test_mechanisms.MechanismTests.test_delayed_credit_assignment) ... ok\ntest_strong_then_opposite_evidence_recovers (test_mechanisms.MechanismTests.test_strong_then_opposite_evidence_recovers) ... ok\ntest_tool_is_a_real_observation_channel (test_mechanisms.MechanismTests.test_tool_is_a_real_observation_channel) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.082s\n\nOK\n"
+  },
+  {
+    "version": 3,
+    "returncode": 0,
+    "seconds": 0.39,
+    "tail": "tructed_after_feedback (test_mechanisms.Mechanisms.test_label_is_reconstructed_after_feedback) ... ok\ntest_model_only_observed_keys (test_mechanisms.Mechanisms.test_model_only_observed_keys) ... ok\ntest_no_memory_cannot_read_earlier_cue (test_mechanisms.Mechanisms.test_no_memory_cannot_read_earlier_cue) ... ok\ntest_restore_exact_online_future (test_mechanisms.Mechanisms.test_restore_exact_online_future) ... ok\ntest_capacity_and_past_only (test_reservoir.ReservoirTests.test_capacity_and_past_only) ... ok\ntest_restore_reservoir_rng (test_reservoir.ReservoirTests.test_restore_reservoir_rng) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.279s\n\nOK\n"
+  },
+  {
+    "version": 4,
+    "returncode": 0,
+    "seconds": 0.468,
+    "tail": "dback_is_sufficient_only_after_answer (test_mechanisms.Mechanisms.test_feedback_is_sufficient_only_after_answer) ... ok\ntest_frozen_bank_and_learnable_novel_slot (test_mechanisms.Mechanisms.test_frozen_bank_and_learnable_novel_slot) ... ok\ntest_gating_does_not_update_other_module (test_mechanisms.Mechanisms.test_gating_does_not_update_other_module) ... ok\ntest_replay_contains_only_actual_preceding_events (test_mechanisms.Mechanisms.test_replay_contains_only_actual_preceding_events) ... ok\ntest_unrequested_probe_has_no_label (test_mechanisms.Mechanisms.test_unrequested_probe_has_no_label) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.352s\n\nOK\n"
+  },
+  {
+    "version": 5,
+    "returncode": 0,
+    "seconds": 0.265,
+    "tail": "bounded_and_statistics_use_past) ... ok\ntest_replay_preserves_preceding_invalid_events_without_future (test_core.Mechanisms.test_replay_preserves_preceding_invalid_events_without_future) ... ok\ntest_restore_reproduces_outputs_and_all_serialized_state (test_core.Mechanisms.test_restore_reproduces_outputs_and_all_serialized_state) ... ok\ntest_vector_rng_is_individual_and_batch_independent (test_core.Mechanisms.test_vector_rng_is_individual_and_batch_independent) ... ok\ntest_vector_update_matches_original_scalar_update (test_core.Mechanisms.test_vector_update_matches_original_scalar_update) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.170s\n\nOK\n"
+  },
+  {
+    "version": 6,
+    "returncode": 0,
+    "seconds": 0.42,
+    "tail": "re.CoreTests.test_checkpoint_exact_future) ... ok\ntest_frozen_fast_still_has_history (test_core.CoreTests.test_frozen_fast_still_has_history) ... ok\ntest_full_recurrent_gradient (test_core.CoreTests.test_full_recurrent_gradient) ... ok\ntest_goal_provenance_and_replay_past (test_core.CoreTests.test_goal_provenance_and_replay_past) ... ok\ntest_no_hidden_world_inputs (test_core.CoreTests.test_no_hidden_world_inputs) ... ok\ntest_prediction_precedes_feedback (test_core.CoreTests.test_prediction_precedes_feedback) ... ok\ntest_rng_batch_invariance (test_core.CoreTests.test_rng_batch_invariance) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.327s\n\nOK\n"
+  },
+  {
+    "version": 7,
+    "returncode": 0,
+    "seconds": 0.269,
+    "tail": "n_and_no_main_writeback (test_core.Tests.test_probe_frozen_and_no_main_writeback) ... ok\ntest_restore_exact_future (test_core.Tests.test_restore_exact_future) ... ok\ntest_rnn_recurrent_gradient (test_core.Tests.test_rnn_recurrent_gradient) ... ok\ntest_semantic_gradient (test_core.Tests.test_semantic_gradient) ... ok\ntest_skill_comes_from_completed_past_actions (test_core.Tests.test_skill_comes_from_completed_past_actions) ... ok\ntest_student_no_runtime_planner (test_core.Tests.test_student_no_runtime_planner) ... ok\ntest_student_restore_exact (test_core.Tests.test_student_restore_exact) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.169s\n\nOK\n"
+  },
+  {
+    "version": 8,
+    "returncode": 0,
+    "seconds": 0.351,
+    "tail": "erved (test_core.CoreTests.test_hidden_codes_not_observed) ... ok\ntest_no_feedback_no_model_learning (test_core.CoreTests.test_no_feedback_no_model_learning) ... ok\ntest_no_teacher_at_deployment (test_core.CoreTests.test_no_teacher_at_deployment) ... ok\ntest_prerequisite_consumption (test_core.CoreTests.test_prerequisite_consumption) ... ok\ntest_probe_freeze_and_no_writeback (test_core.CoreTests.test_probe_freeze_and_no_writeback) ... ok\ntest_recurrent_and_iterative_gradients (test_core.CoreTests.test_recurrent_and_iterative_gradients) ... ok\ntest_resume (test_core.CoreTests.test_resume) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.256s\n\nOK\n"
+  }
+]

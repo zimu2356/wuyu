@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "files": {
+        "60001_stable_B0.json.gz": "0d76503480a15ad83d3c3038aa1fdb7d8a956b928d9eb83e9408d2d35f814be3",
+        "60001_stable_B0.npy.gz": "8a2784eed733f128bb4849d1e7a8e40df9766e3eb478375fc85d1a86c7db97a2"
+      },
+      "summary": {
+        "active_fraction": 0.3233333333333333,
+        "activity_cost": 1.552,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "1be0eb8618f0b41edea16ad8da03598b34d43707ae0bb1acd4d34d6a576f6e3f",
+        "first_retest": {
+          "1": 1,
+          "4": 2
+        },
+        "first_revision": null,
+        "late_loss": 0.0087655910420224,
+        "life_loss": 0.009878563467984559,
+        "method": "B0",
+        "n_actions": 5,
+        "post_active_fraction": 0.310546875,
+        "post_loss": 0.00853123432585141,
+        "post_revisions": 0,
+        "pre_loss": 0.008879388467678983,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.02
+        },
+        "retest_fraction": 0.0,
+        "seed": 60001,
+        "tau": 1062,
+        "three_new_samples": {
+          "1": 26,
+          "4": 27
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "60001_stable_BE.json.gz": "b0670fe9b397c7615b0e9031783a150b4efb551cab76d64709b105c093605a4d",
+        "60001_stable_BE.npy.gz": "0741873944096410aa4172d5a9dc7777660c34a7a4652e556ce754147c47d677"
+      },
+      "summary": {
+        "active_fraction": 0.3433333333333333,
+        "activity_cost": 1.6480000000000001,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "3de4ee45218c9b9d1fb24a24ad86138493f3878c6af120a4781d1aa67cc20cbe",
+        "first_retest": {
+          "1": 1,
+          "4": 2
+        },
+        "first_revision": null,
+        "late_loss": 0.008274007237363611,
+        "life_loss": 0.009628893747744121,
+        "method": "BE",
+        "n_actions": 5,
+        "post_active_fraction": 0.31640625,
+        "post_loss": 0.00843261384096403,
+        "post_revisions": 0,
+        "pre_loss": 0.00897361800285644,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.02
+        },
+        "retest_fraction": 0.08041666666666666,
+        "seed": 60001,
+        "tau": 1062,
+        "three_new_samples": {
+          "1": 24,
+          "4": 25
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    }
+  ],
+  "seed": 60001
+}

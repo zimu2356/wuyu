@@ -1,0 +1,75 @@
+{
+  "total_burden": 0.11633305629465182,
+  "challenge_burden": 0.18801986242122948,
+  "late_burden": 0.715931660813823,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 745,
+  "live_route_denials": 547,
+  "live_structural_denials": 547,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 99,
+  "contradiction_observed": true,
+  "first_denial": 1158,
+  "mean_movement_brier": 0.01363236385220386,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.2692313231139841,
+  "actor_updates": 80,
+  "mean_kl": 0.037405915558338165,
+  "post_contradiction_denials": 546,
+  "post_contradiction_live_steps": 1401,
+  "recovery_live_steps": 579,
+  "recovery_denials": 508,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.18801986242122948,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601002,
+  "initialization": 0,
+  "mode": "R00",
+  "case": "r_relocate",
+  "elapsed_seconds": 8.293452896999952,
+  "trace_sha256": "249a1ffd3dd0e8d8fd5ec9da874ef8f33d8c035744bf0ad12060e2cccf7ccaac",
+  "raw_array_sha256": "62d7ada372b8c40e70ec51cdcdf3a5c748ef6d79680c4b8c56c7f2946967e042",
+  "final_state_sha256": "4bc3b890b2efcf9f46c1c124e58ef7f118a632aa435cc43964e5e95f8738d3eb",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1149,
+      "kind": "route_closed",
+      "blocked_edge": [
+        3,
+        4
+      ]
+    },
+    {
+      "tick": 1981,
+      "kind": "route_relocated",
+      "blocked_edge": [
+        5,
+        0
+      ]
+    }
+  ],
+  "change_tick": 1149,
+  "recovery_tick": 1981,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

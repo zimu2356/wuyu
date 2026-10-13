@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "counts": {
+    "events": 117760,
+    "verified_models": 1280,
+    "interventions": 640,
+    "branches": 1280,
+    "exact_restoration_pairs": 320,
+    "prediction_probes": 8000,
+    "seeds": 32
+  },
+  "checks": [
+    "raw hashes",
+    "all seeds retained",
+    "world continuity and replay",
+    "decision scores and visit history",
+    "actual recent-sample provenance",
+    "independent normal equations",
+    "selective erasure and unchanged controls",
+    "exact restore behavior",
+    "prediction targets and CSV agreement",
+    "main and frozen origin matching",
+    "frozen model unchanged",
+    "trajectory metric recomputation"
+  ],
+  "tolerance": 1e-08,
+  "limitation": "World transitions are replayed with the same implementation; this audit is not an independently coded simulator."
+}

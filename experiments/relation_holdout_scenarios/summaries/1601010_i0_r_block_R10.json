@@ -1,0 +1,67 @@
+{
+  "total_burden": 0.016403640582891225,
+  "challenge_burden": 0.017266197075782006,
+  "late_burden": 0.012615629584375334,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 304,
+  "live_route_denials": 9,
+  "live_structural_denials": 9,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 140,
+  "contradiction_observed": true,
+  "first_denial": 1174,
+  "mean_movement_brier": 0.02894862635563323,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.28145351568320515,
+  "actor_updates": 80,
+  "mean_kl": 0.04778458923101425,
+  "post_contradiction_denials": 8,
+  "post_contradiction_live_steps": 1385,
+  "recovery_live_steps": 485,
+  "recovery_denials": 3,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.017266197075782006,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601010,
+  "initialization": 0,
+  "mode": "R10",
+  "case": "r_block",
+  "elapsed_seconds": 19.80164414599949,
+  "trace_sha256": "bcc00b90560f1bf7c12cb0d65066f2e718af0391218ee274391cba845dd3a013",
+  "raw_array_sha256": "95d91074c802a441deada2e8f76e28ab0f51d82d9b6b07c574694d699ba48c4b",
+  "final_state_sha256": "d591d519516992d21be2ff766778e6741bfb2ca90900230f4439d331c0cfd040",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1124,
+      "kind": "route_closed",
+      "blocked_edge": [
+        0,
+        1
+      ]
+    }
+  ],
+  "change_tick": 1124,
+  "recovery_tick": 2075,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

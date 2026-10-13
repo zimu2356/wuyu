@@ -1,0 +1,75 @@
+{
+  "total_burden": 0.012259974053515805,
+  "challenge_burden": 0.00600079534505215,
+  "late_burden": 0.0034991021874999826,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 148,
+  "live_route_denials": 7,
+  "live_structural_denials": 7,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 0,
+  "contradiction_observed": true,
+  "first_denial": 1225,
+  "mean_movement_brier": 0.04865549418968019,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.23560553410057467,
+  "actor_updates": 0,
+  "mean_kl": 0.0,
+  "post_contradiction_denials": 6,
+  "post_contradiction_live_steps": 1334,
+  "recovery_live_steps": 469,
+  "recovery_denials": 1,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.00600079534505215,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601005,
+  "initialization": 1,
+  "mode": "A",
+  "case": "r_relocate",
+  "elapsed_seconds": 5.769591967000451,
+  "trace_sha256": "d157af02b52448b08c8368cb8e0c809d6ab34523e08463b5fa3ec38f3f9cd1bb",
+  "raw_array_sha256": "53e90a3b6f083ae1476c78cce4d2577baf532c59ae3f16ddcb262abcd94aa659",
+  "final_state_sha256": "57223e603109fe916dc528d1c6811aaa25a54f59953338d06291f6d24a1ad4cd",
+  "diagnostics": [],
+  "actor_parameters": 0,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1224,
+      "kind": "route_closed",
+      "blocked_edge": [
+        1,
+        2
+      ]
+    },
+    {
+      "tick": 2091,
+      "kind": "route_relocated",
+      "blocked_edge": [
+        3,
+        4
+      ]
+    }
+  ],
+  "change_tick": 1224,
+  "recovery_tick": 2091,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

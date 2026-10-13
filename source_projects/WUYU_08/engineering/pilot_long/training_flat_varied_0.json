@@ -1,0 +1,94 @@
+{
+  "cell": "flat_varied",
+  "initialization": 0,
+  "parameters": 11325,
+  "recurrent_state_scalars": 30,
+  "logs": [
+    {
+      "update": 128,
+      "loss": 2.182694440172333,
+      "active": 49152,
+      "alive": 1.0,
+      "seconds": 10.511955478003074
+    },
+    {
+      "update": 256,
+      "loss": 1.5570139980046955,
+      "active": 98304,
+      "alive": 1.0,
+      "seconds": 20.068660250002722
+    },
+    {
+      "update": 384,
+      "loss": 0.9983415650029033,
+      "active": 147456,
+      "alive": 1.0,
+      "seconds": 29.498697664002975
+    },
+    {
+      "update": 512,
+      "loss": 1.153753582185,
+      "active": 196608,
+      "alive": 1.0,
+      "seconds": 38.1470411870032
+    },
+    {
+      "update": 640,
+      "loss": 1.418513008460387,
+      "active": 245760,
+      "alive": 1.0,
+      "seconds": 47.75907019300212
+    },
+    {
+      "update": 768,
+      "loss": 2.102144487179669,
+      "active": 294912,
+      "alive": 1.0,
+      "seconds": 55.33262219500102
+    },
+    {
+      "update": 896,
+      "loss": 2.000559337681092,
+      "active": 344064,
+      "alive": 1.0,
+      "seconds": 61.76001555699986
+    },
+    {
+      "update": 1024,
+      "loss": 1.7585864861330642,
+      "active": 389225,
+      "alive": 0.875,
+      "seconds": 68.27438614700077
+    }
+  ],
+  "candidates": [
+    {
+      "update": 512,
+      "file": "model_flat_varied_0_512.npz",
+      "score": 0.3125,
+      "independent": 0.5,
+      "dependency": 0.125,
+      "agreement": 0.75
+    },
+    {
+      "update": 1024,
+      "file": "model_flat_varied_0_1024.npz",
+      "score": 0.4375,
+      "independent": 0.5625,
+      "dependency": 0.3125,
+      "agreement": 0.875
+    }
+  ],
+  "selected": {
+    "update": 1024,
+    "file": "model_flat_varied_0_1024.npz",
+    "score": 0.4375,
+    "independent": 0.5625,
+    "dependency": 0.3125,
+    "agreement": 0.875
+  },
+  "active_examples": 389225,
+  "planned_examples": 393216,
+  "seconds": 68.96895721100009,
+  "pilot": true
+}

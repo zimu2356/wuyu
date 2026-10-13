@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/0da092536cba/WUYU_Evidence_Revision_Study/diagnostics.py", line 110, in <module>
+    print(json.dumps(development_diagnostics(args.data,c,args.out) if args.data else feasibility(c,args.out),indent=2))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/0da092536cba/WUYU_Evidence_Revision_Study/diagnostics.py", line 46, in development_diagnostics
+    cp=read_gz_json(Path(folder)/f'{seed}_local_swap_B0.json.gz')['diagnostic_checkpoint'];assert cp
+                                                                                                  ^^
+AssertionError

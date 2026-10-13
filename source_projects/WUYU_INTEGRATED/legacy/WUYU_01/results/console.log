@@ -1,0 +1,29 @@
+memory {'parameter': 32, 'train': 0.19576753178721792, 'validation': 0.19269488613902586}
+fixed {'parameter': 0.02, 'train': 0.2029005424923317, 'validation': 0.20165914577202085}
+search 11 generation 10/60 train 0.204638
+search 11 generation 20/60 train 0.205142
+search 11 generation 30/60 train 0.205149
+search 11 generation 40/60 train 0.205345
+search 11 generation 50/60 train 0.205345
+search 11 generation 60/60 train 0.205415
+finished search 11 validation 0.20139162128552246
+search 23 generation 10/60 train 0.204817
+search 23 generation 20/60 train 0.205437
+search 23 generation 30/60 train 0.205598
+search 23 generation 40/60 train 0.205598
+search 23 generation 50/60 train 0.205771
+search 23 generation 60/60 train 0.205830
+finished search 23 validation 0.20134900477859555
+search 47 generation 10/60 train 0.204609
+search 47 generation 20/60 train 0.205101
+search 47 generation 30/60 train 0.205101
+search 47 generation 40/60 train 0.205101
+search 47 generation 50/60 train 0.205101
+search 47 generation 60/60 train 0.205101
+finished search 47 validation 0.20177847984634742
+test memory 0.19122058965091124
+test fixed 0.1985389284616157
+test adaptive 0.199246945233313
+test constant_gate 0.19929684915173418
+interventions {"forced_tail_mean_abs_alpha_difference": 6.102840777797522e-05, "forced_tail_mean_abs_prediction_difference": 6.564726683404134e-05, "intact_minus_erased_free_tail_reward": {"mean": 0.00011341693041274281, "ci95": [-0.00014628817481190858, 0.00038070207073791055]}, "state_equivalent_max_trace_difference": 0.0, "state_equivalent_max_final_state_difference": 0.0}
+COMPLETE seconds 44.4400577545166

@@ -1,0 +1,39 @@
+{
+  "all_passed": true,
+  "checks": {
+    "output_hash:episodes.csv": true,
+    "output_hash:history_pairs.csv": true,
+    "output_hash:learned_states.jsonl.gz": true,
+    "output_hash:summary.json": true,
+    "output_hash:traces.jsonl.gz": true,
+    "output_hash:training.jsonl.gz": true,
+    "source_hash:protocol.json": true,
+    "source_hash:SPECIFICATION.md": true,
+    "source_hash:run_study.py": true,
+    "source_hash:wuyu_goal_study/core.py": true,
+    "all_episode_keys_unique": true,
+    "episode_count": true,
+    "summary_matches_csv": true,
+    "trace_count": true,
+    "no_goal_buffer_ablation_real": true,
+    "post_stop_has_actual_decision": true,
+    "training_count": true,
+    "independent_reproduction": true
+  },
+  "reproduction_content_equal": {
+    "episodes.csv": true,
+    "history_pairs.csv": true,
+    "learned_states.jsonl.gz": true,
+    "summary.json": true,
+    "traces.jsonl.gz": true,
+    "training.jsonl.gz": true
+  },
+  "training_records": 110592,
+  "episodes": 7680,
+  "correctness_tests": 11,
+  "notes": [
+    "Gzip headers and run timestamps intentionally excluded from reproducibility equality.",
+    "Unit-test execution evidence is tests_output.txt; counts are not biological evidence.",
+    "No parameter tuning or batch implementation corrections were made after the first batch."
+  ]
+}

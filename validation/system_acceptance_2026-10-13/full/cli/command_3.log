@@ -1,0 +1,39 @@
+{
+  "profile": "whole",
+  "event_index": 1173,
+  "semantics": {
+    "profile": "whole",
+    "description": "连续完整体：身体、技能、动作学习、可达关系与旧策略调节",
+    "continuous_body": true,
+    "modes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "R00",
+      "R10",
+      "R01",
+      "R11",
+      "RT"
+    ],
+    "default_mode": "A",
+    "cases": [
+      "native",
+      "challenge",
+      "stable",
+      "r_stable",
+      "r_block",
+      "r_noise",
+      "r_reopen",
+      "r_relocate",
+      "r_combined"
+    ],
+    "step_unit": "primitive transition or explicit stop decision",
+    "claim": "engineering integration"
+  },
+  "lineage": {
+    "origin": "new adapter session",
+    "scope": "engineering run; original scientific results remain separate"
+  },
+  "state_sha256": "904c23b45fe2533d6cc99124467ab71518485bf5ada0c802f731dda1a99b1a38"
+}

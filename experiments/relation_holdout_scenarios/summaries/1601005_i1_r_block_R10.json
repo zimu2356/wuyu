@@ -1,0 +1,149 @@
+{
+  "total_burden": 0.010234461908476686,
+  "challenge_burden": 0.0022903626432291945,
+  "late_burden": 0.001307792246093769,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 435,
+  "live_route_denials": 45,
+  "live_structural_denials": 45,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 254,
+  "contradiction_observed": true,
+  "first_denial": 1328,
+  "mean_movement_brier": 0.02086622673872241,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.46788570154599657,
+  "actor_updates": 80,
+  "mean_kl": 0.08787606656551361,
+  "post_contradiction_denials": 44,
+  "post_contradiction_live_steps": 1231,
+  "recovery_live_steps": 469,
+  "recovery_denials": 17,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.0022903626432291945,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601005,
+  "initialization": 1,
+  "mode": "R10",
+  "case": "r_block",
+  "elapsed_seconds": 9.358789250998598,
+  "trace_sha256": "5b4f3dd3b92932e0e42a7615a0c5fd142fae8ff8c33b28f251628d613047e2a1",
+  "raw_array_sha256": "f1ce9114b751c4ae45e37e60a8629dba44f680634b93bc1e0dfe5f88efa0146c",
+  "final_state_sha256": "a170c2965b4d2e8208d8b4b1aa14fd1d51f0d3a754e4bd87a73ee9b42004020b",
+  "diagnostics": [
+    {
+      "tick": 1419,
+      "pair": [
+        1,
+        1
+      ],
+      "matched_other_pair": [
+        0,
+        0
+      ],
+      "alive": true,
+      "parent_unchanged": true,
+      "exact_restore": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 0.0015459968489583704,
+          "final_alive": true,
+          "first_probability": [
+            0.25974248705160086,
+            0.24144507248110453,
+            0.006164542570365761,
+            0.0003341942875102374,
+            0.0001637585730197274,
+            0.49120903359308643,
+            0.0009409114433125179
+          ],
+          "perturbation_norm": 0.0,
+          "common_live_action_changes": 0,
+          "first_total_variation": 0.0
+        },
+        "related_old": {
+          "mean_burden": 0.0023583553385417154,
+          "final_alive": true,
+          "first_probability": [
+            0.15761500082497676,
+            0.2785744984398868,
+            0.00524609217528124,
+            0.0003504900498969621,
+            0.00016471428994808152,
+            0.55720305225832,
+            0.0008461519616901437
+          ],
+          "perturbation_norm": 1.1071402484429382,
+          "common_live_action_changes": 42,
+          "first_total_variation": 0.10314069610333096
+        },
+        "matched_other": {
+          "mean_burden": 0.0015459968489583704,
+          "final_alive": true,
+          "first_probability": [
+            0.20705620707426828,
+            0.2659135491141101,
+            0.005384732872142533,
+            0.00033303149415646744,
+            0.0001637286623423303,
+            0.5202688593592308,
+            0.0008798914237493468
+          ],
+          "perturbation_norm": 1.1071402484429385,
+          "common_live_action_changes": 0,
+          "first_total_variation": 0.053528302399150046
+        },
+        "restored": {
+          "mean_burden": 0.0015459968489583704,
+          "final_alive": true,
+          "first_probability": [
+            0.25974248705160086,
+            0.24144507248110453,
+            0.006164542570365761,
+            0.0003341942875102374,
+            0.0001637585730197274,
+            0.49120903359308643,
+            0.0009409114433125179
+          ],
+          "perturbation_norm": 0.0,
+          "common_live_action_changes": 0,
+          "first_total_variation": 0.0
+        }
+      },
+      "limitation": "Other-edge intervention is norm matched when available, not guaranteed functionally irrelevant in a six-node ring. No identified goal-content claim."
+    }
+  ],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1224,
+      "kind": "route_closed",
+      "blocked_edge": [
+        1,
+        2
+      ]
+    }
+  ],
+  "change_tick": 1224,
+  "recovery_tick": 2091,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

@@ -1,0 +1,32 @@
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/process.py", line 264, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/tools/recover_relation_evidence.py", line 46, in recover
+    run_life((str(output),seed,init,mode,case,p))
+  File "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/tools/run_relation_experiment.py", line 162, in run_life
+    ds.append(diagnose(session,directory/'diagnostics',label+f'_t{tick+1}',(pos,action)))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/tools/run_relation_experiment.py", line 117, in diagnose
+    codec.save(outdir/(label+'_origin.wuyu'),parent.state())
+  File "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/wuyu_unified/codec.py", line 74, in save
+    write_new(path, stream.getvalue())
+  File "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/wuyu_unified/codec.py", line 63, in write_new
+    os.link(temp, path)
+FileExistsError: [Errno 17] File exists: '/workspace/scratch/0da092536cba/wuyu_reconstruction/relation_holdout_scenarios/diagnostics/.wuyu-cd7rqjnr' -> '/workspace/scratch/0da092536cba/wuyu_reconstruction/relation_holdout_scenarios/diagnostics/1601007_i0_r_block_R11_t1388_origin.wuyu'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/tools/recover_relation_evidence.py", line 138, in main
+    try:records.append(future.result())
+                       ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+FileExistsError: [Errno 17] File exists: '/workspace/scratch/0da092536cba/wuyu_reconstruction/relation_holdout_scenarios/diagnostics/.wuyu-cd7rqjnr' -> '/workspace/scratch/0da092536cba/wuyu_reconstruction/relation_holdout_scenarios/diagnostics/1601007_i0_r_block_R11_t1388_origin.wuyu'

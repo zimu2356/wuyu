@@ -1,0 +1,24 @@
+{
+  "initializations": [
+    801,
+    802,
+    803,
+    804,
+    805
+  ],
+  "rounds": 3,
+  "batch": 24,
+  "unroll": 16,
+  "updates": 1024,
+  "lr": 0.0015,
+  "log_every": 128,
+  "checkpoints": [
+    512,
+    1024
+  ],
+  "train_start": 29000000,
+  "validation_start": 31000000,
+  "validation_worlds": 8,
+  "formal_start": 20000000,
+  "formal_worlds": 32
+}

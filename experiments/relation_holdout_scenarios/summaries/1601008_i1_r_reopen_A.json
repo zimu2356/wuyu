@@ -1,0 +1,72 @@
+{
+  "total_burden": 0.015168057253164257,
+  "challenge_burden": 0.013348440029297012,
+  "late_burden": 0.011757451601562613,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 102,
+  "live_route_denials": 4,
+  "live_structural_denials": 4,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 0,
+  "contradiction_observed": true,
+  "first_denial": 1606,
+  "mean_movement_brier": 0.04148897113760909,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.20037955363192883,
+  "actor_updates": 0,
+  "mean_kl": 0.0,
+  "post_contradiction_denials": 3,
+  "post_contradiction_live_steps": 953,
+  "recovery_live_steps": 525,
+  "recovery_denials": 0,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.013348440029297012,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 3,
+  "first_reopened_crossing_latency": 91,
+  "seed": 1601008,
+  "initialization": 1,
+  "mode": "A",
+  "case": "r_reopen",
+  "elapsed_seconds": 13.821895609999956,
+  "trace_sha256": "5992914b18229b1363bfdfb59536f3abec730030ab65d8500172e98ffbeaa8d1",
+  "raw_array_sha256": "3c45d939e653234c022f3e5504d9ecd59dea8d53ec16f1b8651d6458f12d9f03",
+  "final_state_sha256": "c9289bb630ef129189cb0e87adda3a3c12fdf9fb1fde630a6f96f54818a25c9e",
+  "diagnostics": [],
+  "actor_parameters": 0,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1363,
+      "kind": "route_closed",
+      "blocked_edge": [
+        1,
+        2
+      ]
+    },
+    {
+      "tick": 2035,
+      "kind": "route_reopened",
+      "open_route": true
+    }
+  ],
+  "change_tick": 1363,
+  "recovery_tick": 2035,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

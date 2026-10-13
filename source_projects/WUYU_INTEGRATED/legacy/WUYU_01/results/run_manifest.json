@@ -1,0 +1,47 @@
+{
+  "started_utc": "2026-10-10T07:38:48.590651+00:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "config": {
+    "train_per_kind": 8,
+    "train_horizon": 384,
+    "validation_per_kind": 8,
+    "validation_horizon": 512,
+    "test_per_kind": 128,
+    "test_horizon": 1024,
+    "search_seeds": [
+      11,
+      23,
+      47
+    ],
+    "generations": 60,
+    "population": 48,
+    "memory_grid": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "fixed_grid": [
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.35,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 9191
+  },
+  "sha256": {
+    "PROTOCOL.md": "016e8a9134629da44827f5b92a2b61194b967880f6969111017ba63e4e2d291c",
+    "run_experiment.py": "0921006cfb58180b596d6b208904e0dd0240cd96dc9d88b71347d8e8535c0761",
+    "wuyu/core.py": "add002875ebb14301e8a55f530f0f64db597964e8591bc940093b55428ccfa33"
+  },
+  "finished_utc": "2026-10-10T07:39:33.030684+00:00",
+  "elapsed_seconds": 44.4400577545166
+}

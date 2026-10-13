@@ -1,0 +1,39 @@
+Supplement ring A A 0.5696 B 0.436
+Supplement ring B A 0.4155 B 0.5804
+Supplement ring A_return A 0.5674 B 0.467
+Supplement ring A_reversed A 0.5753 B 0.569
+Supplement ring A_restored A 0.5846 B 0.4325
+Supplement ring B_return A 0.4232 B 0.5695
+Supplement reservoir A A 0.568 B 0.4351
+Supplement reservoir B A 0.46 B 0.5859
+Supplement reservoir A_return A 0.5469 B 0.5446
+Supplement reservoir A_reversed A 0.5818 B 0.569
+Supplement reservoir A_restored A 0.5645 B 0.5189
+Supplement reservoir B_return A 0.4624 B 0.5826
+{
+  "comparisons": {
+    "retained_A_after_B": {
+      "mean": 0.04443359375,
+      "low": 0.0186737060546875,
+      "high": 0.07178039550781248,
+      "n_units": 32
+    },
+    "new_B_after_B": {
+      "mean": 0.0054931640625,
+      "low": -0.01318359375,
+      "high": 0.023562622070312483,
+      "n_units": 32
+    },
+    "reversed_A": {
+      "mean": 0.0064697265625,
+      "low": -0.0108642578125,
+      "high": 0.029556274414062417,
+      "n_units": 32
+    }
+  },
+  "gates": {
+    "S1_retention": false,
+    "S2_new_B_cost_within_2pp": true,
+    "S3_reversal_cost_within_2pp": true
+  }
+}

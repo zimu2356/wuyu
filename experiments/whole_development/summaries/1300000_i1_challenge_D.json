@@ -1,0 +1,197 @@
+{
+  "total_burden": 0.6598670522500015,
+  "challenge_burden": 1.0798867169466169,
+  "final_alive": false,
+  "alive_fraction": 0.699609375,
+  "death_tick": 1791,
+  "products": 308,
+  "blocked_takes": 50,
+  "route_denials": 357,
+  "lost_yield_takes": 0,
+  "changes_vs_base": 16,
+  "changes_vs_native": 21,
+  "actor_updates": 56,
+  "neural_updates": 3583,
+  "memory_updates": 958,
+  "revisions": 7,
+  "mean_kl": 0.000566276372410357,
+  "physical_cost": [
+    3.5134000000001153,
+    3.2255999999998877
+  ],
+  "mean_prediction_mse": 0.038638813841567664,
+  "actual_dependent_token_acquisitions": [
+    5,
+    2
+  ],
+  "both_dependent_token_roles_experienced": true,
+  "low_benefit_body_productions": 155,
+  "windows": [
+    {
+      "start": 1024,
+      "body_burden": 0.013522708645833395,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": true,
+      "return_latency": 50,
+      "partial_device_at_start": true,
+      "blocked_takes": 31
+    },
+    {
+      "start": 1408,
+      "body_burden": 0.3060241591406341,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": false,
+      "blocked_takes": 1
+    },
+    {
+      "start": 1792,
+      "body_burden": 2.0,
+      "alive_at_start": false,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": false,
+      "blocked_takes": 0
+    },
+    {
+      "start": 2176,
+      "body_burden": 2.0,
+      "alive_at_start": false,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": false,
+      "blocked_takes": 0
+    }
+  ],
+  "completed_return_windows": 1,
+  "observed_blocked_windows": 2,
+  "seed": 1300000,
+  "initialization": 1,
+  "mode": "D",
+  "case": "challenge",
+  "elapsed_seconds": 6.774546518000079,
+  "actor_parameters": 22120,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [
+      {
+        "tick": 384,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 640,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 896,
+        "max_depth": 0,
+        "known_recipe_action_bound": 8,
+        "fuel_cost_bound": 0.0176,
+        "body1_drift_bound": 0.0144
+      },
+      {
+        "tick": 1024,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      }
+    ],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  },
+  "diagnostics": [
+    {
+      "tick": 1408,
+      "alive": true,
+      "parent_state_sha256": "52254dc552802839e9209a9835a148c08efa5a9adb883bcddc9bdeffb3aba27a",
+      "exact_restore": true,
+      "parent_unchanged": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 0.026920978476562742,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "suppressed": {
+          "mean_burden": 0.026920978476562742,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "matched_history": {
+          "mean_burden": 0.026920978476562742,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "restored": {
+          "mean_burden": 0.026920978476562742,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        }
+      },
+      "donor_available": true,
+      "donor_tick": 1398,
+      "donor_observation_distance": 0.21391830216229712,
+      "donor_state_distance": 0.09480898006132263,
+      "suppression_distance": 1.4295812079312804,
+      "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+    },
+    {
+      "tick": 1792,
+      "alive": false,
+      "parent_state_sha256": "5db64f91cdb943bfdf17fce6661893b68e0e5d9f23b649473acb54fd33e6000b",
+      "exact_restore": true,
+      "parent_unchanged": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 2.0,
+          "final_alive": false,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "suppressed": {
+          "mean_burden": 2.0,
+          "final_alive": false,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "matched_history": {
+          "mean_burden": 2.0,
+          "final_alive": false,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "restored": {
+          "mean_burden": 2.0,
+          "final_alive": false,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        }
+      },
+      "donor_available": true,
+      "donor_tick": 1784,
+      "donor_observation_distance": 0.34085431272025024,
+      "donor_state_distance": 0.004242904889018179,
+      "suppression_distance": 1.829537970368043,
+      "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+    }
+  ],
+  "trace_sha256": "1163c8bdaf6ab59502366e05c1b1aa652796f51f0b4305babb25f54cd9ac4617",
+  "final_state_sha256": "df6ca4fa00322f9d60f90eda52b65ed6a7bcebc81653b5bc38164c923ada89e6"
+}

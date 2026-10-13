@@ -1,0 +1,109 @@
+{
+  "config": {
+    "action_cost": 0.002,
+    "body_drift": [
+      0.004,
+      0.004
+    ],
+    "body_relaxation": 0.003,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 917031,
+    "boundaries": "Given goals, features, actions, detector and revalidation incentive; no formed desires, value standards, skills, social relationships or subjective experience.",
+    "calibration_rule": "Fixed E and U parameters; no optimization for candidate victory. Pilot checks physics, oracle feasibility, stable cost and runtime. BR probability becomes the clipped [0.005,0.15] mean stable-pilot fraction of BE decisions changed by the E term. Then run all 32 development seeds once. N is the smallest of [64,128] satisfying BOTH 1.96*paired-SD/sqrt(N)<=0.01 for primary local_swap contrast and <=0.001 for stable contrast. If neither satisfies both, use 128 and disclose precision shortfall. No sample extension or parameter changes after formal freeze.",
+    "cases": [
+      "stable",
+      "local_swap",
+      "opportunity",
+      "noise_pulse",
+      "visible_shock",
+      "recurrence"
+    ],
+    "causal_followup": 64,
+    "change_high": 1200,
+    "change_low": 800,
+    "detector_min_samples": 8,
+    "development_seeds": {
+      "count": 32,
+      "start": 61000
+    },
+    "diagnostic_followup": 128,
+    "diagnostic_sampling_actions": 16,
+    "diagnostic_waits_per_probe": 3,
+    "exploration_weight": 0.15,
+    "fatigue_penalty": 0.08,
+    "holdout_count_candidates": [
+      64,
+      128
+    ],
+    "holdout_seed_start": 71000,
+    "life_ticks": 2400,
+    "material_period": 80,
+    "methods": [
+      "B0",
+      "BE",
+      "BU",
+      "BEU",
+      "BR"
+    ],
+    "minimum_useful_effect": 0.02,
+    "model_window": 24,
+    "multiple_comparisons": "One confirmatory main contrast plus stable guard; all other intervals descriptive, not multiplicity-adjusted.",
+    "noise_duration": 128,
+    "noise_sd": 0.003,
+    "noisy_sd": 0.06,
+    "pilot_calibration": {
+      "random_probability": 0.07125000000000001,
+      "rule": "Mean stable BE purpose=recency fraction, clipped [0.005,0.15]",
+      "seed_count": 8
+    },
+    "pilot_seeds": {
+      "count": 8,
+      "start": 60000
+    },
+    "post_window": 512,
+    "precision_target": 0.01,
+    "prediction_accuracy_latency": "After each changed-axis tool observation, first time both changed-tool body-delta MSE <0.0025 at body [0.2,0.2], fatigue .25 and each material .2/.8. Evaluator-only, first crossing not persistence; cap 512.",
+    "primary": "Mean body squared loss over actions tau through tau+511: BE minus BEU in local_swap.",
+    "random_probe_probability": 0.07125000000000001,
+    "recency_cap": 0.04,
+    "recency_horizon": 240,
+    "recovery": "First 64-step postchange window mean <= max(0.02, 2*prechange256 mean); must also hold for next 64 steps. Search 512 steps; failures right-censored at 512.",
+    "recurrence_gap": 600,
+    "residual_cosine": 0.5,
+    "residual_streak": 3,
+    "residual_threshold": 0.04,
+    "revision_cooldown": 6,
+    "revision_old_weight": 0.1,
+    "ridge": 0.002,
+    "stable_endpoint": "Mean body squared loss over ALL 2400 stable-world post-action observations.",
+    "stable_noninferiority_margin": 0.002,
+    "stable_precision_target": 0.001,
+    "success_rule": "Primary paired-seed percentile 95% lower bound >0.02 AND stable-life BEU-minus-BE upper bound <0.002.",
+    "training_materials": [
+      0.2,
+      0.8
+    ],
+    "unit": "One independent base seed; methods and cases paired within seed. All failures retained.",
+    "version": 1,
+    "wait_recovery": 0.12,
+    "work_fatigue": 0.045
+  },
+  "config_sha": "a872573f9d5f20f7f4a405d46ea82f1df220ff1b95c556548ac182c8088ca82d",
+  "count": 32,
+  "development": false,
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "sources": {
+    "analysis.py": "6497a88a597ba5eb5e56d567faf78a31f064bb4d16d86add5720c4bf7aef40f3",
+    "audit.py": "b98846ef95c5aec6f1079b70640472e10d60b5d3be160b4ccc354461fe4ab43f",
+    "core.py": "fdae94ff65335253387bd8b0b8c7f253c69dbd6c6bb5a9354da7d4755ed933d9",
+    "diagnostics.py": "53e03fe59aab84438669559d6889b909402979d7eed5d40bd04cd119fa0007d0",
+    "experiment.py": "b49ea3d8d6c438ad22fb83c9cbb315358b4038b57c2f8afeb1bb5d5c21573d18",
+    "protocol.py": "4603892102c1ef43c1d821b780710866745c577f44a909d510ffa48500ea5a41",
+    "run.py": "1c1649e814bca71636733374b5f4524ad432b8837bb679a8ab90f2aa7d8b2ecd",
+    "storage.py": "3ca85ff506cd97ce34666afa3ce6da1314f13e8ce2c1428c65c555229a2690e9",
+    "test_mechanisms.py": "cc3780847e81e983a8efc80e661675999f314397786fc3c2c534fee9d483e2f1"
+  },
+  "start": 61000,
+  "workers": 4
+}

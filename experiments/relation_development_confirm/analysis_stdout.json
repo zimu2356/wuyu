@@ -1,0 +1,151 @@
+{
+  "averages": {
+    "r_stable": {
+      "A": {
+        "challenge_burden": 0.010304819021403707,
+        "survivors": 16,
+        "lives": 16,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.1840212970003388,
+        "live_structural_denials": 0.0
+      },
+      "R00": {
+        "challenge_burden": 0.0051389531193037526,
+        "survivors": 16,
+        "lives": 16,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.27887407608334885,
+        "live_structural_denials": 0.0
+      },
+      "R10": {
+        "challenge_burden": 0.0051389531193037526,
+        "survivors": 16,
+        "lives": 16,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.27887407608334885,
+        "live_structural_denials": 0.0
+      },
+      "R01": {
+        "challenge_burden": 0.0022232106787110706,
+        "survivors": 16,
+        "lives": 16,
+        "mean_tau": 0.844503853470087,
+        "mean_entropy": 0.4082559286015198,
+        "live_structural_denials": 0.0
+      },
+      "R11": {
+        "challenge_burden": 0.0022232106787110706,
+        "survivors": 16,
+        "lives": 16,
+        "mean_tau": 0.844503853470087,
+        "mean_entropy": 0.4082559286015198,
+        "live_structural_denials": 0.0
+      },
+      "RT": {
+        "challenge_burden": 0.003289258289388231,
+        "survivors": 16,
+        "lives": 16,
+        "mean_tau": 0.8999999761581421,
+        "mean_entropy": 0.3429334386156669,
+        "live_structural_denials": 0.0
+      }
+    },
+    "r_combined": {
+      "A": {
+        "challenge_burden": 0.7537277184164042,
+        "survivors": 2,
+        "lives": 16,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.299890056458363,
+        "live_structural_denials": 181.9375
+      },
+      "R00": {
+        "challenge_burden": 0.8079248902186177,
+        "survivors": 6,
+        "lives": 16,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.3096642624432125,
+        "live_structural_denials": 199.25
+      },
+      "R10": {
+        "challenge_burden": 0.6864478264456995,
+        "survivors": 7,
+        "lives": 16,
+        "mean_tau": 1.0,
+        "mean_entropy": 0.3182398825052437,
+        "live_structural_denials": 14.3125
+      },
+      "R01": {
+        "challenge_burden": 0.7846637508054499,
+        "survivors": 6,
+        "lives": 16,
+        "mean_tau": 0.8977293185889721,
+        "mean_entropy": 0.37886815862706813,
+        "live_structural_denials": 212.75
+      },
+      "R11": {
+        "challenge_burden": 0.5876550042322268,
+        "survivors": 9,
+        "lives": 16,
+        "mean_tau": 0.9008768796920776,
+        "mean_entropy": 0.3644408118990571,
+        "live_structural_denials": 18.75
+      },
+      "RT": {
+        "challenge_burden": 0.7616125902555911,
+        "survivors": 8,
+        "lives": 16,
+        "mean_tau": 0.8999999463558197,
+        "mean_entropy": 0.3637486089816626,
+        "live_structural_denials": 16.0
+      }
+    }
+  },
+  "primary": [
+    {
+      "case": "r_stable",
+      "contrast": "R11-R00",
+      "metric": "challenge_burden",
+      "delta": -0.002915742440592682,
+      "ci95": [
+        -0.004104682483724281,
+        -0.0019122848767091532
+      ],
+      "world_sd": 0.0017116102581752229,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.002781828662109574,
+        -0.0020110385319012025,
+        -0.004511225117187838,
+        -0.0028222805598960383,
+        -0.006282470921224485,
+        -0.0016413636263022517,
+        -0.0009701432714844327,
+        -0.0023055888346356305
+      ]
+    },
+    {
+      "case": "r_combined",
+      "contrast": "R11-R00",
+      "metric": "challenge_burden",
+      "delta": -0.22026988598639075,
+      "ci95": [
+        -0.6956316130317011,
+        0.2878500963627099
+      ],
+      "world_sd": 0.7619040399895245,
+      "n_worlds": 8,
+      "paired_differences": [
+        -0.8154440780244541,
+        -1.2593497905224615,
+        0.921465699675486,
+        -0.04071794609007179,
+        0.8099502191732417,
+        -0.5175519701147473,
+        -0.5973601253969404,
+        -0.2631510965911784
+      ]
+    }
+  ],
+  "diagnostics": []
+}

@@ -1,0 +1,1160 @@
+{
+  "episode_count": 7680,
+  "history_pair_count": 640,
+  "groups": [
+    {
+      "cost": 0.01,
+      "scenario": "quiet",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.01,
+      "scenario": "quiet",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.01,
+      "scenario": "quiet",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "quiet",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 59,
+      "success_rate": 0.4609375,
+      "wilson_ci95": [
+        0.3769811559809195,
+        0.5471701687279483
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "quiet",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "blocked",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.01,
+      "scenario": "blocked",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.01,
+      "scenario": "blocked",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "blocked",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 59,
+      "success_rate": 0.4609375,
+      "wilson_ci95": [
+        0.3769811559809195,
+        0.5471701687279483
+      ],
+      "mean_steps": 3.921875,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "blocked",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "need_shift",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.01,
+      "scenario": "need_shift",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.01,
+      "scenario": "need_shift",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "need_shift",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 69,
+      "success_rate": 0.5390625,
+      "wilson_ci95": [
+        0.4528298312720518,
+        0.6230188440190805
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "need_shift",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "satiated",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 0,
+      "consistent_goal_rate": 0,
+      "post_completion_rest_n": 0,
+      "post_completion_rest_rate": null
+    },
+    {
+      "cost": 0.01,
+      "scenario": "satiated",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 0,
+      "consistent_goal_rate": 0,
+      "post_completion_rest_n": 0,
+      "post_completion_rest_rate": null
+    },
+    {
+      "cost": 0.01,
+      "scenario": "satiated",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "satiated",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.01,
+      "scenario": "satiated",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "quiet",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.0,
+      "scenario": "quiet",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.0,
+      "scenario": "quiet",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "quiet",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 59,
+      "success_rate": 0.4609375,
+      "wilson_ci95": [
+        0.3769811559809195,
+        0.5471701687279483
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "quiet",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "blocked",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.0,
+      "scenario": "blocked",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.0,
+      "scenario": "blocked",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "blocked",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 59,
+      "success_rate": 0.4609375,
+      "wilson_ci95": [
+        0.3769811559809195,
+        0.5471701687279483
+      ],
+      "mean_steps": 3.921875,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "blocked",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "need_shift",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.0,
+      "scenario": "need_shift",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.0,
+      "scenario": "need_shift",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "need_shift",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 69,
+      "success_rate": 0.5390625,
+      "wilson_ci95": [
+        0.4528298312720518,
+        0.6230188440190805
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "need_shift",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "satiated",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 0,
+      "consistent_goal_rate": 0,
+      "post_completion_rest_n": 0,
+      "post_completion_rest_rate": null
+    },
+    {
+      "cost": 0.0,
+      "scenario": "satiated",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 0,
+      "consistent_goal_rate": 0,
+      "post_completion_rest_n": 0,
+      "post_completion_rest_rate": null
+    },
+    {
+      "cost": 0.0,
+      "scenario": "satiated",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "satiated",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.0,
+      "scenario": "satiated",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "quiet",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.03,
+      "scenario": "quiet",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.03,
+      "scenario": "quiet",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "quiet",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 59,
+      "success_rate": 0.4609375,
+      "wilson_ci95": [
+        0.3769811559809195,
+        0.5471701687279483
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "quiet",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "blocked",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.03,
+      "scenario": "blocked",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.03,
+      "scenario": "blocked",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "blocked",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 59,
+      "success_rate": 0.4609375,
+      "wilson_ci95": [
+        0.3769811559809195,
+        0.5471701687279483
+      ],
+      "mean_steps": 3.921875,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "blocked",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 5,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "need_shift",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.03,
+      "scenario": "need_shift",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 1
+    },
+    {
+      "cost": 0.03,
+      "scenario": "need_shift",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "need_shift",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 69,
+      "success_rate": 0.5390625,
+      "wilson_ci95": [
+        0.4528298312720518,
+        0.6230188440190805
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "need_shift",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "satiated",
+      "variant": "learned",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 0,
+      "consistent_goal_rate": 0,
+      "post_completion_rest_n": 0,
+      "post_completion_rest_rate": null
+    },
+    {
+      "cost": 0.03,
+      "scenario": "satiated",
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "success_count": 128,
+      "success_rate": 1,
+      "wilson_ci95": [
+        0.9708630437264916,
+        1.0
+      ],
+      "mean_steps": 0,
+      "consistent_goal_rate": 0,
+      "post_completion_rest_n": 0,
+      "post_completion_rest_rate": null
+    },
+    {
+      "cost": 0.03,
+      "scenario": "satiated",
+      "variant": "cached_value",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "satiated",
+      "variant": "erased_effects",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    },
+    {
+      "cost": 0.03,
+      "scenario": "satiated",
+      "variant": "fixed_target",
+      "n": 128,
+      "success_count": 0,
+      "success_rate": 0,
+      "wilson_ci95": [
+        0.0,
+        0.029136956273508416
+      ],
+      "mean_steps": 3,
+      "consistent_goal_rate": 1,
+      "post_completion_rest_n": 128,
+      "post_completion_rest_rate": 0
+    }
+  ],
+  "contrasts": [
+    {
+      "scenario": "quiet",
+      "comparison": "learned - no_goal_buffer",
+      "mean_difference": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "quiet",
+      "comparison": "learned - cached_value",
+      "mean_difference": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "quiet",
+      "comparison": "learned - erased_effects",
+      "mean_difference": 0.5390625,
+      "ci95": [
+        0.4453125,
+        0.625
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "quiet",
+      "comparison": "learned - fixed_target",
+      "mean_difference": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "blocked",
+      "comparison": "learned - no_goal_buffer",
+      "mean_difference": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "blocked",
+      "comparison": "learned - cached_value",
+      "mean_difference": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "blocked",
+      "comparison": "learned - erased_effects",
+      "mean_difference": 0.5390625,
+      "ci95": [
+        0.4453125,
+        0.625
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "blocked",
+      "comparison": "learned - fixed_target",
+      "mean_difference": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "need_shift",
+      "comparison": "learned - no_goal_buffer",
+      "mean_difference": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "need_shift",
+      "comparison": "learned - cached_value",
+      "mean_difference": 1,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "need_shift",
+      "comparison": "learned - erased_effects",
+      "mean_difference": 0.4609375,
+      "ci95": [
+        0.375,
+        0.546875
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "need_shift",
+      "comparison": "learned - fixed_target",
+      "mean_difference": 1,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "satiated",
+      "comparison": "learned - no_goal_buffer",
+      "mean_difference": 0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "satiated",
+      "comparison": "learned - cached_value",
+      "mean_difference": 1,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "satiated",
+      "comparison": "learned - erased_effects",
+      "mean_difference": 1,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "paired_seeds": 128
+    },
+    {
+      "scenario": "satiated",
+      "comparison": "learned - fixed_target",
+      "mean_difference": 1,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "paired_seeds": 128
+    }
+  ],
+  "history": [
+    {
+      "variant": "learned",
+      "n": 128,
+      "changed_rate": 1,
+      "both_follow_history_rate": 1
+    },
+    {
+      "variant": "no_goal_buffer",
+      "n": 128,
+      "changed_rate": 1,
+      "both_follow_history_rate": 1
+    },
+    {
+      "variant": "cached_value",
+      "n": 128,
+      "changed_rate": 1,
+      "both_follow_history_rate": 1
+    },
+    {
+      "variant": "erased_effects",
+      "n": 128,
+      "changed_rate": 0,
+      "both_follow_history_rate": 0
+    },
+    {
+      "variant": "fixed_target",
+      "n": 128,
+      "changed_rate": 0,
+      "both_follow_history_rate": 0
+    }
+  ]
+}

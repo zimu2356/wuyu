@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "initialization": 0,
+      "model": "source_projects/WUYU_INTEGRATED/legacy/WUYU_08/results/model_graph_varied_0_1536.npz",
+      "sha256": "ae92cc5c701f01360e6a91f833b53e4411708ed3b1880babf90f6299c5f6b4d7",
+      "matched_prior_delivered_manifest": true,
+      "network_digest": "12c3ddddbdbb3f1fc00136e3b19906ba6152d0ad3d5308b94c3f3cb0df485199",
+      "matching_formal_checkpoints": [
+        "experiments/relation_holdout_main/checkpoints/1600000_i0_r_stable_A_t1024.wuyu",
+        "experiments/relation_holdout_main/checkpoints/1600000_i0_r_stable_R10_t1024.wuyu",
+        "experiments/relation_holdout_main/checkpoints/1600000_i0_r_combined_A_t1024.wuyu",
+        "experiments/relation_holdout_main/checkpoints/1600000_i0_r_combined_R10_t1024.wuyu"
+      ]
+    },
+    {
+      "initialization": 1,
+      "model": "source_projects/WUYU_INTEGRATED/legacy/WUYU_08/results/model_graph_varied_1_2048.npz",
+      "sha256": "dbc2e04931a531261f0802caaf641ea817a46cae3fe70fbae030ae022bbf0768",
+      "matched_prior_delivered_manifest": true,
+      "network_digest": "923781584f16d7fa0a6253d2993b9002ee4170d8cdbecf49435757f2f7d4cfb2",
+      "matching_formal_checkpoints": [
+        "experiments/relation_holdout_main/checkpoints/1600000_i1_r_stable_A_t1024.wuyu",
+        "experiments/relation_holdout_main/checkpoints/1600000_i1_r_stable_R10_t1024.wuyu",
+        "experiments/relation_holdout_main/checkpoints/1600000_i1_r_combined_A_t1024.wuyu",
+        "experiments/relation_holdout_main/checkpoints/1600000_i1_r_combined_R10_t1024.wuyu"
+      ]
+    }
+  ],
+  "note": "The two inherited fixed graph models match the source distribution saved before this experiment and the selected formal t1024 checkpoints. The graph itself is not trained by the new online actor."
+}

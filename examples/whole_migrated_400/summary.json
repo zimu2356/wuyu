@@ -1,0 +1,35 @@
+{
+  "profile": "whole",
+  "executed_events": 16,
+  "total_events": 400,
+  "last": [
+    {
+      "event_index": 397,
+      "action": 1,
+      "clock": 398
+    },
+    {
+      "event_index": 398,
+      "action": 2,
+      "clock": 399
+    },
+    {
+      "event_index": 399,
+      "action": 5,
+      "clock": 400
+    }
+  ],
+  "checkpoint": "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/examples/whole_migrated_400/state.wuyu",
+  "lineage": {
+    "source_sha256": "3d705a45196cd98df005e4b69fe6b30bb8f940f58c8c8f1c5169e61af15e4778",
+    "exact_ridge_relabels": 32,
+    "neural_reinitialized": true,
+    "real_reservoir_replayed": 64,
+    "live_neural_state_rebuilt_from_prefix": 4,
+    "old_neural_parameter_updates": 767,
+    "action_adapter": "zero initialization",
+    "stochastic_future_equivalent": false,
+    "physical_and_old_skill_state_preserved": true
+  },
+  "note": "Explicit finite execution; step meanings depend on profile; no combined scientific score"
+}

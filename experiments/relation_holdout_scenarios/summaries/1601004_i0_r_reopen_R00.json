@@ -1,0 +1,72 @@
+{
+  "total_burden": 0.782226580988128,
+  "challenge_burden": 1.2913908161735073,
+  "late_burden": 2.0,
+  "final_alive": false,
+  "alive_fraction": 0.662109375,
+  "live_steps": 1696,
+  "movement_attempts": 522,
+  "live_route_denials": 416,
+  "live_structural_denials": 416,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 41,
+  "contradiction_observed": true,
+  "first_denial": 1266,
+  "mean_movement_brier": 0.005714983649396525,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.20072983580974946,
+  "actor_updates": 53,
+  "mean_kl": 0.01743203215301037,
+  "post_contradiction_denials": 415,
+  "post_contradiction_live_steps": 429,
+  "recovery_live_steps": 0,
+  "recovery_denials": 0,
+  "death_tick": 1695,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 1.2913908161735073,
+  "extended_burden": null,
+  "alive_at_2560": false,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601004,
+  "initialization": 0,
+  "mode": "R00",
+  "case": "r_reopen",
+  "elapsed_seconds": 6.904741092001132,
+  "trace_sha256": "14a803390de222d0f50e13d4d691bb23c1c10f9860045a2ae14641e2a4571b1d",
+  "raw_array_sha256": "f007bf131d8b5179bf64c0f7564f8ec71d23983615c5743e780888ed4bf4c019",
+  "final_state_sha256": "6342229b28d96ecafbf1335a27309ce51e416b4a82c18ce39fd60bbc3d04851a",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1258,
+      "kind": "route_closed",
+      "blocked_edge": [
+        0,
+        1
+      ]
+    },
+    {
+      "tick": 2045,
+      "kind": "route_reopened",
+      "open_route": true
+    }
+  ],
+  "change_tick": 1258,
+  "recovery_tick": 2045,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "reason": "Four initial NPZ files had no ZIP end directory. Underlying truncation cause undetermined. Re-executed exactly the selected model/seed/config; did not retrain or tune. Initial partial bytes retained.",
+  "files": [
+    {
+      "file": "raw_full_1.npz",
+      "incomplete_bytes": 2007752,
+      "incomplete_sha256": "7804bd10264f18258b81699a52f15acefa9f24a376ad84ab24f2f10ef3f0e95c",
+      "restored_bytes": 5479549,
+      "restored_sha256": "20de7808648baa23db17c32c9a6187b51413265942b9598040e57d41ae5923cd",
+      "all_original_metrics_match": true
+    },
+    {
+      "file": "raw_full_2.npz",
+      "incomplete_bytes": 2010515,
+      "incomplete_sha256": "e8a68b0f4fe2ab6d73d3b1dcd470a5956cc6c42be622c58cea9982a7d4b47919",
+      "restored_bytes": 5482172,
+      "restored_sha256": "143b88b98afb9763ca0e1fa12062aa7ed35b2b0478091c541778773381a25f15",
+      "all_original_metrics_match": true
+    },
+    {
+      "file": "raw_plain_rnn_1.npz",
+      "incomplete_bytes": 324408,
+      "incomplete_sha256": "685031562d52769ab9fdceb70d8b8d680dd6e848cb6587cf2ac2a68f9a4d5ab3",
+      "restored_bytes": 5454995,
+      "restored_sha256": "238bedbe6abfa99006570b783be9fcc54b67fa9a1b4e27d5c339cd2a6c5f03c3",
+      "all_original_metrics_match": true
+    },
+    {
+      "file": "final_no_replay_0.npz",
+      "incomplete_bytes": 85841,
+      "incomplete_sha256": "4a06cf59a6d779c6f82c599b9c95b64ba7fb8e5ab4174ffc5ee12c0de4c56bab",
+      "restored_bytes": 2393682,
+      "restored_sha256": "2ff26ca0625f6baafe48e31a682de2bf3e39c9c85237cc8b71bff18171671913",
+      "all_original_metrics_match": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/0da092536cba/WUYU_Continuing_History_Study/audit.py", line 159, in <module>
+    p=argparse.ArgumentParser();p.add_argument('output',type=Path);a=p.parse_args();audit(a.output)
+                                                                                    ^^^^^^^^^^^^^^^
+  File "/workspace/scratch/0da092536cba/WUYU_Continuing_History_Study/audit.py", line 46, in audit
+    if sha(output/name)!=value:raise AssertionError('Raw hash mismatch: '+name)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Raw hash mismatch: events.jsonl.gz

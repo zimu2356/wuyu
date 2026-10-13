@@ -1,0 +1,158 @@
+{
+  "cell": "graph_regular",
+  "initialization": 0,
+  "parameters": 11345,
+  "recurrent_state_scalars": 240,
+  "logs": [
+    {
+      "update": 128,
+      "loss": 1.1302741037440749,
+      "active": 49152,
+      "alive": 1.0,
+      "seconds": 11.155574175001675
+    },
+    {
+      "update": 256,
+      "loss": 0.6152239580100136,
+      "active": 98304,
+      "alive": 1.0,
+      "seconds": 22.366430599002342
+    },
+    {
+      "update": 384,
+      "loss": 0.6132198304172956,
+      "active": 147456,
+      "alive": 1.0,
+      "seconds": 33.243157340002654
+    },
+    {
+      "update": 512,
+      "loss": 0.4975355730581858,
+      "active": 196608,
+      "alive": 1.0,
+      "seconds": 44.331514435001736
+    },
+    {
+      "update": 640,
+      "loss": 0.460715342492071,
+      "active": 245760,
+      "alive": 1.0,
+      "seconds": 55.49013225300223
+    },
+    {
+      "update": 768,
+      "loss": 0.41438621084505944,
+      "active": 294912,
+      "alive": 1.0,
+      "seconds": 66.50803431000168
+    },
+    {
+      "update": 896,
+      "loss": 0.5083278955456298,
+      "active": 344064,
+      "alive": 1.0,
+      "seconds": 76.92547708700295
+    },
+    {
+      "update": 1024,
+      "loss": 0.3331954853131044,
+      "active": 393216,
+      "alive": 1.0,
+      "seconds": 87.59040878000087
+    },
+    {
+      "update": 1152,
+      "loss": 0.3759167859258232,
+      "active": 442368,
+      "alive": 1.0,
+      "seconds": 100.40057561900176
+    },
+    {
+      "update": 1280,
+      "loss": 0.7035156306164213,
+      "active": 491520,
+      "alive": 1.0,
+      "seconds": 112.19682909000039
+    },
+    {
+      "update": 1408,
+      "loss": 0.4761650363574932,
+      "active": 540672,
+      "alive": 1.0,
+      "seconds": 121.41187646200342
+    },
+    {
+      "update": 1536,
+      "loss": 0.7236771021905216,
+      "active": 589824,
+      "alive": 1.0,
+      "seconds": 131.34151535400088
+    },
+    {
+      "update": 1664,
+      "loss": 0.9769535157688158,
+      "active": 638976,
+      "alive": 1.0,
+      "seconds": 142.05590366400065
+    },
+    {
+      "update": 1792,
+      "loss": 0.5638025041475191,
+      "active": 688128,
+      "alive": 1.0,
+      "seconds": 151.95847207500265
+    },
+    {
+      "update": 1920,
+      "loss": 0.8182152838081527,
+      "active": 737280,
+      "alive": 1.0,
+      "seconds": 161.19462117900184
+    },
+    {
+      "update": 2048,
+      "loss": 0.724803791600641,
+      "active": 786432,
+      "alive": 1.0,
+      "seconds": 170.1417813140033
+    }
+  ],
+  "candidates": [
+    {
+      "update": 1024,
+      "file": "model_graph_regular_0_1024.npz",
+      "score": 0.453125,
+      "independent": 0.5,
+      "dependency": 0.40625,
+      "agreement": 1.0
+    },
+    {
+      "update": 1536,
+      "file": "model_graph_regular_0_1536.npz",
+      "score": 0.484375,
+      "independent": 0.5,
+      "dependency": 0.46875,
+      "agreement": 1.0
+    },
+    {
+      "update": 2048,
+      "file": "model_graph_regular_0_2048.npz",
+      "score": 0.484375,
+      "independent": 0.5,
+      "dependency": 0.46875,
+      "agreement": 1.0
+    }
+  ],
+  "selected": {
+    "update": 1536,
+    "file": "model_graph_regular_0_1536.npz",
+    "score": 0.484375,
+    "independent": 0.5,
+    "dependency": 0.46875,
+    "agreement": 1.0
+  },
+  "active_examples": 786432,
+  "planned_examples": 786432,
+  "seconds": 171.44987691500137,
+  "pilot": false
+}

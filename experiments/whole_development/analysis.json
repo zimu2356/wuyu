@@ -1,0 +1,1183 @@
+{
+  "protocol_digest": "f3a746f7f6b8b55d4237abc25bee73f559873a8a0fbacc3aa998f0b9e3896a50",
+  "complete_lives": 64,
+  "averages": {
+    "challenge": {
+      "A": {
+        "challenge_burden": 0.874093749134239,
+        "total_burden": 0.5431145864200604,
+        "final_alive": 0.0,
+        "alive_fraction": 0.7765625,
+        "blocked_takes": 103.5,
+        "route_denials": 679.0,
+        "lost_yield_takes": 1.0,
+        "changes_vs_base": 0.0,
+        "mean_kl": 0.0,
+        "low_benefit_body_productions": 187.375,
+        "completed_return_windows": 0.875,
+        "both_dependent_token_roles_experienced": 1.0,
+        "actor_updates": 0.0,
+        "mean_prediction_mse": 0.03770194853442227,
+        "elapsed_seconds": 4.337547449125054,
+        "lives": 8,
+        "survivors": 0,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.7973236279153507,
+            "survivors": 0
+          },
+          "1": {
+            "challenge_burden": 0.9508638703531274,
+            "survivors": 0
+          }
+        }
+      },
+      "B": {
+        "challenge_burden": 0.9695587227246365,
+        "total_burden": 0.601838025889504,
+        "final_alive": 0.0,
+        "alive_fraction": 0.7474609375000001,
+        "blocked_takes": 329.75,
+        "route_denials": 359.0,
+        "lost_yield_takes": 1.625,
+        "changes_vs_base": 26.875,
+        "mean_kl": 0.001069784371793503,
+        "low_benefit_body_productions": 187.125,
+        "completed_return_windows": 0.5,
+        "both_dependent_token_roles_experienced": 1.0,
+        "actor_updates": 60.125,
+        "mean_prediction_mse": 0.0387160613622013,
+        "elapsed_seconds": 5.226341483875046,
+        "lives": 8,
+        "survivors": 0,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.7567070723206909,
+            "survivors": 0
+          },
+          "1": {
+            "challenge_burden": 1.1824103731285822,
+            "survivors": 0
+          }
+        }
+      },
+      "C": {
+        "challenge_burden": 1.1306927538036065,
+        "total_burden": 0.6975363034535119,
+        "final_alive": 0.0,
+        "alive_fraction": 0.690869140625,
+        "blocked_takes": 323.75,
+        "route_denials": 471.375,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 28.375,
+        "mean_kl": 0.001265420734853251,
+        "low_benefit_body_productions": 186.0,
+        "completed_return_windows": 0.5,
+        "both_dependent_token_roles_experienced": 1.0,
+        "actor_updates": 55.5,
+        "mean_prediction_mse": 0.0365408191791604,
+        "elapsed_seconds": 5.470838800624961,
+        "lives": 8,
+        "survivors": 0,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 1.0718719760710462,
+            "survivors": 0
+          },
+          "1": {
+            "challenge_burden": 1.189513531536167,
+            "survivors": 0
+          }
+        }
+      },
+      "D": {
+        "challenge_burden": 1.0283751796086196,
+        "total_burden": 0.6370468880427209,
+        "final_alive": 0.0,
+        "alive_fraction": 0.72333984375,
+        "blocked_takes": 329.5,
+        "route_denials": 280.625,
+        "lost_yield_takes": 1.125,
+        "changes_vs_base": 37.75,
+        "mean_kl": 0.0015841350468690507,
+        "low_benefit_body_productions": 187.125,
+        "completed_return_windows": 0.5,
+        "both_dependent_token_roles_experienced": 1.0,
+        "actor_updates": 58.125,
+        "mean_prediction_mse": 0.045110048838099076,
+        "elapsed_seconds": 5.619698148625048,
+        "lives": 8,
+        "survivors": 0,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.8785175447628923,
+            "survivors": 0
+          },
+          "1": {
+            "challenge_burden": 1.178232814454347,
+            "survivors": 0
+          }
+        }
+      }
+    },
+    "stable": {
+      "A": {
+        "challenge_burden": 0.014184490773926754,
+        "total_burden": 0.017935690845704247,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "blocked_takes": 0.0,
+        "route_denials": 0.0,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 0.0,
+        "mean_kl": 0.0,
+        "low_benefit_body_productions": 762.625,
+        "completed_return_windows": 0.0,
+        "both_dependent_token_roles_experienced": 0.0,
+        "actor_updates": 0.0,
+        "mean_prediction_mse": 0.020086668905954043,
+        "elapsed_seconds": 4.595196754749907,
+        "lives": 8,
+        "survivors": 8,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.017327463733725734,
+            "survivors": 4
+          },
+          "1": {
+            "challenge_burden": 0.011041517814127778,
+            "survivors": 4
+          }
+        }
+      },
+      "B": {
+        "challenge_burden": 0.008333766297201001,
+        "total_burden": 0.01438306599902423,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "blocked_takes": 0.0,
+        "route_denials": 0.0,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 30.625,
+        "mean_kl": 0.0016861495023476891,
+        "low_benefit_body_productions": 742.0,
+        "completed_return_windows": 0.0,
+        "both_dependent_token_roles_experienced": 0.0,
+        "actor_updates": 80.0,
+        "mean_prediction_mse": 0.021584489103705213,
+        "elapsed_seconds": 5.678087814374862,
+        "lives": 8,
+        "survivors": 8,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.008540985367839364,
+            "survivors": 4
+          },
+          "1": {
+            "challenge_burden": 0.008126547226562636,
+            "survivors": 4
+          }
+        }
+      },
+      "C": {
+        "challenge_burden": 0.0075259894694014486,
+        "total_burden": 0.01396377808398512,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "blocked_takes": 0.0,
+        "route_denials": 0.0,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 34.0,
+        "mean_kl": 0.0020409414646564983,
+        "low_benefit_body_productions": 737.75,
+        "completed_return_windows": 0.0,
+        "both_dependent_token_roles_experienced": 0.0,
+        "actor_updates": 80.0,
+        "mean_prediction_mse": 0.02219872967270014,
+        "elapsed_seconds": 5.677574540875014,
+        "lives": 8,
+        "survivors": 8,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.0074524270930996775,
+            "survivors": 4
+          },
+          "1": {
+            "challenge_burden": 0.007599551845703221,
+            "survivors": 4
+          }
+        }
+      },
+      "D": {
+        "challenge_burden": 0.007564663218587696,
+        "total_burden": 0.013954385457520306,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "blocked_takes": 0.0,
+        "route_denials": 0.0,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 33.125,
+        "mean_kl": 0.002063820604234934,
+        "low_benefit_body_productions": 740.25,
+        "completed_return_windows": 0.0,
+        "both_dependent_token_roles_experienced": 0.0,
+        "actor_updates": 80.0,
+        "mean_prediction_mse": 0.021893947063909118,
+        "elapsed_seconds": 5.6232732236251195,
+        "lives": 8,
+        "survivors": 8,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.007625879908854901,
+            "survivors": 4
+          },
+          "1": {
+            "challenge_burden": 0.007503446528320492,
+            "survivors": 4
+          }
+        }
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "case": "challenge",
+      "contrast": "D-A",
+      "metric": "challenge_burden",
+      "delta": 0.15428143047438064,
+      "ci95": [
+        0.018206317785920634,
+        0.29035654316284065
+      ],
+      "world_sd": 0.15964077069261323,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.012827873281511026,
+        0.049240508853352294,
+        0.3055805340795894,
+        0.2751325522460919
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-A",
+      "metric": "total_burden",
+      "delta": 0.09393230162266059,
+      "ci95": [
+        0.011449616890429351,
+        0.17641498635489183
+      ],
+      "world_sd": 0.09655916844268075,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.007013123115879205,
+        0.029912356896737907,
+        0.1825672368129878,
+        0.17026273589679586
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-A",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-A",
+      "metric": "blocked_takes",
+      "delta": 226.0,
+      "ci95": [
+        -120.5,
+        572.5
+      ],
+      "world_sd": 414.199428617021,
+      "n_worlds": 4,
+      "paired_differences": [
+        10.5,
+        -251.5,
+        565.0,
+        580.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-A",
+      "metric": "completed_return_windows",
+      "delta": -0.375,
+      "ci95": [
+        -0.5,
+        -0.125
+      ],
+      "world_sd": 0.25,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "B-A",
+      "metric": "challenge_burden",
+      "delta": 0.09546497359039749,
+      "ci95": [
+        -0.1200770369712856,
+        0.29056169644775276
+      ],
+      "world_sd": 0.2575821248851813,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.25181356671041144,
+        0.05255006817649588,
+        0.3059908406494136,
+        0.2751325522460919
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "B-A",
+      "metric": "total_burden",
+      "delta": 0.05872343946944356,
+      "ci95": [
+        -0.07023772040571558,
+        0.17653807832583912
+      ],
+      "world_sd": 0.15521615938909175,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.1504045391732194,
+        0.0322221403993154,
+        0.18281342075488238,
+        0.17026273589679586
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "B-A",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "B-A",
+      "metric": "blocked_takes",
+      "delta": 226.25,
+      "ci95": [
+        -121.25,
+        573.75
+      ],
+      "world_sd": 415.13060193951816,
+      "n_worlds": 4,
+      "paired_differences": [
+        9.0,
+        -251.5,
+        569.0,
+        578.5
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "B-A",
+      "metric": "completed_return_windows",
+      "delta": -0.375,
+      "ci95": [
+        -0.5,
+        -0.125
+      ],
+      "world_sd": 0.25,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "C-A",
+      "metric": "challenge_burden",
+      "delta": 0.2565990046693676,
+      "ci95": [
+        0.08235797701849751,
+        0.397085339684105
+      ],
+      "world_sd": 0.18016472999790842,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.007952355236360509,
+        0.4377362688301093,
+        0.3055748423649085,
+        0.2751325522460919
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "C-A",
+      "metric": "total_burden",
+      "delta": 0.15442171703345162,
+      "ci95": [
+        0.05053395203971192,
+        0.23631792022015535
+      ],
+      "world_sd": 0.10601084167040421,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.006523995458222798,
+        0.2583363149946085,
+        0.1825638217841793,
+        0.17026273589679586
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "C-A",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "C-A",
+      "metric": "blocked_takes",
+      "delta": 220.25,
+      "ci95": [
+        -130.5,
+        571.0
+      ],
+      "world_sd": 420.3477726835245,
+      "n_worlds": 4,
+      "paired_differences": [
+        7.0,
+        -268.0,
+        562.0,
+        580.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "C-A",
+      "metric": "completed_return_windows",
+      "delta": -0.375,
+      "ci95": [
+        -0.5,
+        -0.125
+      ],
+      "world_sd": 0.25,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-B",
+      "metric": "challenge_burden",
+      "delta": 0.058816456883983154,
+      "ci95": [
+        -0.0024821694923576887,
+        0.17913669342921926
+      ],
+      "world_sd": 0.1201218559027252,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.23898569342890041,
+        -0.003309559323143585,
+        -0.00041030656982421476,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-B",
+      "metric": "total_burden",
+      "delta": 0.03520886215321703,
+      "ci95": [
+        -0.001732337626933117,
+        0.1074820160575315
+      ],
+      "world_sd": 0.07212913883860046,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.14339141605734018,
+        -0.0023097835025774893,
+        -0.00024618394189457327,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-B",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-B",
+      "metric": "blocked_takes",
+      "delta": -0.25,
+      "ci95": [
+        -2.625,
+        1.5
+      ],
+      "world_sd": 2.598076211353316,
+      "n_worlds": 4,
+      "paired_differences": [
+        1.5,
+        0.0,
+        -4.0,
+        1.5
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-B",
+      "metric": "completed_return_windows",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-C",
+      "metric": "challenge_burden",
+      "delta": -0.10231757419498691,
+      "ci95": [
+        -0.2913718199825678,
+        2.845857340449953e-06
+      ],
+      "world_sd": 0.19103684591633274,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.020780228517871535,
+        -0.388495759976757,
+        5.691714680899906e-06,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-C",
+      "metric": "total_burden",
+      "delta": -0.06048941541079102,
+      "ci95": [
+        -0.17131796857340292,
+        1.7075144042588697e-06
+      ],
+      "world_sd": 0.11213813017448986,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.013537118574102003,
+        -0.22842395809787058,
+        3.4150288085177394e-06,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-C",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-C",
+      "metric": "blocked_takes",
+      "delta": 5.75,
+      "ci95": [
+        0.875,
+        13.125
+      ],
+      "world_sd": 7.33143914930759,
+      "n_worlds": 4,
+      "paired_differences": [
+        3.5,
+        16.5,
+        3.0,
+        0.0
+      ]
+    },
+    {
+      "case": "challenge",
+      "contrast": "D-C",
+      "metric": "completed_return_windows",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-A",
+      "metric": "challenge_burden",
+      "delta": -0.006619827555339059,
+      "ci95": [
+        -0.008401017711589166,
+        -0.004838637399088951
+      ],
+      "world_sd": 0.0021557819389689606,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.004186387249349157,
+        -0.005490887548828744,
+        -0.00884866338541726,
+        -0.007953372037761072
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-A",
+      "metric": "total_burden",
+      "delta": -0.00398130538818394,
+      "ci95": [
+        -0.006238286541016122,
+        -0.0011702455815430384
+      ],
+      "world_sd": 0.003169707125310263,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.00048263494335941404,
+        -0.0039312834140629305,
+        -0.006128887156250396,
+        -0.0063476859257818475
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-A",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-A",
+      "metric": "blocked_takes",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-A",
+      "metric": "completed_return_windows",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "B-A",
+      "metric": "challenge_burden",
+      "delta": -0.005850724476725753,
+      "ci95": [
+        -0.007311718137207603,
+        -0.004787260187174882
+      ],
+      "world_sd": 0.001461910053387866,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.004549037177734706,
+        -0.005501929215495411,
+        -0.007947470517578758,
+        -0.005404460996094141
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "B-A",
+      "metric": "total_burden",
+      "delta": -0.0035526248466800168,
+      "ci95": [
+        -0.0052688179794926114,
+        -0.001038582391113416
+      ],
+      "world_sd": 0.0026342397625102256,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.00026504498632808765,
+        -0.003937908414062932,
+        -0.0055881714355472956,
+        -0.004949464523437927
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "B-A",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "B-A",
+      "metric": "blocked_takes",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "B-A",
+      "metric": "completed_return_windows",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "C-A",
+      "metric": "challenge_burden",
+      "delta": -0.006658501304525305,
+      "ci95": [
+        -0.008117066897787083,
+        -0.0051999357112635265
+      ],
+      "world_sd": 0.0017587186104358718,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.005224192776692997,
+        -0.005175678645834055,
+        -0.008736922639974574,
+        -0.007497211155599594
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "C-A",
+      "metric": "total_burden",
+      "delta": -0.003971912761719124,
+      "ci95": [
+        -0.006067916052734873,
+        -0.0016626742558594823
+      ],
+      "world_sd": 0.002781802246461636,
+      "n_worlds": 4,
+      "paired_differences": [
+        -0.00019628477148438128,
+        -0.003555534169922367,
+        -0.006061842708984785,
+        -0.006073989396484961
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "C-A",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "C-A",
+      "metric": "blocked_takes",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "C-A",
+      "metric": "completed_return_windows",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-B",
+      "metric": "challenge_burden",
+      "delta": -0.0007691030786133046,
+      "ci95": [
+        -0.0019089228645835317,
+        0.0001868457975261078
+      ],
+      "world_sd": 0.0013005966310640608,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0003626499283855486,
+        1.1041666666667012e-05,
+        -0.0009011928678385028,
+        -0.0025489110416669312
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-B",
+      "metric": "total_burden",
+      "delta": -0.00042868054150392316,
+      "ci95": [
+        -0.0010470098017579398,
+        0.0001121074785156639
+      ],
+      "world_sd": 0.0007210450364939255,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.00021758995703132639,
+        6.625000000001421e-06,
+        -0.0005407157207031003,
+        -0.0013982214023439202
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-B",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-B",
+      "metric": "blocked_takes",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-B",
+      "metric": "completed_return_windows",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-C",
+      "metric": "challenge_burden",
+      "delta": 3.8673749186246813e-05,
+      "ci95": [
+        -0.00038568489257808335,
+        0.0006995519197592077
+      ],
+      "world_sd": 0.0006809265927676498,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0010378055273438398,
+        -0.00031520890299468855,
+        -0.00011174074544268581,
+        -0.00045616088216147814
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-C",
+      "metric": "total_burden",
+      "delta": -9.392626464816214e-06,
+      "ci95": [
+        -0.00032472288671872487,
+        0.00044076565380862494
+      ],
+      "world_sd": 0.00047650510175879107,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0006789197148437953,
+        -0.00037574924414056354,
+        -6.704444726561044e-05,
+        -0.0002736965292968862
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-C",
+      "metric": "final_alive",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-C",
+      "metric": "blocked_takes",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-C",
+      "metric": "completed_return_windows",
+      "delta": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "world_sd": 0.0,
+      "n_worlds": 4,
+      "paired_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "case": "challenge",
+      "mode": "C",
+      "checkpoints": 4,
+      "alive_checkpoints": 2,
+      "exact_restores": 4,
+      "matched_donors": 4,
+      "suppressed": {
+        "mean_burden_delta": 0.0,
+        "mean_action_changes": 0.25,
+        "changed_checkpoints": 1
+      },
+      "matched_history": {
+        "mean_burden_delta": 0.0,
+        "mean_action_changes": 0.0,
+        "changed_checkpoints": 0
+      }
+    },
+    {
+      "case": "challenge",
+      "mode": "D",
+      "checkpoints": 4,
+      "alive_checkpoints": 2,
+      "exact_restores": 4,
+      "matched_donors": 4,
+      "suppressed": {
+        "mean_burden_delta": 0.0,
+        "mean_action_changes": 0.0,
+        "changed_checkpoints": 0
+      },
+      "matched_history": {
+        "mean_burden_delta": 0.0,
+        "mean_action_changes": 0.0,
+        "changed_checkpoints": 0
+      }
+    }
+  ],
+  "inference": "Primary D-A challenge contrast predeclared. Other 95% intervals descriptive and unadjusted. World seed is the sampling unit, crossed fixed graph initializations are averaged within world."
+}

@@ -1,0 +1,72 @@
+{
+  "total_burden": 0.010458123759921847,
+  "challenge_burden": 0.010605555970052005,
+  "late_burden": 0.007893697194010504,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 139,
+  "live_route_denials": 0,
+  "live_structural_denials": 0,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 0,
+  "contradiction_observed": false,
+  "first_denial": null,
+  "mean_movement_brier": 0.0,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.2550437512448117,
+  "actor_updates": 0,
+  "mean_kl": 0.0,
+  "post_contradiction_denials": 0,
+  "post_contradiction_live_steps": 0,
+  "recovery_live_steps": 485,
+  "recovery_denials": 0,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.010605555970052005,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601010,
+  "initialization": 1,
+  "mode": "A",
+  "case": "r_reopen",
+  "elapsed_seconds": 13.554622192999886,
+  "trace_sha256": "10bfed22323ed70d167e89bfa90a336bd636cb872be7bd46596d0855b30aab13",
+  "raw_array_sha256": "3bbbfabab8f41d06e95b5675d05eb4a45d95bf79bcc4cba308c6f91460fed047",
+  "final_state_sha256": "f1957e24597dd73749234b588f045ba83290f6ba71008771300d55ff6b1bbb5a",
+  "diagnostics": [],
+  "actor_parameters": 0,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1124,
+      "kind": "route_closed",
+      "blocked_edge": [
+        0,
+        1
+      ]
+    },
+    {
+      "tick": 2075,
+      "kind": "route_reopened",
+      "open_route": true
+    }
+  ],
+  "change_tick": 1124,
+  "recovery_tick": 2075,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

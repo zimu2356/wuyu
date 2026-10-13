@@ -1,0 +1,197 @@
+{
+  "total_burden": 0.18239383067172896,
+  "challenge_burden": 0.28569769862768596,
+  "final_alive": false,
+  "alive_fraction": 0.996875,
+  "death_tick": 2552,
+  "products": 493,
+  "blocked_takes": 8,
+  "route_denials": 416,
+  "lost_yield_takes": 22,
+  "changes_vs_base": 51,
+  "changes_vs_native": 52,
+  "actor_updates": 80,
+  "neural_updates": 5105,
+  "memory_updates": 1522,
+  "revisions": 6,
+  "mean_kl": 0.003651808947324753,
+  "physical_cost": [
+    5.054940000000106,
+    4.595399999999883
+  ],
+  "mean_prediction_mse": 0.047058653542543294,
+  "actual_dependent_token_acquisitions": [
+    3,
+    2
+  ],
+  "both_dependent_token_roles_experienced": true,
+  "low_benefit_body_productions": 230,
+  "windows": [
+    {
+      "start": 1024,
+      "body_burden": 0.03404745336588702,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": true,
+      "blocked_takes": 0
+    },
+    {
+      "start": 1408,
+      "body_burden": 0.04523803321615105,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": true,
+      "blocked_takes": 0
+    },
+    {
+      "start": 1792,
+      "body_burden": 0.2326609767307473,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": true,
+      "blocked_takes": 0
+    },
+    {
+      "start": 2176,
+      "body_burden": 0.8308443311979584,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": false,
+      "blocked_takes": 0
+    }
+  ],
+  "completed_return_windows": 0,
+  "observed_blocked_windows": 0,
+  "seed": 1400007,
+  "initialization": 1,
+  "mode": "C",
+  "case": "challenge",
+  "elapsed_seconds": 8.792431776000285,
+  "actor_parameters": 22120,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [
+      {
+        "tick": 384,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 640,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 896,
+        "max_depth": 0,
+        "known_recipe_action_bound": 8,
+        "fuel_cost_bound": 0.0176,
+        "body1_drift_bound": 0.0144
+      },
+      {
+        "tick": 1024,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      }
+    ],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  },
+  "diagnostics": [
+    {
+      "tick": 1408,
+      "alive": true,
+      "parent_state_sha256": "27c136e3f1c3a11944b28af62792ace11a007f1f020de014623518960132ddb5",
+      "exact_restore": true,
+      "parent_unchanged": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 0.051502986796878716,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "suppressed": {
+          "mean_burden": 0.051502986796878716,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "matched_history": {
+          "mean_burden": 0.051502986796878716,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "restored": {
+          "mean_burden": 0.051502986796878716,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        }
+      },
+      "donor_available": true,
+      "donor_tick": 1367,
+      "donor_observation_distance": 0.22079866394523343,
+      "donor_state_distance": 0.09831979833056144,
+      "suppression_distance": 2.8354986225443994,
+      "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+    },
+    {
+      "tick": 1792,
+      "alive": true,
+      "parent_state_sha256": "386477ad25fa465aca5af931d461827a4cba905d786e7cb622998b720716c381",
+      "exact_restore": true,
+      "parent_unchanged": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 0.24196568336251828,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "suppressed": {
+          "mean_burden": 0.12718264299219906,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 39
+        },
+        "matched_history": {
+          "mean_burden": 0.24196568336251828,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "restored": {
+          "mean_burden": 0.24196568336251828,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        }
+      },
+      "donor_available": true,
+      "donor_tick": 1782,
+      "donor_observation_distance": 0.4180130261128237,
+      "donor_state_distance": 0.015123571260588033,
+      "suppression_distance": 3.2697628376329297,
+      "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+    }
+  ],
+  "trace_sha256": "c79ac9283f4d7db04076474ef73657ae627078300b66b4736c640cf1366812c5",
+  "final_state_sha256": "52ddf26d79160df66f6ff3909a18fd853d47df0190e94b72b47ff4ff4d569b76"
+}

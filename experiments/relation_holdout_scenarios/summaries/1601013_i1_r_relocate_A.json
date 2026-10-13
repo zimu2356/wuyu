@@ -1,0 +1,75 @@
+{
+  "total_burden": 0.017773701999218926,
+  "challenge_burden": 0.01991853485397158,
+  "late_burden": 0.011437934949739862,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 319,
+  "live_route_denials": 190,
+  "live_structural_denials": 190,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 0,
+  "contradiction_observed": true,
+  "first_denial": 1223,
+  "mean_movement_brier": 0.046399872492835455,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.2597883152308089,
+  "actor_updates": 0,
+  "mean_kl": 0.0,
+  "post_contradiction_denials": 189,
+  "post_contradiction_live_steps": 1336,
+  "recovery_live_steps": 482,
+  "recovery_denials": 85,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.01991853485397158,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601013,
+  "initialization": 1,
+  "mode": "A",
+  "case": "r_relocate",
+  "elapsed_seconds": 7.8251062170002115,
+  "trace_sha256": "2314693baed921813972fee4c470c50e1ca62b823cb0b27f8e0f0f5e5e11ee58",
+  "raw_array_sha256": "5b80619cb3f569d3d742c49b857a3a880c7e32c3df2f3761f44cde737b28d60e",
+  "final_state_sha256": "a0d5886e2e4085114675aaf525051acaa13d630e927f203127f0bb644c279721",
+  "diagnostics": [],
+  "actor_parameters": 0,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1152,
+      "kind": "route_closed",
+      "blocked_edge": [
+        3,
+        4
+      ]
+    },
+    {
+      "tick": 2078,
+      "kind": "route_relocated",
+      "blocked_edge": [
+        0,
+        1
+      ]
+    }
+  ],
+  "change_tick": 1152,
+  "recovery_tick": 2078,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

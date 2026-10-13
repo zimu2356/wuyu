@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wuyu-unified"
+version = "1.2.0"
+description = "Traceable integration of WUYU stages 01-08 and subsequent studies"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2,<3"]
+
+[tool.setuptools]
+packages = ["wuyu_unified"]

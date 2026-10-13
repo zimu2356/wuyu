@@ -1,0 +1,206 @@
+{
+  "total_burden": 0.5113323117485209,
+  "challenge_burden": 0.8039574268278075,
+  "late_burden": 2.0,
+  "final_alive": false,
+  "alive_fraction": 0.80234375,
+  "live_steps": 2055,
+  "movement_attempts": 879,
+  "live_route_denials": 295,
+  "live_structural_denials": 295,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 71,
+  "live_action_changes": 60,
+  "contradiction_observed": true,
+  "first_denial": 1758,
+  "mean_movement_brier": 0.0033316760473712046,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.27408841121877275,
+  "actor_updates": 65,
+  "mean_kl": 0.005765621550381184,
+  "post_contradiction_denials": 294,
+  "post_contradiction_live_steps": 296,
+  "recovery_live_steps": 111,
+  "recovery_denials": 109,
+  "death_tick": 2054,
+  "actual_dependent_token_acquisitions": [
+    1,
+    2
+  ],
+  "both_dependent_token_roles_experienced": true,
+  "prefix_challenge_burden": 0.8039574268278075,
+  "extended_burden": null,
+  "alive_at_2560": false,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1600106,
+  "initialization": 1,
+  "mode": "R00",
+  "case": "r_combined",
+  "elapsed_seconds": 5.490337540000837,
+  "trace_sha256": "625073d75fd17f5334d0696fd50f7063ef5e1f1b6ecbb71e774e8fd1bb2efc03",
+  "raw_array_sha256": "0414b0b5111d5dd28b60ef93dad288884b74ad751a6b67bb91f734612ee67938",
+  "final_state_sha256": "0fe70bcefa24b80e29a06a49de58eefbfceba8d9ebaf26ee2dd1306674a89b7f",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 192,
+      "kind": "need_opportunity",
+      "shock": [
+        1,
+        0.22
+      ]
+    },
+    {
+      "tick": 320,
+      "kind": "need_opportunity",
+      "shock": [
+        0,
+        0.22
+      ]
+    },
+    {
+      "tick": 384,
+      "kind": "role_exposure_0",
+      "requirements": [
+        -1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "tick": 512,
+      "kind": "need_opportunity",
+      "shock": [
+        0,
+        0.24
+      ]
+    },
+    {
+      "tick": 640,
+      "kind": "role_exposure_1",
+      "requirements": [
+        0,
+        1,
+        -1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "tick": 768,
+      "kind": "need_opportunity",
+      "shock": [
+        1,
+        0.24
+      ]
+    },
+    {
+      "tick": 896,
+      "kind": "familiar_recovery",
+      "requirements": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "tick": 1024,
+      "kind": "prerequisite",
+      "requirements": [
+        -1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "shock": [
+        1,
+        0.3
+      ]
+    },
+    {
+      "tick": 1495,
+      "kind": "interruption",
+      "shock": [
+        0,
+        0.4
+      ]
+    },
+    {
+      "tick": 1740,
+      "kind": "alternative_route",
+      "blocked_edge": [
+        1,
+        2
+      ],
+      "recipe_site": 5,
+      "recipe": [
+        0,
+        1
+      ],
+      "shock": [
+        1,
+        0.24
+      ]
+    },
+    {
+      "tick": 2137,
+      "kind": "benefit_removed",
+      "inactive_site": 5,
+      "shock": [
+        1,
+        0.22
+      ]
+    }
+  ],
+  "change_tick": 1740,
+  "recovery_tick": 1944,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [
+      {
+        "tick": 384,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 640,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 896,
+        "max_depth": 0,
+        "known_recipe_action_bound": 8,
+        "fuel_cost_bound": 0.0176,
+        "body1_drift_bound": 0.0144
+      },
+      {
+        "tick": 1024,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      }
+    ],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

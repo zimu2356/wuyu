@@ -1,0 +1,288 @@
+{
+  "gates": {
+    "A1_iid": true,
+    "A2_history": true,
+    "A3_adaptation": true,
+    "A4_no_signal": true
+  },
+  "all_passed": true,
+  "worlds": {
+    "iid": {
+      "selected_hazard": 0.5,
+      "means": {
+        "frozen": {
+          "log_loss": 0.6931471805599471,
+          "accuracy": 0.5,
+          "brier": 0.25
+        },
+        "current_only": {
+          "log_loss": 0.6080465756672029,
+          "accuracy": 0.7033255440848214,
+          "brier": 0.2086697823660726
+        },
+        "cumulative": {
+          "log_loss": 5.0455658665404055,
+          "accuracy": 0.5100010463169642,
+          "brier": 0.46041590641432917
+        },
+        "fixed_hazard": {
+          "log_loss": 0.6080465756672029,
+          "accuracy": 0.7033255440848214,
+          "brier": 0.2086697823660726
+        },
+        "bayes_reference": {
+          "log_loss": 0.6080465756672027,
+          "accuracy": 0.7033255440848214,
+          "brier": 0.2086697823660726
+        }
+      },
+      "loss_improvement": {
+        "frozen": {
+          "mean": 0.08510060489274418,
+          "ci95": [
+            0.08283216523007772,
+            0.08745031091688049
+          ],
+          "independent_units": 256
+        },
+        "current_only": {
+          "mean": 1.695692197767329e-16,
+          "ci95": [
+            1.5612511283791264e-16,
+            1.8389153047526635e-16
+          ],
+          "independent_units": 256
+        },
+        "cumulative": {
+          "mean": 4.437519290873203,
+          "ci95": [
+            4.1583673252735,
+            4.714519654026635
+          ],
+          "independent_units": 256
+        },
+        "fixed_hazard": {
+          "mean": 1.695692197767329e-16,
+          "ci95": [
+            1.5612511283791264e-16,
+            1.8389153047526635e-16
+          ],
+          "independent_units": 256
+        }
+      }
+    },
+    "stable": {
+      "selected_hazard": 0.0,
+      "means": {
+        "frozen": {
+          "log_loss": 0.6931471805599471,
+          "accuracy": 0.5,
+          "brier": 0.25
+        },
+        "current_only": {
+          "log_loss": 0.6108613469144784,
+          "accuracy": 0.7000034877232142,
+          "brier": 0.20999860491071548
+        },
+        "cumulative": {
+          "log_loss": 3.621494971647288e-07,
+          "accuracy": 1.0,
+          "brier": 7.398500972973837e-10
+        },
+        "fixed_hazard": {
+          "log_loss": 3.621494971647288e-07,
+          "accuracy": 1.0,
+          "brier": 7.398500972973837e-10
+        },
+        "bayes_reference": {
+          "log_loss": 3.621494971646214e-07,
+          "accuracy": 1.0,
+          "brier": 7.398500972973728e-10
+        }
+      },
+      "loss_improvement": {
+        "frozen": {
+          "mean": 0.6931468184104497,
+          "ci95": [
+            0.6931462780234828,
+            0.693147140132494
+          ],
+          "independent_units": 256
+        },
+        "current_only": {
+          "mean": 0.6108609847649811,
+          "ci95": [
+            0.6084823446171997,
+            0.6132404024225406
+          ],
+          "independent_units": 256
+        },
+        "cumulative": {
+          "mean": 1.0741383247993178e-19,
+          "ci95": [
+            6.188151178083047e-20,
+            1.5974111548177568e-19
+          ],
+          "independent_units": 256
+        },
+        "fixed_hazard": {
+          "mean": 1.0741383247993178e-19,
+          "ci95": [
+            6.188151178083047e-20,
+            1.5974111548177568e-19
+          ],
+          "independent_units": 256
+        }
+      }
+    },
+    "switching": {
+      "selected_hazard": 0.05,
+      "means": {
+        "frozen": {
+          "log_loss": 0.6931471805599471,
+          "accuracy": 0.5,
+          "brier": 0.25
+        },
+        "current_only": {
+          "log_loss": 0.6117183376354335,
+          "accuracy": 0.6989920479910714,
+          "brier": 0.21040318080357262
+        },
+        "cumulative": {
+          "log_loss": 6.54783667598679,
+          "accuracy": 0.5783822195870536,
+          "brier": 0.4107485345400164
+        },
+        "fixed_hazard": {
+          "log_loss": 0.5032257505198565,
+          "accuracy": 0.7586495535714286,
+          "brier": 0.16560995000933942
+        },
+        "bayes_reference": {
+          "log_loss": 0.47645189976310576,
+          "accuracy": 0.7726876395089286,
+          "brier": 0.15594961277007535
+        }
+      },
+      "loss_improvement": {
+        "frozen": {
+          "mean": 0.21669528079684108,
+          "ci95": [
+            0.20604787052695103,
+            0.2272785987015854
+          ],
+          "independent_units": 256
+        },
+        "current_only": {
+          "mean": 0.1352664378723277,
+          "ci95": [
+            0.12515017989886254,
+            0.14517198405716342
+          ],
+          "independent_units": 256
+        },
+        "cumulative": {
+          "mean": 6.0713847762236846,
+          "ci95": [
+            5.815982078623037,
+            6.327368945160512
+          ],
+          "independent_units": 256
+        },
+        "fixed_hazard": {
+          "mean": 0.026773850756750678,
+          "ci95": [
+            0.02361004641713441,
+            0.030022954728079004
+          ],
+          "independent_units": 256
+        }
+      }
+    },
+    "no_signal": {
+      "selected_hazard": 0.0,
+      "means": {
+        "frozen": {
+          "log_loss": 0.6931471805599471,
+          "accuracy": 0.5,
+          "brier": 0.25
+        },
+        "current_only": {
+          "log_loss": 0.6931471805599471,
+          "accuracy": 0.5,
+          "brier": 0.25
+        },
+        "cumulative": {
+          "log_loss": 0.6931471805599471,
+          "accuracy": 0.5,
+          "brier": 0.25
+        },
+        "fixed_hazard": {
+          "log_loss": 0.6931471805599471,
+          "accuracy": 0.5,
+          "brier": 0.25
+        },
+        "bayes_reference": {
+          "log_loss": 0.6931471805599471,
+          "accuracy": 0.5,
+          "brier": 0.25
+        }
+      },
+      "loss_improvement": {
+        "frozen": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "independent_units": 256
+        },
+        "current_only": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "independent_units": 256
+        },
+        "cumulative": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "independent_units": 256
+        },
+        "fixed_hazard": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "independent_units": 256
+        }
+      }
+    }
+  },
+  "analytic_checks": {
+    "iid": {
+      "reference_minus_current": 5.551115123125783e-17,
+      "reference_minus_half": 0.19999999999999996
+    },
+    "stable": {
+      "reference_minus_current": 0.7,
+      "reference_minus_half": 0.5
+    },
+    "switching": {
+      "reference_minus_current": 0.6248425768544128,
+      "reference_minus_half": 0.48525639818420296
+    },
+    "no_signal": {
+      "reference_minus_current": 0.0,
+      "reference_minus_half": 0.0
+    }
+  },
+  "iid_theoretical_loss": 0.6108643020548935,
+  "test_trajectories": 1024,
+  "methods_per_trajectory": 5
+}

@@ -1,0 +1,41 @@
+{
+  "started_at": "2026-10-10T08:06:38.799975+00:00",
+  "config": {
+    "calibration_horizon": 512,
+    "calibration_train": 24,
+    "calibration_validation": 24,
+    "calibration_test": 256,
+    "calibration_burn": 64,
+    "bootstrap": 2000,
+    "development_horizon": 2048,
+    "common_horizon": 1024,
+    "branch_horizon": 2048,
+    "development_train_pairs": 24,
+    "development_validation_pairs": 24,
+    "development_test_pairs": 128,
+    "alpha_grid": [
+      0.03,
+      0.08,
+      0.15,
+      0.3
+    ],
+    "gamma": 0.95,
+    "epsilon": 0.08
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "source_hashes": {
+    "PROTOCOL.md": "f7e3946c7f5bcdaf8b83dfe555da93a4494a53b1cbb6664fdef60849a2626cfd",
+    "run_experiment.py": "6a788cabe36fce7e95f2b66a25893063b9b7c61f9005d23eb03fb3e9b80c4d5f",
+    "requirements.txt": "7ce1d52cb0e7309fa50fdf82f058db2c2d7bc7537efceb8949b94762411191a4",
+    "wuyu02/__init__.py": "5220b694865a0823b6b22f6e110fb3b2b24179280baa000e11b78252442bf41b",
+    "wuyu02/calibration.py": "07adc0290be656b030516dded794cfeaf86307ec0a196fd9b5739c8231fce102",
+    "wuyu02/workshop.py": "7c8468e3d2efa7d4c87d05c8cbff24e1534817774b8b05bc8b10b0529f61fa99",
+    "tests/test_mechanisms.py": "e42cede6798e9efe3b3664307459a1ca4a9e7371a2803d2de7d5e12abb8fcaa0"
+  },
+  "completed_at": "2026-10-10T08:06:48.168257+00:00",
+  "elapsed_seconds": 9.368308024999351,
+  "hashes_unchanged": true,
+  "calibration_passed": true,
+  "development_ran": true
+}

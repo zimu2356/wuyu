@@ -1,0 +1,8777 @@
+{
+  "all_four": [
+    {
+      "budget": 108,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.671875,
+      "successes": 86,
+      "variant": "learned",
+      "wilson95": [
+        0.5865640159976144,
+        0.7471701552833669
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.671875,
+      "successes": 86,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.5865640159976144,
+        0.7471701552833669
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 1.0,
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "n": 128,
+      "rate": 0.0,
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    }
+  ],
+  "cohort": "holdout",
+  "goal_buffer_observed_agreement": [
+    {
+      "budget": 108,
+      "collector": "random",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "matched_episode_summaries": 512,
+      "n_episodes": 512
+    }
+  ],
+  "knowledge": [
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 0.8125,
+        "successes": 104,
+        "wilson95": [
+          0.7361508192928257,
+          0.8706385830362315
+        ]
+      },
+      "budget": 108,
+      "collector": "random",
+      "effect_rmse": {
+        "max": 0.04015695332669366,
+        "mean": 0.01650848966910787,
+        "median": 0.015407340565685095,
+        "min": 0.004206809471709086,
+        "n": 104
+      },
+      "first_discovery_a": {
+        "max": 104.0,
+        "mean": 36.17796610169491,
+        "median": 28.0,
+        "min": 3.0,
+        "n": 118
+      },
+      "first_discovery_b": {
+        "max": 97.0,
+        "mean": 30.55263157894737,
+        "median": 23.5,
+        "min": 3.0,
+        "n": 114
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 0.921875,
+        "median": 1.0,
+        "min": 0.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 0.890625,
+        "median": 1.0,
+        "min": 0.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.75,
+        "mean": 0.7056568287037037,
+        "median": 0.7037037037037037,
+        "min": 0.6666666666666667,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 8.0,
+        "mean": 2.203125,
+        "median": 2.0,
+        "min": 0.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 6.0,
+        "mean": 2.2578125,
+        "median": 2.0,
+        "min": 0.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.5,
+        "mean": 0.37818287037037035,
+        "median": 0.37962962962962965,
+        "min": 0.25925925925925924,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 0.8830295138888888,
+        "median": 0.8888888888888888,
+        "min": 0.75,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 8.9296875,
+        "median": 9.0,
+        "min": 8.0,
+        "n": 128
+      }
+    },
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "budget": 432,
+      "collector": "random",
+      "effect_rmse": {
+        "max": 0.01677783807525669,
+        "mean": 0.007193440347425561,
+        "median": 0.006848203709620254,
+        "min": 0.0017703103865463119,
+        "n": 128
+      },
+      "first_discovery_a": {
+        "max": 182.0,
+        "mean": 44.1640625,
+        "median": 31.5,
+        "min": 3.0,
+        "n": 128
+      },
+      "first_discovery_b": {
+        "max": 270.0,
+        "mean": 43.609375,
+        "median": 29.0,
+        "min": 3.0,
+        "n": 128
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.9212962962962963,
+        "mean": 0.9169017650462963,
+        "median": 0.9166666666666666,
+        "min": 0.9166666666666666,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 17.0,
+        "mean": 9.6171875,
+        "median": 10.0,
+        "min": 3.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 18.0,
+        "mean": 9.4140625,
+        "median": 9.0,
+        "min": 2.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.4722222222222222,
+        "mean": 0.38559751157407407,
+        "median": 0.38657407407407407,
+        "min": 0.32407407407407407,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 0.9971788194444444,
+        "median": 1.0,
+        "min": 0.9444444444444444,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "min": 9.0,
+        "n": 128
+      }
+    },
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "budget": 1728,
+      "collector": "random",
+      "effect_rmse": {
+        "max": 0.0077102310729283315,
+        "mean": 0.0037639219645097884,
+        "median": 0.0036799223469145817,
+        "min": 0.0006235927516397568,
+        "n": 128
+      },
+      "first_discovery_a": {
+        "max": 182.0,
+        "mean": 44.1640625,
+        "median": 31.5,
+        "min": 3.0,
+        "n": 128
+      },
+      "first_discovery_b": {
+        "max": 270.0,
+        "mean": 43.609375,
+        "median": 29.0,
+        "min": 3.0,
+        "n": 128
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.9791666666666666,
+        "mean": 0.9791666666666666,
+        "median": 0.9791666666666666,
+        "min": 0.9791666666666666,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 56.0,
+        "mean": 38.7265625,
+        "median": 39.0,
+        "min": 27.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 51.0,
+        "mean": 38.2421875,
+        "median": 38.0,
+        "min": 27.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.41782407407407407,
+        "mean": 0.38241012008101855,
+        "median": 0.38252314814814814,
+        "min": 0.33969907407407407,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "min": 9.0,
+        "n": 128
+      }
+    },
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "budget": 108,
+      "collector": "least_visited",
+      "effect_rmse": {
+        "max": 0.033822651287206525,
+        "mean": 0.015551206832584109,
+        "median": 0.015297406942847497,
+        "min": 0.0035880192995286484,
+        "n": 128
+      },
+      "first_discovery_a": {
+        "max": 49.0,
+        "mean": 23.0390625,
+        "median": 22.0,
+        "min": 3.0,
+        "n": 128
+      },
+      "first_discovery_b": {
+        "max": 47.0,
+        "mean": 23.953125,
+        "median": 23.5,
+        "min": 3.0,
+        "n": 128
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.6666666666666667,
+        "mean": 0.6666666666666667,
+        "median": 0.6666666666666667,
+        "min": 0.6666666666666667,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 5.0,
+        "mean": 2.609375,
+        "median": 3.0,
+        "min": 2.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 4.0,
+        "mean": 2.5546875,
+        "median": 3.0,
+        "min": 2.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.37037037037037035,
+        "mean": 0.3359375,
+        "median": 0.3333333333333333,
+        "min": 0.3055555555555556,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "min": 9.0,
+        "n": 128
+      }
+    },
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "budget": 432,
+      "collector": "least_visited",
+      "effect_rmse": {
+        "max": 0.013743198245790598,
+        "mean": 0.007207468294229475,
+        "median": 0.007088683535952789,
+        "min": 0.000469140707443212,
+        "n": 128
+      },
+      "first_discovery_a": {
+        "max": 49.0,
+        "mean": 23.0390625,
+        "median": 22.0,
+        "min": 3.0,
+        "n": 128
+      },
+      "first_discovery_b": {
+        "max": 47.0,
+        "mean": 23.953125,
+        "median": 23.5,
+        "min": 3.0,
+        "n": 128
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.9166666666666666,
+        "mean": 0.9166666666666666,
+        "median": 0.9166666666666666,
+        "min": 0.9166666666666666,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 13.0,
+        "mean": 10.140625,
+        "median": 10.0,
+        "min": 9.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 12.0,
+        "mean": 10.0,
+        "median": 10.0,
+        "min": 9.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.36342592592592593,
+        "mean": 0.35678891782407407,
+        "median": 0.35648148148148145,
+        "min": 0.3472222222222222,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "min": 9.0,
+        "n": 128
+      }
+    },
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "budget": 1728,
+      "collector": "least_visited",
+      "effect_rmse": {
+        "max": 0.007298056423996915,
+        "mean": 0.0037072998128414468,
+        "median": 0.0036633538400792126,
+        "min": 0.0006717316719349887,
+        "n": 128
+      },
+      "first_discovery_a": {
+        "max": 49.0,
+        "mean": 23.0390625,
+        "median": 22.0,
+        "min": 3.0,
+        "n": 128
+      },
+      "first_discovery_b": {
+        "max": 47.0,
+        "mean": 23.953125,
+        "median": 23.5,
+        "min": 3.0,
+        "n": 128
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.9791666666666666,
+        "mean": 0.9791666666666666,
+        "median": 0.9791666666666666,
+        "min": 0.9791666666666666,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 42.0,
+        "mean": 39.7109375,
+        "median": 40.0,
+        "min": 39.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 43.0,
+        "mean": 39.5546875,
+        "median": 39.0,
+        "min": 39.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.36342592592592593,
+        "mean": 0.3614773220486111,
+        "median": 0.3616898148148148,
+        "min": 0.3582175925925926,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "min": 9.0,
+        "n": 128
+      }
+    },
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "effect_rmse": {
+        "max": 0.02868674257503203,
+        "mean": 0.013891686640865604,
+        "median": 0.013452175548014192,
+        "min": 0.002287069956064865,
+        "n": 128
+      },
+      "first_discovery_a": {
+        "max": 96.0,
+        "mean": 30.796875,
+        "median": 26.5,
+        "min": 1.0,
+        "n": 128
+      },
+      "first_discovery_b": {
+        "max": 85.0,
+        "mean": 30.421875,
+        "median": 25.5,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.6666666666666667,
+        "mean": 0.6666666666666667,
+        "median": 0.6666666666666667,
+        "min": 0.6666666666666667,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 3.0,
+        "mean": 3.0,
+        "median": 3.0,
+        "min": 3.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 3.0,
+        "mean": 3.0,
+        "median": 3.0,
+        "min": 3.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.4444444444444444,
+        "mean": 0.4444444444444444,
+        "median": 0.4444444444444444,
+        "min": 0.4444444444444444,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "min": 9.0,
+        "n": 128
+      }
+    },
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "effect_rmse": {
+        "max": 0.011987883170893129,
+        "mean": 0.006346236740148357,
+        "median": 0.006531852307694382,
+        "min": 0.0013951969865323873,
+        "n": 128
+      },
+      "first_discovery_a": {
+        "max": 130.0,
+        "mean": 32.1171875,
+        "median": 23.5,
+        "min": 1.0,
+        "n": 128
+      },
+      "first_discovery_b": {
+        "max": 153.0,
+        "mean": 33.3359375,
+        "median": 24.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.9166666666666666,
+        "mean": 0.9166666666666666,
+        "median": 0.9166666666666666,
+        "min": 0.9166666666666666,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 12.0,
+        "mean": 12.0,
+        "median": 12.0,
+        "min": 12.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 12.0,
+        "mean": 12.0,
+        "median": 12.0,
+        "min": 12.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.4444444444444444,
+        "mean": 0.4444444444444444,
+        "median": 0.4444444444444444,
+        "min": 0.4444444444444444,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "min": 9.0,
+        "n": 128
+      }
+    },
+    {
+      "both_discovered": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "effect_rmse": {
+        "max": 0.006051339042848537,
+        "mean": 0.0034101702531392037,
+        "median": 0.0032790651223094263,
+        "min": 0.0009929061216000555,
+        "n": 128
+      },
+      "first_discovery_a": {
+        "max": 226.0,
+        "mean": 34.625,
+        "median": 23.5,
+        "min": 1.0,
+        "n": 128
+      },
+      "first_discovery_b": {
+        "max": 173.0,
+        "mean": 38.6796875,
+        "median": 26.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_a": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "known_route_b": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "n": 128,
+      "repeat_pair_fraction": {
+        "max": 0.9791666666666666,
+        "mean": 0.9791666666666666,
+        "median": 0.9791666666666666,
+        "min": 0.9791666666666666,
+        "n": 128
+      },
+      "samples_a": {
+        "max": 48.0,
+        "mean": 48.0,
+        "median": 48.0,
+        "min": 48.0,
+        "n": 128
+      },
+      "samples_b": {
+        "max": 48.0,
+        "mean": 48.0,
+        "median": 48.0,
+        "min": 48.0,
+        "n": 128
+      },
+      "self_loop_fraction": {
+        "max": 0.4444444444444444,
+        "mean": 0.4444444444444444,
+        "median": 0.4444444444444444,
+        "min": 0.4444444444444444,
+        "n": 128
+      },
+      "state_action_coverage": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "n": 128
+      },
+      "visited_states": {
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "min": 9.0,
+        "n": 128
+      }
+    }
+  ],
+  "paired_learning_curve": [
+    {
+      "both": 86,
+      "budget": 108,
+      "difference": 0.328125,
+      "n_pairs": 128,
+      "neither": 0,
+      "only_directed": 42,
+      "only_random": 0,
+      "percentile95": [
+        0.25,
+        0.4140625
+      ],
+      "primary": false,
+      "resamples": 5000,
+      "supports_predeclared_direction": null
+    },
+    {
+      "both": 128,
+      "budget": 432,
+      "difference": 0.0,
+      "n_pairs": 128,
+      "neither": 0,
+      "only_directed": 0,
+      "only_random": 0,
+      "percentile95": [
+        0.0,
+        0.0
+      ],
+      "primary": true,
+      "resamples": 5000,
+      "supports_predeclared_direction": false
+    },
+    {
+      "both": 128,
+      "budget": 1728,
+      "difference": 0.0,
+      "n_pairs": 128,
+      "neither": 0,
+      "only_directed": 0,
+      "only_random": 0,
+      "percentile95": [
+        0.0,
+        0.0
+      ],
+      "primary": false,
+      "resamples": 5000,
+      "supports_predeclared_direction": null
+    }
+  ],
+  "primary": {
+    "both": 128,
+    "budget": 432,
+    "difference": 0.0,
+    "n_pairs": 128,
+    "neither": 0,
+    "only_directed": 0,
+    "only_random": 0,
+    "percentile95": [
+      0.0,
+      0.0
+    ],
+    "primary": true,
+    "resamples": 5000,
+    "supports_predeclared_direction": false
+  },
+  "scenarios": [
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.90625,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 70,
+        "wrong_first_goal_or_stop": 58
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.546875,
+        "successes": 70,
+        "wilson95": [
+          0.4605263667221713,
+          0.6304920436271872
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.546875,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 70,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4605263667221713,
+        0.6304920436271872
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.90625,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 70,
+        "wrong_first_goal_or_stop": 58
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.546875,
+        "successes": 70,
+        "wilson95": [
+          0.4605263667221713,
+          0.6304920436271872
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.546875,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 70,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4605263667221713,
+        0.6304920436271872
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.90625,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 70,
+        "wrong_first_goal_or_stop": 58
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.546875,
+        "successes": 70,
+        "wilson95": [
+          0.4605263667221713,
+          0.6304920436271872
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.546875,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 70,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4605263667221713,
+        0.6304920436271872
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "balanced_teacher",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.90625,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 70,
+        "wrong_first_goal_or_stop": 58
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.546875,
+        "successes": 70,
+        "wilson95": [
+          0.4605263667221713,
+          0.6304920436271872
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.546875,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 70,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4605263667221713,
+        0.6304920436271872
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.90625,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 70,
+        "wrong_first_goal_or_stop": 58
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.546875,
+        "successes": 70,
+        "wilson95": [
+          0.4605263667221713,
+          0.6304920436271872
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.546875,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 70,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4605263667221713,
+        0.6304920436271872
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.90625,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 70,
+        "wrong_first_goal_or_stop": 58
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.546875,
+        "successes": 70,
+        "wilson95": [
+          0.4605263667221713,
+          0.6304920436271872
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.546875,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 70,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4605263667221713,
+        0.6304920436271872
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "least_visited",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "stopped_after_feedback": 21,
+        "success": 97,
+        "target_not_discovered": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.921875,
+        "successes": 118,
+        "wilson95": [
+          0.8621530681952095,
+          0.9570126249490177
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 97,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.03809404252594769
+        ]
+      },
+      "rate": 0.7578125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.921875,
+        "median": 5.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 97,
+      "variant": "cached_value",
+      "wilson95": [
+        0.6767886369138937,
+        0.8238126200075785
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "target_not_discovered": 14,
+        "wrong_first_goal_or_stop": 114
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 118,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.03152833902249433
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 4,
+        "mean": 2.796875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 118,
+        "target_not_discovered": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.921875,
+        "successes": 118,
+        "wilson95": [
+          0.8621530681952095,
+          0.9570126249490177
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 118,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.03152833902249433
+        ]
+      },
+      "rate": 0.921875,
+      "scenario": "quiet",
+      "steps": {
+        "max": 4,
+        "mean": 2.796875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 118,
+      "variant": "cached_value",
+      "wilson95": [
+        0.8621530681952095,
+        0.9570126249490177
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 118,
+        "success": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.078125,
+        "successes": 10,
+        "wilson95": [
+          0.04298737505098223,
+          0.13784693180479052
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 118,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.03152833902249433
+        ]
+      },
+      "rate": 0.078125,
+      "scenario": "satiated",
+      "steps": {
+        "max": 4,
+        "mean": 2.796875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 10,
+      "variant": "cached_value",
+      "wilson95": [
+        0.04298737505098223,
+        0.13784693180479052
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "stopped_after_feedback": 3,
+        "success": 47,
+        "target_not_discovered": 10,
+        "wrong_first_goal_or_stop": 56,
+        "wrong_outcome": 12
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.484375,
+        "successes": 62,
+        "wilson95": [
+          0.39952298025969557,
+          0.5701375496238515
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 125,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.029815393708326456
+        ]
+      },
+      "rate": 0.3671875,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.7578125,
+        "median": 3.0,
+        "min": 1,
+        "n": 128
+      },
+      "successes": 47,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.2886845465087532,
+        0.4534299575013975
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 66,
+        "target_not_discovered": 14,
+        "wrong_first_goal_or_stop": 48
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.515625,
+        "successes": 66,
+        "wilson95": [
+          0.4298624503761484,
+          0.6004770197403044
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.515625,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 4,
+        "mean": 3.0234375,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 66,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4298624503761484,
+        0.6004770197403044
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 62,
+        "target_not_discovered": 10,
+        "wrong_first_goal_or_stop": 56
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.484375,
+        "successes": 62,
+        "wilson95": [
+          0.39952298025969557,
+          0.5701375496238515
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.484375,
+      "scenario": "quiet",
+      "steps": {
+        "max": 4,
+        "mean": 3.0234375,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 62,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.39952298025969557,
+        0.5701375496238515
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 4,
+        "mean": 3.0234375,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "stopped_after_feedback": 21,
+        "success": 97,
+        "target_not_discovered": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.921875,
+        "successes": 118,
+        "wilson95": [
+          0.8621530681952095,
+          0.9570126249490177
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 97,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.03809404252594769
+        ]
+      },
+      "rate": 0.7578125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.921875,
+        "median": 5.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 97,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.6767886369138937,
+        0.8238126200075785
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "target_not_discovered": 14,
+        "wrong_first_goal_or_stop": 114
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 118,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.03152833902249433
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 4,
+        "mean": 2.796875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 118,
+        "target_not_discovered": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.921875,
+        "successes": 118,
+        "wilson95": [
+          0.8621530681952095,
+          0.9570126249490177
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 118,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.03152833902249433
+        ]
+      },
+      "rate": 0.921875,
+      "scenario": "quiet",
+      "steps": {
+        "max": 4,
+        "mean": 2.796875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 118,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.8621530681952095,
+        0.9570126249490177
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 118,
+        "success": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.078125,
+        "successes": 10,
+        "wilson95": [
+          0.04298737505098223,
+          0.13784693180479052
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 118,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.03152833902249433
+        ]
+      },
+      "rate": 0.078125,
+      "scenario": "satiated",
+      "steps": {
+        "max": 4,
+        "mean": 2.796875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 10,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.04298737505098223,
+        0.13784693180479052
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "stopped_after_feedback": 21,
+        "success": 97,
+        "target_not_discovered": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.921875,
+        "successes": 118,
+        "wilson95": [
+          0.8621530681952095,
+          0.9570126249490177
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 97,
+        "rate": 1.0,
+        "successes": 97,
+        "wilson95": [
+          0.9619059574740523,
+          1.0
+        ]
+      },
+      "rate": 0.7578125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.921875,
+        "median": 5.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 97,
+      "variant": "learned",
+      "wilson95": [
+        0.6767886369138937,
+        0.8238126200075785
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 114,
+        "target_not_discovered": 14
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.890625,
+        "successes": 114,
+        "wilson95": [
+          0.8247655486183226,
+          0.9337212042929989
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 114,
+        "rate": 1.0,
+        "successes": 114,
+        "wilson95": [
+          0.9674014658411585,
+          1.0
+        ]
+      },
+      "rate": 0.890625,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 2.671875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 114,
+      "variant": "learned",
+      "wilson95": [
+        0.8247655486183226,
+        0.9337212042929989
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 118,
+        "target_not_discovered": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.921875,
+        "successes": 118,
+        "wilson95": [
+          0.8621530681952095,
+          0.9570126249490177
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 118,
+        "rate": 1.0,
+        "successes": 118,
+        "wilson95": [
+          0.9684716609775057,
+          1.0
+        ]
+      },
+      "rate": 0.921875,
+      "scenario": "quiet",
+      "steps": {
+        "max": 4,
+        "mean": 2.796875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 118,
+      "variant": "learned",
+      "wilson95": [
+        0.8621530681952095,
+        0.9570126249490177
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "stopped_after_feedback": 21,
+        "success": 97,
+        "target_not_discovered": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.921875,
+        "successes": 118,
+        "wilson95": [
+          0.8621530681952095,
+          0.9570126249490177
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 97,
+        "rate": 1.0,
+        "successes": 97,
+        "wilson95": [
+          0.9619059574740523,
+          1.0
+        ]
+      },
+      "rate": 0.7578125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.921875,
+        "median": 5.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 97,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.6767886369138937,
+        0.8238126200075785
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 114,
+        "target_not_discovered": 14
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.890625,
+        "successes": 114,
+        "wilson95": [
+          0.8247655486183226,
+          0.9337212042929989
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 114,
+        "rate": 1.0,
+        "successes": 114,
+        "wilson95": [
+          0.9674014658411585,
+          1.0
+        ]
+      },
+      "rate": 0.890625,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 2.671875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 114,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.8247655486183226,
+        0.9337212042929989
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 118,
+        "target_not_discovered": 10
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.921875,
+        "successes": 118,
+        "wilson95": [
+          0.8621530681952095,
+          0.9570126249490177
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 118,
+        "rate": 1.0,
+        "successes": 118,
+        "wilson95": [
+          0.9684716609775057,
+          1.0
+        ]
+      },
+      "rate": 0.921875,
+      "scenario": "quiet",
+      "steps": {
+        "max": 4,
+        "mean": 2.796875,
+        "median": 3.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 118,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.8621530681952095,
+        0.9570126249490177
+      ]
+    },
+    {
+      "budget": 108,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.90625,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 70,
+        "wrong_first_goal_or_stop": 58
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.546875,
+        "successes": 70,
+        "wilson95": [
+          0.4605263667221713,
+          0.6304920436271872
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.546875,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 70,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4605263667221713,
+        0.6304920436271872
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 432,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "cached_value",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "cached_value",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 3.90625,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 70,
+        "wrong_first_goal_or_stop": 58
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.546875,
+        "successes": 70,
+        "wilson95": [
+          0.4605263667221713,
+          0.6304920436271872
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.546875,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 70,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.4605263667221713,
+        0.6304920436271872
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 58,
+        "wrong_first_goal_or_stop": 70
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.453125,
+        "successes": 58,
+        "wilson95": [
+          0.36950795637281275,
+          0.5394736332778287
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.453125,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 58,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.36950795637281275,
+        0.5394736332778287
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "erased_effects",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "wrong_first_goal_or_stop": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "acted_when_satiated": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 0.0,
+        "successes": 0,
+        "wilson95": [
+          0.0,
+          0.029136956273508416
+        ]
+      },
+      "rate": 0.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 0,
+      "variant": "fixed_target",
+      "wilson95": [
+        0.0,
+        0.029136956273508416
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "learned",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "blocked",
+      "steps": {
+        "max": 5,
+        "mean": 5,
+        "median": 5.0,
+        "min": 5,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "need_shift",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "rate": 1.0,
+      "scenario": "quiet",
+      "steps": {
+        "max": 3,
+        "mean": 3,
+        "median": 3.0,
+        "min": 3,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    },
+    {
+      "budget": 1728,
+      "collector": "random",
+      "failure_reasons": {
+        "success": 128
+      },
+      "first_choice": {
+        "n": 128,
+        "rate": 1.0,
+        "successes": 128,
+        "wilson95": [
+          0.9708630437264916,
+          1.0
+        ]
+      },
+      "n": 128,
+      "post_completion_stop": null,
+      "rate": 1.0,
+      "scenario": "satiated",
+      "steps": {
+        "max": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "n": 128
+      },
+      "successes": 128,
+      "variant": "no_goal_buffer",
+      "wilson95": [
+        0.9708630437264916,
+        1.0
+      ]
+    }
+  ],
+  "world_seeds": 128
+}

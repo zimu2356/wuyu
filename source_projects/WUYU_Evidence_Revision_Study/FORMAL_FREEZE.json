@@ -1,0 +1,38 @@
+{
+  "development_analysis_sha": "8b41569a5e476ff5883c19e7e0716678d82cd3c7de6f8dc6b81d273233c6b1a4",
+  "development_diagnostics_sha": "2be05de55aee460922a8a8485973922df654b5cc70aaad379ceeda61c498e1a5",
+  "development_manifest_sha": "3b7d7b25650a9d44b3d11b616e3b8a40a36858ea6c1fd69ff72ca18a22c6f7b8",
+  "files": {
+    "DEVELOPMENT_LOG.md": "a70fd0f9945426b352e5717cae0c6959ec35f2fd9251152581b85cf6fddaa081",
+    "analysis.py": "157f2cb6f2691736ceecca1a3725fd1bef60abecf70a95b6a250045f9a327d2e",
+    "audit.py": "b98846ef95c5aec6f1079b70640472e10d60b5d3be160b4ccc354461fe4ab43f",
+    "core.py": "fdae94ff65335253387bd8b0b8c7f253c69dbd6c6bb5a9354da7d4755ed933d9",
+    "diagnostics.py": "cf28bb2042d6a8be0e60d5dd70f1f44216a44f1791018eb1d01460dc5acd707d",
+    "experiment.py": "b49ea3d8d6c438ad22fb83c9cbb315358b4038b57c2f8afeb1bb5d5c21573d18",
+    "formal_protocol.json": "0b9fe8d4015048d1f3aacdaeeadaf153bc52194da59a46096ee225c7b9259a8e",
+    "protocol.py": "4603892102c1ef43c1d821b780710866745c577f44a909d510ffa48500ea5a41",
+    "run.py": "1c1649e814bca71636733374b5f4524ad432b8837bb679a8ab90f2aa7d8b2ecd",
+    "storage.py": "3ca85ff506cd97ce34666afa3ce6da1314f13e8ce2c1428c65c555229a2690e9",
+    "test_mechanisms.py": "cc3780847e81e983a8efc80e661675999f314397786fc3c2c534fee9d483e2f1",
+    "tools/continue_life.py": "dcb9437e592c6262008f00bb8e8c8299ef2dde23091684b0e795a0a2cbcb58f6"
+  },
+  "formal_data_exist": false,
+  "selection": {
+    "count": 128,
+    "development_primary_sd": 0.08560422868132038,
+    "development_stable_sd": 0.0,
+    "expected_halfwidths": {
+      "128": {
+        "primary": 0.014830175996707367,
+        "stable": 0.0
+      },
+      "64": {
+        "primary": 0.02097303602692349,
+        "stable": 0.0
+      }
+    },
+    "expected_precision_met": false,
+    "selection_uses": "Paired standard deviations only; no direction or winner selection."
+  },
+  "timestamp": "2026-10-12T05:46:07.410311+00:00"
+}

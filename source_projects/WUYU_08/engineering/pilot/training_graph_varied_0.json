@@ -1,0 +1,58 @@
+{
+  "cell": "graph_varied",
+  "initialization": 0,
+  "parameters": 11345,
+  "recurrent_state_scalars": 240,
+  "logs": [
+    {
+      "update": 16,
+      "loss": 2.7448979053260625,
+      "active": 6144,
+      "alive": 1.0,
+      "seconds": 1.4948438149986032
+    },
+    {
+      "update": 32,
+      "loss": 2.9893908072946735,
+      "active": 12288,
+      "alive": 1.0,
+      "seconds": 2.907832871998835
+    },
+    {
+      "update": 48,
+      "loss": 3.194989876642404,
+      "active": 18432,
+      "alive": 1.0,
+      "seconds": 4.016755235999881
+    },
+    {
+      "update": 64,
+      "loss": 2.472474352927528,
+      "active": 22843,
+      "alive": 0.25,
+      "seconds": 5.007138356999349
+    }
+  ],
+  "candidates": [
+    {
+      "update": 64,
+      "file": "model_graph_varied_0_64.npz",
+      "score": 0.0,
+      "independent": 0.0,
+      "dependency": 0.0,
+      "agreement": 0.125
+    }
+  ],
+  "selected": {
+    "update": 64,
+    "file": "model_graph_varied_0_64.npz",
+    "score": 0.0,
+    "independent": 0.0,
+    "dependency": 0.0,
+    "agreement": 0.125
+  },
+  "active_examples": 22843,
+  "planned_examples": 24576,
+  "seconds": 5.798040162997495,
+  "pilot": true
+}

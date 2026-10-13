@@ -1,0 +1,17 @@
+{
+  "canonical_raw_directory": "outputs/holdout",
+  "content": "All development and holdout unique raw records, source, frozen protocols, analyses, audits, report and handoff. Duplicate reproduction raw bytes are represented by their matching original hashes; both run manifests are retained.",
+  "format": 1,
+  "integrity_incident": "See validation/RAW_LOG_INCIDENT.json; a truncated original was recovered from byte-exact reproduction. Corrupt duplicate is not presented as usable data.",
+  "omitted_identical_raw_copies": [
+    "outputs/reproduction/branches.csv",
+    "outputs/reproduction/checkpoints.jsonl.gz",
+    "outputs/reproduction/events.jsonl.gz",
+    "outputs/reproduction/final_states.jsonl.gz",
+    "outputs/reproduction/interventions.jsonl.gz",
+    "outputs/reproduction/life_windows.csv",
+    "outputs/reproduction/prediction_probes.csv",
+    "outputs/reproduction/predictions.jsonl.gz"
+  ],
+  "reproduction_evidence": "outputs/holdout/reproduction.json"
+}

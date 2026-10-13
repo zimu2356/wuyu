@@ -1,0 +1,20 @@
+{
+  "model_seeds": [9601, 9602, 9603],
+  "updates": 512,
+  "batch": 64,
+  "lifetime": 512,
+  "unroll": 32,
+  "validate_every": 128,
+  "validation_worlds": 16,
+  "validation_length": 1024,
+  "learning_rate": 0.001,
+  "fast_lr": 0.018,
+  "gamma": 0.99,
+  "lambda": 0.95,
+  "entropy": 0.012,
+  "model_coef": 0.3,
+  "formal_worlds": 32,
+  "formal_length": 2048,
+  "bootstrap_samples": 4000,
+  "bootstrap_seed": 96006
+}

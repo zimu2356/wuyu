@@ -1,0 +1,81 @@
+{
+  "tick": 1437,
+  "pair": [
+    0,
+    1
+  ],
+  "matched_other_pair": [
+    3,
+    0
+  ],
+  "alive": true,
+  "parent_unchanged": true,
+  "exact_restore": true,
+  "branches": {
+    "intact": {
+      "mean_burden": 0.0035548682291666827,
+      "final_alive": true,
+      "first_probability": [
+        0.07884051781431649,
+        0.10772996692398247,
+        0.011932615509261854,
+        0.016555003686555173,
+        0.7831848636322473,
+        0.00027949335285361966,
+        0.0014775390807829879
+      ],
+      "perturbation_norm": 0.0,
+      "common_live_action_changes": 0,
+      "first_total_variation": 0.0
+    },
+    "related_old": {
+      "mean_burden": 0.0012443919531250271,
+      "final_alive": true,
+      "first_probability": [
+        0.034677695322735964,
+        0.1217840362071621,
+        0.010430780727281942,
+        0.01514702789723673,
+        0.8165238236256864,
+        0.0002514988140501431,
+        0.001185137405846587
+      ],
+      "perturbation_norm": 1.071820344035634,
+      "common_live_action_changes": 57,
+      "first_total_variation": 0.04739302927661878
+    },
+    "matched_other": {
+      "mean_burden": 0.0035548682291666827,
+      "final_alive": true,
+      "first_probability": [
+        0.07833493518700403,
+        0.10844857532173442,
+        0.011909421703931382,
+        0.01653503708058464,
+        0.7830207292211496,
+        0.0002785489229446318,
+        0.0014727525626513603
+      ],
+      "perturbation_norm": 1.071820344035634,
+      "common_live_action_changes": 0,
+      "first_total_variation": 0.000718608397751834
+    },
+    "restored": {
+      "mean_burden": 0.0035548682291666827,
+      "final_alive": true,
+      "first_probability": [
+        0.07884051781431649,
+        0.10772996692398247,
+        0.011932615509261854,
+        0.016555003686555173,
+        0.7831848636322473,
+        0.00027949335285361966,
+        0.0014775390807829879
+      ],
+      "perturbation_norm": 0.0,
+      "common_live_action_changes": 0,
+      "first_total_variation": 0.0
+    }
+  },
+  "limitation": "Other-edge intervention is norm matched when available, not guaranteed functionally irrelevant in a six-node ring. No identified goal-content claim."
+}

@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-10-12T04:58:21.299067+00:00",
+  "file": "outputs/holdout/events.jsonl.gz",
+  "bytes": 143267274,
+  "observed_sha256": "96cc03c00f4f8913baf6d2f039dc39ff4e5193107c88938341ed367fec9a3a54",
+  "expected_sha256": "3117b1b1bf0a2e378f2a7feca05b3f3b30610c7f1ba83c6ab41244d36a9e2987",
+  "readable_rows": 470847,
+  "last_readable_event_id": null,
+  "error": "EOFError('Compressed file ended before the end-of-stream marker was reached')",
+  "cause": "Unknown; a file-integrity failure detected after completion. Do not infer algorithm failure or silently replace the recorded hash.",
+  "resolved_utc": "2026-10-12T04:58:54.393415+00:00",
+  "resolution": "Restored exact bytes from independent full reproduction after its SHA256 matched the ORIGINAL completion manifest. Original expected hash, parameters and summary results unchanged.",
+  "restored_bytes": 143299375,
+  "restored_sha256": "3117b1b1bf0a2e378f2a7feca05b3f3b30610c7f1ba83c6ab41244d36a9e2987",
+  "truncated_evidence_preserved_locally": "WUYU_Continuing_History_truncated_log_evidence.jsonl.gz",
+  "archive_note": "Corrupt duplicate is not distributed as data. This incident record and original failed audit log are retained."
+}

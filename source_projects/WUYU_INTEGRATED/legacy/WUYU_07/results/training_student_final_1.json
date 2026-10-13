@@ -1,0 +1,101 @@
+{
+  "initialization": 1,
+  "prior_selected": {
+    "update": 256,
+    "file": "model_student_1_256.npz",
+    "survival": 0.8355305989583334,
+    "body_area": 1.4066188745117145
+  },
+  "logs": [
+    {
+      "update": 64,
+      "accuracy": 0.455078125,
+      "alive": 1.0,
+      "active_examples": 65536,
+      "seconds": 8.657728652000515
+    },
+    {
+      "update": 128,
+      "accuracy": 0.50390625,
+      "alive": 1.0,
+      "active_examples": 131072,
+      "seconds": 17.054591269999946
+    },
+    {
+      "update": 192,
+      "accuracy": 0.263671875,
+      "alive": 0.5625,
+      "active_examples": 185186,
+      "seconds": 24.924329457000567
+    },
+    {
+      "update": 256,
+      "accuracy": 0.3896484375,
+      "alive": 1.0,
+      "active_examples": 246161,
+      "seconds": 30.962971110999206
+    },
+    {
+      "update": 320,
+      "accuracy": 0.392578125,
+      "alive": 0.84375,
+      "active_examples": 307126,
+      "seconds": 40.527735424999264
+    },
+    {
+      "update": 384,
+      "accuracy": 0.3701171875,
+      "alive": 0.84375,
+      "active_examples": 367387,
+      "seconds": 47.04625421899982
+    },
+    {
+      "update": 448,
+      "accuracy": 0.4619140625,
+      "alive": 1.0,
+      "active_examples": 427375,
+      "seconds": 53.01263830300013
+    },
+    {
+      "update": 512,
+      "accuracy": 0.404296875,
+      "alive": 0.9375,
+      "active_examples": 489712,
+      "seconds": 58.63289502100088
+    }
+  ],
+  "validation": [
+    {
+      "update": 256,
+      "file": "model_student_1_256.npz",
+      "survival": 0.8355305989583334,
+      "body_area": 1.4066188745117145
+    },
+    {
+      "update": 512,
+      "file": "model_student_1_512.npz",
+      "survival": 0.7828369140625,
+      "body_area": 1.3694982165527332
+    },
+    {
+      "update": 256,
+      "file": "model_student_refined_1_256.npz",
+      "survival": 0.9376220703125,
+      "body_area": 1.6096309086100224
+    },
+    {
+      "update": 512,
+      "file": "model_student_refined_1_512.npz",
+      "survival": 0.916259765625,
+      "body_area": 1.5809646618652304
+    }
+  ],
+  "selected": {
+    "update": 256,
+    "file": "model_student_refined_1_256.npz",
+    "survival": 0.9376220703125,
+    "body_area": 1.6096309086100224
+  },
+  "seconds": 60.24889038300171,
+  "active_examples": 489712
+}

@@ -1,0 +1,40 @@
+{
+  "primary_recorded_files_match": true,
+  "primary_per_file": {
+    "PROTOCOL.md": true,
+    "inputs/legacy.npz": true,
+    "inputs/legacy_world_source.py": true,
+    "inputs/provenance.json": true,
+    "prepare_inputs.py": true,
+    "run_experiment.py": true,
+    "tests/test_mechanisms.py": true,
+    "wuyu03/__init__.py": true,
+    "wuyu03/control.py": true,
+    "wuyu03/core.py": true,
+    "wuyu03/legacy.py": true,
+    "wuyu03/neural.py": true,
+    "wuyu03/stats.py": true
+  },
+  "supplement_recorded_files_match": true,
+  "supplement_per_file": {
+    "PROTOCOL.md": true,
+    "inputs/__pycache__/legacy_world_source.cpython-312.pyc": true,
+    "inputs/legacy.npz": true,
+    "inputs/legacy_world_source.py": true,
+    "inputs/provenance.json": true,
+    "prepare_inputs.py": true,
+    "run_experiment.py": true,
+    "run_supplement.py": true,
+    "tests/test_mechanisms.py": true,
+    "tests/test_reservoir.py": true,
+    "wuyu03/__init__.py": true,
+    "wuyu03/control.py": true,
+    "wuyu03/core.py": true,
+    "wuyu03/legacy.py": true,
+    "wuyu03/neural.py": true,
+    "wuyu03/reservoir.py": true,
+    "wuyu03/stats.py": true
+  },
+  "primary_original_set_flag": false,
+  "explanation": "Initial global set equality became false because importing the legacy source generated an inputs/__pycache__ file. All originally recorded protocol/source/input hashes still match. Original manifest preserved."
+}

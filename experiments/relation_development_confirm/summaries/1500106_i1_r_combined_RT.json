@@ -1,0 +1,197 @@
+{
+  "total_burden": 0.500065864227422,
+  "challenge_burden": 0.8167149514434896,
+  "late_burden": 2.0,
+  "final_alive": false,
+  "alive_fraction": 0.7859375,
+  "live_steps": 2013,
+  "movement_attempts": 642,
+  "live_route_denials": 8,
+  "live_structural_denials": 8,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 174,
+  "live_action_changes": 92,
+  "contradiction_observed": true,
+  "first_denial": 1353,
+  "mean_movement_brier": 0.01102336062625421,
+  "mean_tau": 0.8999998569488525,
+  "mean_entropy": 0.35093526700559685,
+  "actor_updates": 63,
+  "mean_kl": 0.015554849989712238,
+  "post_contradiction_denials": 7,
+  "post_contradiction_live_steps": 659,
+  "recovery_live_steps": 0,
+  "recovery_denials": 0,
+  "death_tick": 2012,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1500106,
+  "initialization": 1,
+  "mode": "RT",
+  "case": "r_combined",
+  "elapsed_seconds": 6.405099951000011,
+  "trace_sha256": "75bdaefc460c721b01c09f2a2790087f1ca450a318bbd18341b33bcc94fb6904",
+  "raw_array_sha256": "9c5a8350a261367d5542895c33f4c0702641ade795d7f495ae042c765aede2eb",
+  "final_state_sha256": "f49f3a78943d5efe6fcfb2b3265daff3b42f4c04aac4c203efefe57a08b7745e",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 192,
+      "kind": "need_opportunity",
+      "shock": [
+        1,
+        0.22
+      ]
+    },
+    {
+      "tick": 320,
+      "kind": "need_opportunity",
+      "shock": [
+        0,
+        0.22
+      ]
+    },
+    {
+      "tick": 384,
+      "kind": "role_exposure_0",
+      "requirements": [
+        1,
+        1,
+        1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "tick": 512,
+      "kind": "need_opportunity",
+      "shock": [
+        0,
+        0.24
+      ]
+    },
+    {
+      "tick": 640,
+      "kind": "role_exposure_1",
+      "requirements": [
+        -1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 768,
+      "kind": "need_opportunity",
+      "shock": [
+        1,
+        0.24
+      ]
+    },
+    {
+      "tick": 896,
+      "kind": "familiar_recovery",
+      "requirements": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "tick": 1024,
+      "kind": "prerequisite",
+      "requirements": [
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "shock": [
+        1,
+        0.3
+      ]
+    },
+    {
+      "tick": 1332,
+      "kind": "alternative_route",
+      "blocked_edge": [
+        2,
+        3
+      ],
+      "recipe_site": 2,
+      "recipe": [
+        1,
+        2
+      ],
+      "shock": [
+        1,
+        0.24
+      ]
+    },
+    {
+      "tick": 1786,
+      "kind": "interruption",
+      "shock": [
+        0,
+        0.4
+      ]
+    },
+    {
+      "tick": 2199,
+      "kind": "benefit_removed",
+      "inactive_site": 2,
+      "shock": [
+        1,
+        0.22
+      ]
+    }
+  ],
+  "change_tick": 1332,
+  "recovery_tick": 2106,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [
+      {
+        "tick": 384,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 640,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 896,
+        "max_depth": 0,
+        "known_recipe_action_bound": 8,
+        "fuel_cost_bound": 0.0176,
+        "body1_drift_bound": 0.0144
+      },
+      {
+        "tick": 1024,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      }
+    ],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

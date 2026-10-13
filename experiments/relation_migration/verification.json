@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "source_tick": 1097,
+  "unfinished_buffer": 9,
+  "old_actions_and_body_64_steps_equal": true,
+  "new_save_resume_events_bit_exact": true,
+  "migration": {
+    "origin": "explicit Whole 1.1 migration",
+    "source_checkpoint_sha256": "7fa5832bbf41650a7f3eeacd501c948e53cd8df377244b6983297a03947340d5",
+    "procedure_sha256": "95add0528379e093ed6e25caf3ec59644f4d88f94c9ae1fcfaf82b849298da5d",
+    "source_condition": "C",
+    "condition": "R00",
+    "body_inventory_skills_native_rng_predictors_preserved": true,
+    "old_actor_preserved": true,
+    "new_gate_parameters": true,
+    "recent_real_movement_transitions_replayed": 37,
+    "relation_history_truncated": true,
+    "stochastic_future_equivalence_promised": false,
+    "note": "Only retained actual position transitions rebuild relation content; body labels are not fabricated. Source A initializes a new C actor. Source C retains its optimizer and unfinished buffer."
+  }
+}

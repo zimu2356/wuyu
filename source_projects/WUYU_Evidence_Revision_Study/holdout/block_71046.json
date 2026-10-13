@@ -1,0 +1,1312 @@
+{
+  "results": [
+    {
+      "files": {
+        "71046_stable_B0.json.gz": "85e4d87f03a3ed691f1b34829ea9fafcd5c509dc535d69bb09bf4034c9233872",
+        "71046_stable_B0.npy.gz": "0f4753e7c3e554e703f59b637674560e9038ba85dfda0331ca8337709eee6153"
+      },
+      "summary": {
+        "active_fraction": 0.32708333333333334,
+        "activity_cost": 1.57,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "ce932ea4fdedf45c193c92e04aefbf0da4a3da1b5493c6d639dc43f2b3aec24c",
+        "first_prediction_accuracy": 44,
+        "first_retest": {
+          "1": 45,
+          "4": 44
+        },
+        "first_revision": null,
+        "late_loss": 0.013357893450700415,
+        "life_loss": 0.012431551229991402,
+        "method": "B0",
+        "n_actions": 5,
+        "post_active_fraction": 0.33984375,
+        "post_loss": 0.01247408763291604,
+        "post_revisions": 0,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 102,
+          "4": 50
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_stable_BE.json.gz": "7f6de47356923d4dcb95b2d19733402bde4712d14cf1b454a9acd5f7b2121d5f",
+        "71046_stable_BE.npy.gz": "7d86a477c3bde4239409366b40167cc4310bc323bd5783acb8f6ba1113019356"
+      },
+      "summary": {
+        "active_fraction": 0.3545833333333333,
+        "activity_cost": 1.702,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "b82c73cbfc44656cc49dae26d83fe3ef07735e57719183bf1be083dbc5c29dc7",
+        "first_prediction_accuracy": 35,
+        "first_retest": {
+          "1": 36,
+          "4": 35
+        },
+        "first_revision": null,
+        "late_loss": 0.01243633347355023,
+        "life_loss": 0.012718349485643024,
+        "method": "BE",
+        "n_actions": 5,
+        "post_active_fraction": 0.318359375,
+        "post_loss": 0.012917301186031602,
+        "post_revisions": 0,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.07125,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 101,
+          "4": 48
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_stable_BU.json.gz": "44dbf03de3fa437168134de22b80344003e6c0f952905f8a2322ea68ac137a7e",
+        "71046_stable_BU.npy.gz": "0f4753e7c3e554e703f59b637674560e9038ba85dfda0331ca8337709eee6153"
+      },
+      "summary": {
+        "active_fraction": 0.32708333333333334,
+        "activity_cost": 1.57,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "096fb8b356a72dcf591169707a23f1d14a772291ea203f33b012d5e8624526d4",
+        "first_prediction_accuracy": 44,
+        "first_retest": {
+          "1": 45,
+          "4": 44
+        },
+        "first_revision": null,
+        "late_loss": 0.013357893450700415,
+        "life_loss": 0.012431551229991402,
+        "method": "BU",
+        "n_actions": 5,
+        "post_active_fraction": 0.33984375,
+        "post_loss": 0.01247408763291604,
+        "post_revisions": 0,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 102,
+          "4": 50
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_stable_BEU.json.gz": "a38e072f6cf4446834d2cfed77c967f3c58441ed286962bf105fa3ed11487ba4",
+        "71046_stable_BEU.npy.gz": "7d86a477c3bde4239409366b40167cc4310bc323bd5783acb8f6ba1113019356"
+      },
+      "summary": {
+        "active_fraction": 0.3545833333333333,
+        "activity_cost": 1.702,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "5ec668689f2d424998e9b8fe89b1677163e47d3bb3fe19ce6f445bc057871123",
+        "first_prediction_accuracy": 35,
+        "first_retest": {
+          "1": 36,
+          "4": 35
+        },
+        "first_revision": null,
+        "late_loss": 0.01243633347355023,
+        "life_loss": 0.012718349485643024,
+        "method": "BEU",
+        "n_actions": 5,
+        "post_active_fraction": 0.318359375,
+        "post_loss": 0.012917301186031602,
+        "post_revisions": 0,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.07125,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 101,
+          "4": 48
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_stable_BR.json.gz": "1a7d536a69c336218ebdc111836624fac007c1b99e5d8eb9258f9926fa73c801",
+        "71046_stable_BR.npy.gz": "99de3c7edf4760a04d49efb26f0ecd4eb509ae4cb9553e60adbacf09a15f9ef7"
+      },
+      "summary": {
+        "active_fraction": 0.3641666666666667,
+        "activity_cost": 1.748,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "8feb7758761e4e5c9e8a7c7cb248b4e86d326d478f16f5fbee1cc755ad52acfb",
+        "first_prediction_accuracy": 0,
+        "first_retest": {
+          "1": 1,
+          "4": 0
+        },
+        "first_revision": null,
+        "late_loss": 0.01436111080413387,
+        "life_loss": 0.014799226269284187,
+        "method": "BR",
+        "n_actions": 5,
+        "post_active_fraction": 0.37109375,
+        "post_loss": 0.015164636898328102,
+        "post_revisions": 0,
+        "pre_loss": 0.01259988967931679,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.02519977935863358
+        },
+        "retest_fraction": 0.07333333333333333,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 9,
+          "4": 8
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_local_swap_B0.json.gz": "a6fe778b1257eea726a20baa25859819bae9aff665f07ef664df1d10f7323cb5",
+        "71046_local_swap_B0.npy.gz": "49e28194900d3f5c7c05c9a3c9dd0a9d33fb99e25eaeb18faef58898314ae526"
+      },
+      "summary": {
+        "active_fraction": 0.2991666666666667,
+        "activity_cost": 1.436,
+        "case": "local_swap",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "4165905c240af01ed91b20764b1e0b7ef47581ce00352c469c030feccf5fb32c",
+        "first_prediction_accuracy": 941,
+        "first_retest": {
+          "1": 328,
+          "4": 44
+        },
+        "first_revision": null,
+        "late_loss": 0.011470259298511165,
+        "life_loss": 0.13153433098763467,
+        "method": "B0",
+        "n_actions": 5,
+        "post_active_fraction": 0.24609375,
+        "post_loss": 0.5695507251543486,
+        "post_revisions": 0,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 512,
+          "recovered": false,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 330,
+          "4": 333
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_local_swap_BE.json.gz": "a792c3b55d8eca204d6a71e779beb65713fd90ef9f1d3e66a2cc266ddaadf458",
+        "71046_local_swap_BE.npy.gz": "380b654a8646ce6bee108dd54bbbbca74d87fda12cc748ca30aebed46df57eba"
+      },
+      "summary": {
+        "active_fraction": 0.32458333333333333,
+        "activity_cost": 1.558,
+        "case": "local_swap",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "a0b8c2abd734dfbfb0c9f38b348ac2dc5f1a8964d025676fb36d30e2b33db0b4",
+        "first_prediction_accuracy": 578,
+        "first_retest": {
+          "1": 326,
+          "4": 35
+        },
+        "first_revision": null,
+        "late_loss": 0.012268149818262138,
+        "life_loss": 0.12639588370315927,
+        "method": "BE",
+        "n_actions": 5,
+        "post_active_fraction": 0.240234375,
+        "post_loss": 0.5300727751823802,
+        "post_revisions": 0,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 512,
+          "recovered": false,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.0675,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 328,
+          "4": 325
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_local_swap_BU.json.gz": "50ba656c35106b1669efdaf12a3df0c71e3be281507da70eacb237f76704a26d",
+        "71046_local_swap_BU.npy.gz": "f692710498c2fbd4f68da2c5ad78be6b2d50998055b422bd92ea131b49efb9de"
+      },
+      "summary": {
+        "active_fraction": 0.29125,
+        "activity_cost": 1.3980000000000001,
+        "case": "local_swap",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "bc8c3efa4d40e01bbadc5306bd3a9c49799b7f96052e6091ed9d821061b85cb0",
+        "first_prediction_accuracy": 754,
+        "first_retest": {
+          "1": 328,
+          "4": 44
+        },
+        "first_revision": 330,
+        "late_loss": 0.011344950582812298,
+        "life_loss": 0.11965459882036986,
+        "method": "BU",
+        "n_actions": 5,
+        "post_active_fraction": 0.203125,
+        "post_loss": 0.5149337333250266,
+        "post_revisions": 4,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 512,
+          "recovered": false,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 330,
+          "4": 694
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_local_swap_BEU.json.gz": "991b595dbd068ef07501ee6c17f0a748274091b088fac15f9531dc7eea20c052",
+        "71046_local_swap_BEU.npy.gz": "ca574f06385880829e2a1b0459c7b626fcd3e86308f0aeffe4adb3d7387424df"
+      },
+      "summary": {
+        "active_fraction": 0.32916666666666666,
+        "activity_cost": 1.58,
+        "case": "local_swap",
+        "causal_block_minus_normal": 0.0,
+        "causal_event": 1508,
+        "causal_first_action_differs": false,
+        "changed_axis": 0,
+        "final_state_sha": "08590491eb97e6efca6a107d2141dfcf8600fb196ba38c50b7240c114051658a",
+        "first_prediction_accuracy": 625,
+        "first_retest": {
+          "1": 326,
+          "4": 35
+        },
+        "first_revision": 328,
+        "late_loss": 0.012885031326041019,
+        "life_loss": 0.11585496550237427,
+        "method": "BEU",
+        "n_actions": 5,
+        "post_active_fraction": 0.23828125,
+        "post_loss": 0.4962334272691441,
+        "post_revisions": 3,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 512,
+          "recovered": false,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.07416666666666667,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 328,
+          "4": 325
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_local_swap_BR.json.gz": "d2da1256519d6b55178ccdc9e4e3eb016dcd0550bc6b810bd651f1e964d6cf0b",
+        "71046_local_swap_BR.npy.gz": "8cdf07a326242841a2a16b808ed868d5a2f2e8ec3a076166cea0ebdbfc5a01cc"
+      },
+      "summary": {
+        "active_fraction": 0.34708333333333335,
+        "activity_cost": 1.666,
+        "case": "local_swap",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "67beefb9ea24ed1f20e0e547aa671eadfffc180e7f10d1523311ef86c3e40f86",
+        "first_prediction_accuracy": 285,
+        "first_retest": {
+          "1": 102,
+          "4": 0
+        },
+        "first_revision": null,
+        "late_loss": 0.013437037443712687,
+        "life_loss": 0.04883545726752476,
+        "method": "BR",
+        "n_actions": 5,
+        "post_active_fraction": 0.31640625,
+        "post_loss": 0.17654337831328315,
+        "post_revisions": 0,
+        "pre_loss": 0.01259988967931679,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 357,
+          "recovered": true,
+          "threshold": 0.02519977935863358
+        },
+        "retest_fraction": 0.07333333333333333,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 104,
+          "4": 22
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_opportunity_B0.json.gz": "cb93d23f0ee59074a174c365c9a2dcc6a86e990cd87ff01e835cffdf8f7d8fd5",
+        "71046_opportunity_B0.npy.gz": "f9b052581a568f82cf77633c80f3e783fe25eca66d8f4a12924cc712d3524033"
+      },
+      "summary": {
+        "active_fraction": 0.49125,
+        "activity_cost": 2.358,
+        "case": "opportunity",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "022da32b675be4d448ea3ac24f29da1249b75d57167ac1ab75b693aba77f48fc",
+        "first_prediction_accuracy": 0,
+        "first_retest": {
+          "1": 1,
+          "4": 0
+        },
+        "first_revision": null,
+        "first_spare_use": 13,
+        "late_loss": 0.0011587457118061289,
+        "life_loss": 0.007441090619244182,
+        "method": "B0",
+        "n_actions": 6,
+        "post_active_fraction": 0.439453125,
+        "post_loss": 0.0015990135949611557,
+        "post_revisions": 0,
+        "post_spare_uses": 217,
+        "pre_loss": 0.01176076149314543,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.02352152298629086
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 9,
+          "4": 8
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_opportunity_BE.json.gz": "2425c575cc111ceeace313b55c6195b7df284ae3cf666337a84beb396aed93af",
+        "71046_opportunity_BE.npy.gz": "8fef79f55af6394f182864bab1dd5d55f476cb8d92299e6c340c99866a99a9fb"
+      },
+      "summary": {
+        "active_fraction": 0.5166666666666667,
+        "activity_cost": 2.48,
+        "case": "opportunity",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "81563904994ef2763974e5e9b3efac3a9fcc3f4d5689eccd30f3294b96046ebd",
+        "first_prediction_accuracy": 148,
+        "first_retest": {
+          "1": 149,
+          "4": 148
+        },
+        "first_revision": null,
+        "first_spare_use": 0,
+        "late_loss": 0.0013652534414169265,
+        "life_loss": 0.007537779367786734,
+        "method": "BE",
+        "n_actions": 6,
+        "post_active_fraction": 0.45703125,
+        "post_loss": 0.001133566223521463,
+        "post_revisions": 0,
+        "post_spare_uses": 222,
+        "pre_loss": 0.011686939698062634,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023373879396125268
+        },
+        "retest_fraction": 0.22541666666666665,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 460,
+          "4": 459
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_opportunity_BU.json.gz": "b8d3e37991aaedba9ade8ba9734eda242c76dc19c72f912270fa9e7ad24eb35e",
+        "71046_opportunity_BU.npy.gz": "f9b052581a568f82cf77633c80f3e783fe25eca66d8f4a12924cc712d3524033"
+      },
+      "summary": {
+        "active_fraction": 0.49125,
+        "activity_cost": 2.358,
+        "case": "opportunity",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "de92a97e865ef4af358a6662819ca318a4624c8a6b1ddbed25c131a35531e82d",
+        "first_prediction_accuracy": 0,
+        "first_retest": {
+          "1": 1,
+          "4": 0
+        },
+        "first_revision": null,
+        "first_spare_use": 13,
+        "late_loss": 0.0011587457118061289,
+        "life_loss": 0.007441090619244182,
+        "method": "BU",
+        "n_actions": 6,
+        "post_active_fraction": 0.439453125,
+        "post_loss": 0.0015990135949611557,
+        "post_revisions": 0,
+        "post_spare_uses": 217,
+        "pre_loss": 0.01176076149314543,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.02352152298629086
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 9,
+          "4": 8
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_opportunity_BEU.json.gz": "b312b5a51385ddb65963e939274343d407b7b3387cc8d33a8079250b74366d95",
+        "71046_opportunity_BEU.npy.gz": "8fef79f55af6394f182864bab1dd5d55f476cb8d92299e6c340c99866a99a9fb"
+      },
+      "summary": {
+        "active_fraction": 0.5166666666666667,
+        "activity_cost": 2.48,
+        "case": "opportunity",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "72a2a5bbbc3f9508c2b6d9ab37ae7e1bab7bbdf79fd30b64b49a9f745f764dae",
+        "first_prediction_accuracy": 148,
+        "first_retest": {
+          "1": 149,
+          "4": 148
+        },
+        "first_revision": null,
+        "first_spare_use": 0,
+        "late_loss": 0.0013652534414169265,
+        "life_loss": 0.007537779367786734,
+        "method": "BEU",
+        "n_actions": 6,
+        "post_active_fraction": 0.45703125,
+        "post_loss": 0.001133566223521463,
+        "post_revisions": 0,
+        "post_spare_uses": 222,
+        "pre_loss": 0.011686939698062634,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023373879396125268
+        },
+        "retest_fraction": 0.22541666666666665,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 460,
+          "4": 459
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_opportunity_BR.json.gz": "12a942d030f1fb7aa6a19427244b3887c4e4bc0650989d420be442d927c96609",
+        "71046_opportunity_BR.npy.gz": "a098480379b1e91ebd3a5aa2d092de2e738d9061e1dae8e4ae0761f6980f6793"
+      },
+      "summary": {
+        "active_fraction": 0.5320833333333334,
+        "activity_cost": 2.5540000000000003,
+        "case": "opportunity",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "e1647c7e5d5842a841c9a0830339e6d357a6136151f8f034b80b0b0825430413",
+        "first_prediction_accuracy": 0,
+        "first_retest": {
+          "1": 1,
+          "4": 0
+        },
+        "first_revision": null,
+        "first_spare_use": 15,
+        "late_loss": 0.004096490410623523,
+        "life_loss": 0.009334166193389204,
+        "method": "BR",
+        "n_actions": 6,
+        "post_active_fraction": 0.5,
+        "post_loss": 0.0035165986863044136,
+        "post_revisions": 0,
+        "post_spare_uses": 201,
+        "pre_loss": 0.012246118185007818,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.024492236370015637
+        },
+        "retest_fraction": 0.06833333333333333,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 10,
+          "4": 9
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_noise_pulse_B0.json.gz": "47aa2c47b072f5e6ce43b75be3c0f8ec5051ec6c390e718bc3b4c7393608e70e",
+        "71046_noise_pulse_B0.npy.gz": "bdd987535278fe887e5af85b6465219abab1cc08f0cafc4a8e8af1174a3414ea"
+      },
+      "summary": {
+        "active_fraction": 0.31875,
+        "activity_cost": 1.53,
+        "case": "noise_pulse",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "7f64a9a7f1ef79f1ff4d71e174cc2aa92b023d5e82876413e16a672e615439d6",
+        "first_prediction_accuracy": 1,
+        "first_retest": {
+          "1": 1,
+          "4": 2
+        },
+        "first_revision": null,
+        "late_loss": 0.011541798367453442,
+        "life_loss": 0.012255215247909785,
+        "method": "B0",
+        "n_actions": 5,
+        "post_active_fraction": 0.3203125,
+        "post_loss": 0.013491605340643531,
+        "post_revisions": 0,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 5,
+          "4": 12
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_noise_pulse_BE.json.gz": "0c8d14468023d17fbf0f0bf4d41f849800e50b4732aeca141984f86644d67abc",
+        "71046_noise_pulse_BE.npy.gz": "5fd6e58b70d5783843c8928ca02cdb9406082158d28a3b2a4f05fc178d5dbb04"
+      },
+      "summary": {
+        "active_fraction": 0.36833333333333335,
+        "activity_cost": 1.768,
+        "case": "noise_pulse",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "a25c98145ccad77174d3bf8bcb769681fc6a6ec48e8ff8899335de1528b3af09",
+        "first_prediction_accuracy": 7,
+        "first_retest": {
+          "1": 7,
+          "4": 12
+        },
+        "first_revision": null,
+        "late_loss": 0.013068960359377421,
+        "life_loss": 0.012773313576631947,
+        "method": "BE",
+        "n_actions": 5,
+        "post_active_fraction": 0.37109375,
+        "post_loss": 0.013097045544814558,
+        "post_revisions": 0,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.06958333333333333,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 42,
+          "4": 41
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_noise_pulse_BU.json.gz": "c5b65069460ac19398e9d5f2d31dac4d063dbbeb014f50047c1809756d79a82d",
+        "71046_noise_pulse_BU.npy.gz": "e1101dea202cc49360cca63bbe4bfac9b8decee34fa6eb6dc6812df8d924b08a"
+      },
+      "summary": {
+        "active_fraction": 0.3070833333333333,
+        "activity_cost": 1.474,
+        "case": "noise_pulse",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "07030966b4b5ad01590adc1ede87efbd92dc69f6c1b2cb09739505dabcbc9b60",
+        "first_prediction_accuracy": 1,
+        "first_retest": {
+          "1": 1,
+          "4": 2
+        },
+        "first_revision": 84,
+        "late_loss": 0.01243731991373761,
+        "life_loss": 0.012485579067177777,
+        "method": "BU",
+        "n_actions": 5,
+        "post_active_fraction": 0.271484375,
+        "post_loss": 0.013407794247276261,
+        "post_revisions": 5,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 5,
+          "4": 12
+        },
+        "unaffected_post_revisions": 4,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_noise_pulse_BEU.json.gz": "2f79874dcb6fff5689394543cc1fee57296491cb5cb7de48d8d19a75fc64f765",
+        "71046_noise_pulse_BEU.npy.gz": "d08a89644b3c92c788b271748cf3ea304debf9a737ae67293190538e8809dc62"
+      },
+      "summary": {
+        "active_fraction": 0.365,
+        "activity_cost": 1.752,
+        "case": "noise_pulse",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "ac31404b5d65da6dc34c1e61f335e493a8f29ea81206638cac6c9f9aa2e7db55",
+        "first_prediction_accuracy": 7,
+        "first_retest": {
+          "1": 7,
+          "4": 12
+        },
+        "first_revision": null,
+        "late_loss": 0.012465583273360014,
+        "life_loss": 0.013016437015498665,
+        "method": "BEU",
+        "n_actions": 5,
+        "post_active_fraction": 0.341796875,
+        "post_loss": 0.013293583779730916,
+        "post_revisions": 3,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.06375,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 42,
+          "4": 41
+        },
+        "unaffected_post_revisions": 3,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_noise_pulse_BR.json.gz": "0fd82a9f6e563006a150b44975046cd1003de738a8898b7db20006c5424b790b",
+        "71046_noise_pulse_BR.npy.gz": "06d1132100aae7ddfd22469876fc49e47670f9c49c18d34779fd2d353e540658"
+      },
+      "summary": {
+        "active_fraction": 0.3566666666666667,
+        "activity_cost": 1.712,
+        "case": "noise_pulse",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "be0801a4e2fbbfc8095cf755344c2bc03860833f01a3b5fd765fca5e1eb0b1c7",
+        "first_prediction_accuracy": 0,
+        "first_retest": {
+          "1": 1,
+          "4": 0
+        },
+        "first_revision": null,
+        "late_loss": 0.014421459542212238,
+        "life_loss": 0.014957904334271811,
+        "method": "BR",
+        "n_actions": 5,
+        "post_active_fraction": 0.33984375,
+        "post_loss": 0.01597725767622714,
+        "post_revisions": 0,
+        "pre_loss": 0.01259988967931679,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 151,
+          "recovered": true,
+          "threshold": 0.02519977935863358
+        },
+        "retest_fraction": 0.07333333333333333,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 24,
+          "4": 21
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_visible_shock_B0.json.gz": "d3ba6662c2a7d0d2526d8ac05ca0481a63f9bb47b10114e90aceec30c34f3bf1",
+        "71046_visible_shock_B0.npy.gz": "dbd5d545b204de20d03098109597d5ebc5745690edab894b321e5b2e52f01094"
+      },
+      "summary": {
+        "active_fraction": 0.3175,
+        "activity_cost": 1.524,
+        "case": "visible_shock",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "91a402e7d19b3a18d5bb328ebabef1a7d34a5b468b3557c2eff5afaa4d8b2108",
+        "first_prediction_accuracy": 2,
+        "first_retest": {
+          "1": 56,
+          "4": 2
+        },
+        "first_revision": null,
+        "late_loss": 0.012633927960951577,
+        "life_loss": 0.01259530434830264,
+        "method": "B0",
+        "n_actions": 5,
+        "post_active_fraction": 0.314453125,
+        "post_loss": 0.014299375938249669,
+        "post_revisions": 0,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 129,
+          "recovered": true,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 65,
+          "4": 6
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_visible_shock_BE.json.gz": "005941b777803e50445f0a103a42cb16a4d9d497ab185e17c3f1d5ae1657d775",
+        "71046_visible_shock_BE.npy.gz": "7da4afe4098ff74f71f4fa1f366d9112511dc0cfb34a499fa7d55b8c2b3e1081"
+      },
+      "summary": {
+        "active_fraction": 0.34625,
+        "activity_cost": 1.6620000000000001,
+        "case": "visible_shock",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "b6835a05bc656ac8522f86bd5a4ac4e7473178326ae668e0d770e19d99ab2c1b",
+        "first_prediction_accuracy": 2,
+        "first_retest": {
+          "1": 57,
+          "4": 2
+        },
+        "first_revision": null,
+        "late_loss": 0.013225533863413986,
+        "life_loss": 0.012966917558377403,
+        "method": "BE",
+        "n_actions": 5,
+        "post_active_fraction": 0.279296875,
+        "post_loss": 0.013718349157944742,
+        "post_revisions": 0,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 130,
+          "recovered": true,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.07375,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 66,
+          "4": 6
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_visible_shock_BU.json.gz": "ea2a5497f59c0e650c05445b75823e6b6c4306d266fe47fae71cd0019f3ba818",
+        "71046_visible_shock_BU.npy.gz": "c084dfe0606b1b18c5eba08d0e9a4574942bb9ef1df74faf4e5a5522eee2c73a"
+      },
+      "summary": {
+        "active_fraction": 0.3175,
+        "activity_cost": 1.524,
+        "case": "visible_shock",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "ffd820be6b28c721a366415cd98ac7930c2a5373dbce9de8c97962cc1f236656",
+        "first_prediction_accuracy": 2,
+        "first_retest": {
+          "1": 56,
+          "4": 2
+        },
+        "first_revision": null,
+        "late_loss": 0.012633927960951577,
+        "life_loss": 0.01259530434830264,
+        "method": "BU",
+        "n_actions": 5,
+        "post_active_fraction": 0.314453125,
+        "post_loss": 0.014299375938249669,
+        "post_revisions": 1,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 129,
+          "recovered": true,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 65,
+          "4": 6
+        },
+        "unaffected_post_revisions": 1,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_visible_shock_BEU.json.gz": "489bbb92a0139b7affa635cbcc1327bfa1f9e742f4a635c1cfcb59dfe03c8dc8",
+        "71046_visible_shock_BEU.npy.gz": "7da4afe4098ff74f71f4fa1f366d9112511dc0cfb34a499fa7d55b8c2b3e1081"
+      },
+      "summary": {
+        "active_fraction": 0.34625,
+        "activity_cost": 1.6620000000000001,
+        "case": "visible_shock",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "2ed6de498ff9be41fab3250863d2cad04ad1b0dde6a9ff4536a42269efed45e4",
+        "first_prediction_accuracy": 2,
+        "first_retest": {
+          "1": 57,
+          "4": 2
+        },
+        "first_revision": null,
+        "late_loss": 0.013225533863413986,
+        "life_loss": 0.012966917558377403,
+        "method": "BEU",
+        "n_actions": 5,
+        "post_active_fraction": 0.279296875,
+        "post_loss": 0.013718349157944742,
+        "post_revisions": 0,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 130,
+          "recovered": true,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.07375,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 66,
+          "4": 6
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_visible_shock_BR.json.gz": "fe2be131e28d314741a72378cb64eb5db6e199d1e7f4e2eb0c522f9a930a2a7c",
+        "71046_visible_shock_BR.npy.gz": "1b19b566724afc50ee519aa45a41ed6ee848b41ec02bd94836c998da13d155fa"
+      },
+      "summary": {
+        "active_fraction": 0.36541666666666667,
+        "activity_cost": 1.754,
+        "case": "visible_shock",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "3857f777ba3a73ba1cd7756dd9d8a35b6e730639872ee7a3e40d82bd43d97525",
+        "first_prediction_accuracy": 0,
+        "first_retest": {
+          "1": 23,
+          "4": 0
+        },
+        "first_revision": null,
+        "late_loss": 0.012897844525047856,
+        "life_loss": 0.01439213965025747,
+        "method": "BR",
+        "n_actions": 5,
+        "post_active_fraction": 0.384765625,
+        "post_loss": 0.015594774059249812,
+        "post_revisions": 0,
+        "pre_loss": 0.01259988967931679,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.02519977935863358
+        },
+        "retest_fraction": 0.07333333333333333,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 102,
+          "4": 2
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_recurrence_B0.json.gz": "68496b6d51b288c3a23b47153dcbf9b0a85970253931acacfc891c9b6af7ae0f",
+        "71046_recurrence_B0.npy.gz": "9e89639f2f3058ab1073f5f82eaf8167fa58e61833b645680d38c7cf40c54630"
+      },
+      "summary": {
+        "active_fraction": 0.3179166666666667,
+        "activity_cost": 1.526,
+        "case": "recurrence",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "35b452456fb7d87d4b5280fc7c882dcd12441e170af806a3116388ac85978a61",
+        "first_prediction_accuracy": 770,
+        "first_retest": {
+          "1": 328,
+          "4": 44
+        },
+        "first_revision": null,
+        "late_loss": 0.011297144154421799,
+        "life_loss": 0.1427357873978239,
+        "method": "B0",
+        "n_actions": 5,
+        "post_active_fraction": 0.24609375,
+        "post_loss": 0.5695507251543486,
+        "post_revisions": 0,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 512,
+          "recovered": false,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "return_loss": 0.06542471035026265,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 330,
+          "4": 333
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_recurrence_BE.json.gz": "72c899c4fb998ae6bf6be2bf0ced5bcc017f98e16b8e7177d23cc4b936bb3a51",
+        "71046_recurrence_BE.npy.gz": "ca3b70bc943388739e92cd051201578423b3f3c6f7bf564097fa51e92bc0f068"
+      },
+      "summary": {
+        "active_fraction": 0.34208333333333335,
+        "activity_cost": 1.6420000000000001,
+        "case": "recurrence",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "d74e823caf6fc067c0026f9a8c57b41b03b615271bacde5852a6ab909bcffaff",
+        "first_prediction_accuracy": 578,
+        "first_retest": {
+          "1": 326,
+          "4": 35
+        },
+        "first_revision": null,
+        "late_loss": 0.03715567156003625,
+        "life_loss": 0.14156732058892055,
+        "method": "BE",
+        "n_actions": 5,
+        "post_active_fraction": 0.240234375,
+        "post_loss": 0.5300727751823802,
+        "post_revisions": 0,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 512,
+          "recovered": false,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.06375,
+        "return_loss": 0.08203528143454879,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 328,
+          "4": 325
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_recurrence_BU.json.gz": "85faef9dd764b0adee596516194a8f79e6b5aa335a8b283a96e6a66aaa47439b",
+        "71046_recurrence_BU.npy.gz": "7c1bdaf1f90e32b427076191c1230af3eab180d74ef5e5077b2cb6a975913326"
+      },
+      "summary": {
+        "active_fraction": 0.31,
+        "activity_cost": 1.488,
+        "case": "recurrence",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "45caf70769a9795a0cc77b9ff4a13c4664aebc7991a863a393bbb4793b95b587",
+        "first_prediction_accuracy": 725,
+        "first_retest": {
+          "1": 328,
+          "4": 44
+        },
+        "first_revision": 330,
+        "late_loss": 0.012395754535354398,
+        "life_loss": 0.14460539217485086,
+        "method": "BU",
+        "n_actions": 5,
+        "post_active_fraction": 0.203125,
+        "post_loss": 0.5149337333250266,
+        "post_revisions": 4,
+        "pre_loss": 0.011911598369483668,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 512,
+          "recovered": false,
+          "threshold": 0.023823196738967337
+        },
+        "retest_fraction": 0.0,
+        "return_loss": 0.12858497418216377,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 330,
+          "4": 680
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_recurrence_BEU.json.gz": "9117a273099597c49efb9a3452378000ab8974527847ab355b74f7cc1654c541",
+        "71046_recurrence_BEU.npy.gz": "0fef79dc80591f902aec9c65b0bbabd8ccfb301874b1454f24a14a28234d7d5f"
+      },
+      "summary": {
+        "active_fraction": 0.35083333333333333,
+        "activity_cost": 1.684,
+        "case": "recurrence",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "76e619747682f5e90856f7783bf61f7e8b25dc545aa5ae690f1727de0d2a8b59",
+        "first_prediction_accuracy": 778,
+        "first_retest": {
+          "1": 326,
+          "4": 35
+        },
+        "first_revision": 328,
+        "late_loss": 0.012621102633921666,
+        "life_loss": 0.12493467730267575,
+        "method": "BEU",
+        "n_actions": 5,
+        "post_active_fraction": 0.23828125,
+        "post_loss": 0.4962334272691441,
+        "post_revisions": 6,
+        "pre_loss": 0.011955483147801618,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 512,
+          "recovered": false,
+          "threshold": 0.023910966295603235
+        },
+        "retest_fraction": 0.07291666666666667,
+        "return_loss": 0.05401687846004946,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 328,
+          "4": 325
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "71046_recurrence_BR.json.gz": "6a0829507632da6b9cb3c6f39e14fa7551bebc5291111b654e82538ea1080fc2",
+        "71046_recurrence_BR.npy.gz": "ed901335d85053058780ae55a6d433d949c41c52e64c8ac85290518efecda964"
+      },
+      "summary": {
+        "active_fraction": 0.3591666666666667,
+        "activity_cost": 1.724,
+        "case": "recurrence",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "1fd8e304dc201147a53d25abf3121df22e7e78c8f25779de62b12c1d1143e7fb",
+        "first_prediction_accuracy": 285,
+        "first_retest": {
+          "1": 102,
+          "4": 0
+        },
+        "first_revision": null,
+        "late_loss": 0.09796492866022909,
+        "life_loss": 0.12725810713177962,
+        "method": "BR",
+        "n_actions": 5,
+        "post_active_fraction": 0.31640625,
+        "post_loss": 0.17654337831328315,
+        "post_revisions": 0,
+        "pre_loss": 0.01259988967931679,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 357,
+          "recovered": true,
+          "threshold": 0.02519977935863358
+        },
+        "retest_fraction": 0.07333333333333333,
+        "return_loss": 0.38121726674671685,
+        "seed": 71046,
+        "tau": 1180,
+        "three_new_samples": {
+          "1": 104,
+          "4": 22
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    }
+  ],
+  "seed": 71046
+}

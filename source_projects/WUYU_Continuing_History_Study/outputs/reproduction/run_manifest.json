@@ -1,0 +1,136 @@
+{
+  "cohort": "holdout",
+  "completed_utc": "2026-10-12T04:58:20.123326+00:00",
+  "config": {
+    "action_cost": 0.002,
+    "body_drift": [
+      0.004,
+      0.004
+    ],
+    "body_relaxation": 0.003,
+    "bootstrap_resamples": 5000,
+    "bootstrap_seed": 730131,
+    "calibration": {
+      "choices": "Checkpoint by full-buffer coverage only; N by SD only. No parameter/architecture changes based on effect.",
+      "development_effect_sd": 0.03625872060804058,
+      "expected_halfwidths": {
+        "128": 0.006281502868678007,
+        "256": 0.00444169327448497,
+        "512": 0.0031407514343390034
+      },
+      "formation_coverage_qualified": true,
+      "full_buffer_fraction": 0.90625,
+      "precision_target_expected_met": true
+    },
+    "change_tick": 1600,
+    "checkpoints": [
+      400,
+      800,
+      1200,
+      2000,
+      2400
+    ],
+    "claim_boundaries": "Given two body dimensions, zero setpoint, feature map, affine model class, score, exploration bias, WAIT and action channels. No learned skills, goal-category generation, value-standard formation, social interaction, consciousness, or unseen-physics generalization.",
+    "development_calibration": "Report full-buffer coverage and one-step ground-truth oracle versus uniformly random regret at each diagnostic task. Check feasibility and information; parameters and candidate selection cannot be changed to maximize observed intervention effect. Any implementation fix gets a dated note and affected cohort rerun in new directory.",
+    "development_seeds": {
+      "count": 32,
+      "start": 31000
+    },
+    "exploration_weight": 0.15,
+    "fatigue_penalty": 0.08,
+    "holdout_count_candidates": [
+      128,
+      256,
+      512
+    ],
+    "holdout_seed_start": 41000,
+    "holdout_seeds": {
+      "count": 128,
+      "start": 41000
+    },
+    "interventions": [
+      "retain",
+      "erase_axis0",
+      "erase_axis1",
+      "restore_axis0"
+    ],
+    "life_ticks": 2400,
+    "material_period": 80,
+    "model_window": 24,
+    "noise_sd": 0.003,
+    "precision_selection": "After checkpoint selection, use development SD of S only. Choose smallest count in [128,256,512] with 1.96*SD/sqrt(n)<=0.025. If none, choose 512 and record expected precision shortfall. No holdout-based sample extension.",
+    "precision_target_halfwidth": 0.025,
+    "predictor_comparisons": [
+      "conditional",
+      "action_mean"
+    ],
+    "primary_checkpoint_candidates": [
+      400,
+      800,
+      1200
+    ],
+    "primary_checkpoint_selection": "Earliest candidate at which at least 90% of development individuals have full buffers for all four tools; if none, use 1200 and flag inadequate formation coverage. Never select by intervention effect or candidate winning.",
+    "primary_endpoint": "At the selected checkpoint, paired selective interaction S = ((J(erase0,task0)-J(erase1,task0))+(J(erase1,task1)-J(erase0,task1)))/2. J is the mean squared two-dimensional body deviation after 12 actual actions; positive indicates task-specific rather than generic memory deletion effects.",
+    "primary_interpretation": "Require lower percentile paired-seed bootstrap 95% bound above 0 AND absolute retained/erased/restored outcomes plus predictor selectivity and controls. This is a causal effect of imposed model-memory intervention under this architecture, not a proof of subjective personal history or emergent goals.",
+    "probe_body_level": 0.6,
+    "probe_fatigue": 0.25,
+    "probe_material": 0.5,
+    "probe_tasks": [
+      0,
+      1
+    ],
+    "probe_ticks": 12,
+    "randomness": "Exogenous body noise keyed only by seed, absolute tick and channel; two matched branch worlds share exogenous noise despite different actions. Material schedule deterministic from seed and clock. Decision RNG cloned with agent.",
+    "recording": "All main life events, every checkpoint agent/world state, every diagnostic branch, all model erasures and sample counts, mean-predictor probes, online versus frozen continuation after the hidden change. Every seed and missing formation event stays in denominators.",
+    "ridge": 0.002,
+    "selected_primary_checkpoint": 400,
+    "stopping": "Finite 2400-tick lives. WAIT advances the world. Main lives never reset; only cloned diagnostic worlds have matched body/fatigue/material. Formal protocol and source hashes frozen after development and before holdout. Reproduction uses separate output directory.",
+    "study": "WUYU continuing state and selective learned-history interventions",
+    "training_materials": [
+      0.2,
+      0.8
+    ],
+    "version": 1,
+    "wait_recovery": 0.12,
+    "work_fatigue": 0.045
+  },
+  "diagnostic_branches": 5120,
+  "elapsed_seconds": 79.93865956699938,
+  "output_sha256": {
+    "branches.csv": "8b030d52f529901791d2480b4fa4daf6833a501e46daab8e0ed80b190fbc2670",
+    "checkpoints.jsonl.gz": "753a95a3ea4072988aa938e6073a30547abf2bca601602a2380331599ccc06f8",
+    "events.jsonl.gz": "3117b1b1bf0a2e378f2a7feca05b3f3b30610c7f1ba83c6ab41244d36a9e2987",
+    "final_states.jsonl.gz": "da899da1570e9848f4f42dcde65605cb298e6ac768a7a2d9875cfe17a541321f",
+    "interventions.jsonl.gz": "759c7b1daa702a6d89826fa849119fd1d43f5e5fb6941e2f290b874f0cade744",
+    "life_windows.csv": "bb7b3ae9b558eeb00c257d19a81b3eaa6e6c2cfc0a25198b4bb0bcdcda16968e",
+    "prediction_probes.csv": "31e38b693d78fd8bfeaa2dfb9d875aa6e589bee1e6f218904a6656bd4a4eafca",
+    "predictions.jsonl.gz": "2a464f1d3b67e2df44b123bc0a65b6ad062ef73dcf76b8cf3e720023efec0e9b"
+  },
+  "python": "3.12.14",
+  "rows": {
+    "checkpoints": 768,
+    "events": 471040,
+    "final_states": 256,
+    "interventions": 2560,
+    "predictions": 32000
+  },
+  "seeds": {
+    "count": 128,
+    "start": 41000
+  },
+  "source_sha256": {
+    "DEVELOPMENT_FREEZE.json": "9e309cb54fdedf43c91e07b4075dfee3700da2cf93648fe460e0d72d92c511bb",
+    "GIVEN_AND_LEARNED.md": "21976d6da0a3d7fc0c4605542440e9dd7cdf09073b8ac1fe0fe055a1d699c168",
+    "analyze.py": "29facb1ba77e423b3baa76e99c5a914f0b5bf90299530a996792bc104b639853",
+    "audit.py": "b70bcf8676cd1ab89c59db4fd5f23e6e792fbc956a2eaf69b0c5a39a45de1d45",
+    "calibrate_and_freeze.py": "4f759e3aa5a085cf050500d06e66ded7a0bc5a5870b2a961e36a89ee311981cb",
+    "compare_runs.py": "794782bd5bba383b538eaf42630bd40e580ce9fe1ce37d161378853b91f1715a",
+    "core.py": "f1237d90e8211e1de0c4545e0a55d531af6536247c49d6dc8c82136b1682abbb",
+    "development_protocol.json": "329085530399931becdd5e06b9a42c16913586720ef7d2d6873b6cf9e27c9828",
+    "experiment.py": "11659fff15d0fda48e4cdf98c4b5511e935b5edf3e596f225bfa6de81e3cb505",
+    "run.py": "2e40945c52829c57a1f7e41f5bec1e88df14796c273e44757db1281f10ac191d",
+    "tests/test_mechanisms.py": "75c36f60c63b285bc80087b6b2a8f4782fff273f88c5b236294ae7649149f564"
+  },
+  "started_utc": "2026-10-12T04:57:00.184686+00:00",
+  "status": "complete"
+}

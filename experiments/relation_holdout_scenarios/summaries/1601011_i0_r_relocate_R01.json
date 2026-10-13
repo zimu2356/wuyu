@@ -1,0 +1,75 @@
+{
+  "total_burden": 0.008103264964297103,
+  "challenge_burden": 0.006100087400065272,
+  "late_burden": 0.002383396375260479,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 817,
+  "live_route_denials": 176,
+  "live_structural_denials": 176,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 485,
+  "contradiction_observed": true,
+  "first_denial": 1318,
+  "mean_movement_brier": 0.023202055840340612,
+  "mean_tau": 0.755538284778595,
+  "mean_entropy": 0.6674025238668021,
+  "actor_updates": 80,
+  "mean_kl": 0.2805599868297577,
+  "post_contradiction_denials": 175,
+  "post_contradiction_live_steps": 1241,
+  "recovery_live_steps": 626,
+  "recovery_denials": 77,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.006100087400065272,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601011,
+  "initialization": 0,
+  "mode": "R01",
+  "case": "r_relocate",
+  "elapsed_seconds": 17.32355571900007,
+  "trace_sha256": "4674914fe2cf865c76a5faa02dd3e14ac2ad0fe0faa5358cb170ddd596ff6316",
+  "raw_array_sha256": "e325648cfccfcda8139cb0da6c7eb61e5bdbaa428e526566a7413581b30b046f",
+  "final_state_sha256": "08ff70867de33a902db6bbd54b1a6000316f902843392d75d039ad0215045ab1",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1293,
+      "kind": "route_closed",
+      "blocked_edge": [
+        5,
+        0
+      ]
+    },
+    {
+      "tick": 1934,
+      "kind": "route_relocated",
+      "blocked_edge": [
+        0,
+        1
+      ]
+    }
+  ],
+  "change_tick": 1293,
+  "recovery_tick": 1934,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

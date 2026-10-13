@@ -1,0 +1,40 @@
+{
+  "coordination": {
+    "learned": 0.6440015051265096,
+    "truth": 0.011535462185425317
+  },
+  "n": 32,
+  "predictor_before": {
+    "body_fatigue_extrapolation": {
+      "conditional_mse": 0.19709613739140325,
+      "coverage": 1.3165078164751147,
+      "mean_mse": 0.013593712586058182
+    },
+    "boundary": {
+      "conditional_mse": 0.297393592402419,
+      "coverage": 1.5619783679018184,
+      "mean_mse": 0.013026287858279145
+    },
+    "material_interpolation": {
+      "conditional_mse": 0.027173254524431423,
+      "coverage": 0.3022028318494553,
+      "mean_mse": 0.02499557963957614
+    },
+    "recorded_support": {
+      "conditional_mse": 0.023715533900077856,
+      "coverage": 0.0,
+      "mean_mse": 0.02558277497630007
+    }
+  },
+  "recovered_checkpoints": 32,
+  "same_data_mse": {
+    "FIFO": 0.003939508800975468,
+    "calendar_decay": 0.0023200307466689596,
+    "local_revision": 0.003746572868032996
+  },
+  "sampling": {
+    "oldest": 0.5266077361384208,
+    "policy_ranked_tools": 0.6858572070169892,
+    "round_robin": 0.5412952716961369
+  }
+}

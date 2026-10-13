@@ -1,0 +1,67 @@
+{
+  "total_burden": 0.3011784431025427,
+  "challenge_burden": 0.4916526804980528,
+  "late_burden": 1.6777998847656388,
+  "final_alive": false,
+  "alive_fraction": 0.915625,
+  "live_steps": 2345,
+  "movement_attempts": 712,
+  "live_route_denials": 521,
+  "live_structural_denials": 521,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 91,
+  "contradiction_observed": true,
+  "first_denial": 1711,
+  "mean_movement_brier": 0.004929045079146269,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.24120929988830037,
+  "actor_updates": 74,
+  "mean_kl": 0.025385156273841858,
+  "post_contradiction_denials": 520,
+  "post_contradiction_live_steps": 633,
+  "recovery_live_steps": 400,
+  "recovery_denials": 400,
+  "death_tick": 2344,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.4916526804980528,
+  "extended_burden": null,
+  "alive_at_2560": false,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601015,
+  "initialization": 0,
+  "mode": "R00",
+  "case": "r_block",
+  "elapsed_seconds": 16.83387033999952,
+  "trace_sha256": "39e3e23cb422c23b760efea062fe708d80053910215fa90e5033bc2251f2863c",
+  "raw_array_sha256": "b76a4cd8b6ce4073042bb7c79b832d58f8c4590543d9bd2a80e666ce2fb2f74f",
+  "final_state_sha256": "7ff98cf170c8049792fe5ac4736fdaf0925493cc52d464ab282f2a4da76b0d65",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1351,
+      "kind": "route_closed",
+      "blocked_edge": [
+        2,
+        3
+      ]
+    }
+  ],
+  "change_tick": 1351,
+  "recovery_tick": 1945,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

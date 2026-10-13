@@ -1,0 +1,43 @@
+{
+  "job": {
+    "profile": "whole",
+    "mode": "A",
+    "case": "r_noise",
+    "seed": 1770100,
+    "horizon": 2560,
+    "initialization": 0,
+    "requested_steps": 2560,
+    "kind": "registered_configuration",
+    "id": "077_whole_A_r_noise_i0_registered_configuration"
+  },
+  "passed": true,
+  "initial_state_sha256": "f3fa03d6724d95b10e4df0828602b6fb0317f5c655186b0630fa9e2bc5f58dce",
+  "checkpoint_event": 73,
+  "pending_actor_samples": null,
+  "exact_resume_future_events": 55,
+  "exact_resume": true,
+  "declared_end_is_stable": true,
+  "events": 2560,
+  "action_stream_sha256": "a836f0d99a2714b573aac5d5815e90619826bb9eaa5ed3ba7214407f4cd7539d",
+  "final_state_sha256": "601079607eb3e035156d713fa56f00906cae813da34204f5fcc66aaf0d05bf01",
+  "mechanisms": {
+    "live_transitions": 2560,
+    "dead_transitions": 0,
+    "revisions": 2,
+    "actual_relation_updates": 93,
+    "products": 807,
+    "route_denied": 8,
+    "memory_updates": 2463,
+    "learned_skill_completions": 808,
+    "neural_seen": 2560,
+    "neural_replay_updates": 2559,
+    "evidence_updates": 2560,
+    "actor_updates": 0,
+    "relations_observed": 93,
+    "old_graph_weights_unchanged": true,
+    "relation_read": false,
+    "final_alive": true,
+    "mean_body_burden": 0.03581541751593837
+  },
+  "seconds": 6.472
+}

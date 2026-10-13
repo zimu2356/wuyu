@@ -1,0 +1,436 @@
+{
+  "averages": {
+    "challenge": {
+      "A": {
+        "challenge_burden": 0.8557844887626357,
+        "total_burden": 0.55498162950785,
+        "final_alive": 0.2109375,
+        "alive_fraction": 0.7721649169921875,
+        "blocked_takes": 189.375,
+        "route_denials": 642.953125,
+        "lost_yield_takes": 3.8515625,
+        "changes_vs_base": 0.0,
+        "mean_kl": 0.0,
+        "low_benefit_body_productions": 212.5546875,
+        "completed_return_windows": 0.140625,
+        "both_dependent_token_roles_experienced": 0.859375,
+        "actor_updates": 0.0,
+        "mean_prediction_mse": 0.03736740316252007,
+        "elapsed_seconds": 4.812580338062485,
+        "lives": 128,
+        "survivors": 27,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.9497655280312578,
+            "survivors": 12
+          },
+          "1": {
+            "challenge_burden": 0.7618034494940137,
+            "survivors": 15
+          }
+        }
+      },
+      "B": {
+        "challenge_burden": 0.8619554047208131,
+        "total_burden": 0.5539131791476747,
+        "final_alive": 0.234375,
+        "alive_fraction": 0.7708160400390625,
+        "blocked_takes": 176.3203125,
+        "route_denials": 694.84375,
+        "lost_yield_takes": 2.6796875,
+        "changes_vs_base": 51.421875,
+        "mean_kl": 0.00633171783420039,
+        "low_benefit_body_productions": 205.734375,
+        "completed_return_windows": 0.1953125,
+        "both_dependent_token_roles_experienced": 0.875,
+        "actor_updates": 61.8984375,
+        "mean_prediction_mse": 0.03821228652478015,
+        "elapsed_seconds": 5.927949759890609,
+        "lives": 128,
+        "survivors": 30,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.9369899161236981,
+            "survivors": 15
+          },
+          "1": {
+            "challenge_burden": 0.7869208933179284,
+            "survivors": 15
+          }
+        }
+      },
+      "C": {
+        "challenge_burden": 0.8048392258804129,
+        "total_burden": 0.5194141926642338,
+        "final_alive": 0.2578125,
+        "alive_fraction": 0.7905364990234374,
+        "blocked_takes": 152.2578125,
+        "route_denials": 686.5625,
+        "lost_yield_takes": 3.2109375,
+        "changes_vs_base": 58.6171875,
+        "mean_kl": 0.008819322519684647,
+        "low_benefit_body_productions": 207.8046875,
+        "completed_return_windows": 0.1328125,
+        "both_dependent_token_roles_experienced": 0.859375,
+        "actor_updates": 63.5078125,
+        "mean_prediction_mse": 0.03843160833783759,
+        "elapsed_seconds": 6.184846850679669,
+        "lives": 128,
+        "survivors": 33,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.8338064766081786,
+            "survivors": 18
+          },
+          "1": {
+            "challenge_burden": 0.7758719751526473,
+            "survivors": 15
+          }
+        }
+      },
+      "D": {
+        "challenge_burden": 0.8471049453527286,
+        "total_burden": 0.549585631463179,
+        "final_alive": 0.2734375,
+        "alive_fraction": 0.773150634765625,
+        "blocked_takes": 190.015625,
+        "route_denials": 683.6953125,
+        "lost_yield_takes": 3.0234375,
+        "changes_vs_base": 55.171875,
+        "mean_kl": 0.007786368937104271,
+        "low_benefit_body_productions": 206.03125,
+        "completed_return_windows": 0.1484375,
+        "both_dependent_token_roles_experienced": 0.8515625,
+        "actor_updates": 62.0546875,
+        "mean_prediction_mse": 0.03771769650277483,
+        "elapsed_seconds": 6.084562293492137,
+        "lives": 128,
+        "survivors": 35,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.9028573861665382,
+            "survivors": 17
+          },
+          "1": {
+            "challenge_burden": 0.7913525045389191,
+            "survivors": 18
+          }
+        }
+      }
+    },
+    "stable": {
+      "A": {
+        "challenge_burden": 0.01164413869822262,
+        "total_burden": 0.01307169772018513,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "blocked_takes": 0.0,
+        "route_denials": 0.0,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 0.0,
+        "mean_kl": 0.0,
+        "low_benefit_body_productions": 753.4296875,
+        "completed_return_windows": 0.0,
+        "both_dependent_token_roles_experienced": 0.0,
+        "actor_updates": 0.0,
+        "mean_prediction_mse": 0.020850877199222243,
+        "elapsed_seconds": 5.046191925453119,
+        "lives": 128,
+        "survivors": 128,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.01330377829172907,
+            "survivors": 64
+          },
+          "1": {
+            "challenge_burden": 0.009984499104716174,
+            "survivors": 64
+          }
+        }
+      },
+      "B": {
+        "challenge_burden": 0.004999211910044679,
+        "total_burden": 0.008920742144074036,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "blocked_takes": 0.0,
+        "route_denials": 0.0,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 115.1171875,
+        "mean_kl": 0.027776832135714358,
+        "low_benefit_body_productions": 689.34375,
+        "completed_return_windows": 0.0,
+        "both_dependent_token_roles_experienced": 0.0,
+        "actor_updates": 80.0,
+        "mean_prediction_mse": 0.024158199409268048,
+        "elapsed_seconds": 6.197905718312494,
+        "lives": 128,
+        "survivors": 128,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.006085745418193137,
+            "survivors": 64
+          },
+          "1": {
+            "challenge_burden": 0.003912678401896222,
+            "survivors": 64
+          }
+        }
+      },
+      "C": {
+        "challenge_burden": 0.0047298656039431956,
+        "total_burden": 0.008723912540894099,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "blocked_takes": 0.0,
+        "route_denials": 0.0,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 125.625,
+        "mean_kl": 0.032458797923027305,
+        "low_benefit_body_productions": 684.03125,
+        "completed_return_windows": 0.0,
+        "both_dependent_token_roles_experienced": 0.0,
+        "actor_updates": 80.0,
+        "mean_prediction_mse": 0.024340222750069477,
+        "elapsed_seconds": 6.2157006348359545,
+        "lives": 128,
+        "survivors": 128,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.0057984159471644765,
+            "survivors": 64
+          },
+          "1": {
+            "challenge_burden": 0.003661315260721913,
+            "survivors": 64
+          }
+        }
+      },
+      "D": {
+        "challenge_burden": 0.004938268874054311,
+        "total_burden": 0.008695420336762034,
+        "final_alive": 1.0,
+        "alive_fraction": 1.0,
+        "blocked_takes": 0.0,
+        "route_denials": 0.0,
+        "lost_yield_takes": 0.0,
+        "changes_vs_base": 119.3359375,
+        "mean_kl": 0.029565911881945794,
+        "low_benefit_body_productions": 687.0546875,
+        "completed_return_windows": 0.0,
+        "both_dependent_token_roles_experienced": 0.0,
+        "actor_updates": 80.0,
+        "mean_prediction_mse": 0.024258895281737088,
+        "elapsed_seconds": 6.221249962874982,
+        "lives": 128,
+        "survivors": 128,
+        "per_initialization": {
+          "0": {
+            "challenge_burden": 0.006040441548564278,
+            "survivors": 64
+          },
+          "1": {
+            "challenge_burden": 0.003836096199544342,
+            "survivors": 64
+          }
+        }
+      }
+    }
+  },
+  "primary": [
+    {
+      "case": "challenge",
+      "contrast": "D-A",
+      "metric": "challenge_burden",
+      "delta": -0.008679543409907075,
+      "ci95": [
+        -0.11106493499586788,
+        0.08809780939969218
+      ],
+      "world_sd": 0.4161093114826047,
+      "n_worlds": 64,
+      "paired_differences": [
+        0.653963286911625,
+        0.05899072246188197,
+        -0.07872323055084385,
+        -0.012633185955406273,
+        0.016606949070249975,
+        -0.05697422507509939,
+        0.924427534625716,
+        -0.008516484182454431,
+        0.04467322997372691,
+        0.36838568475416733,
+        0.01870847316275892,
+        0.0218338366934554,
+        0.0402671302455726,
+        -0.2729645724357626,
+        0.3728929611240799,
+        -0.05495088021793082,
+        0.09206548113463553,
+        0.008039367690432009,
+        0.3990012509066694,
+        -0.0007921206306974252,
+        -0.04703462065443009,
+        -0.9694799484642843,
+        0.007309956174316623,
+        -0.07257948397135583,
+        0.0009038055632157871,
+        0.38041318001295044,
+        -0.010977153380534066,
+        -0.2443810867773375,
+        0.6558271020162677,
+        0.04066691768173869,
+        0.027599457587074827,
+        0.10265698407936186,
+        -0.014813339103028608,
+        0.13395094649006656,
+        -0.5007019623432265,
+        -0.5032949464600633,
+        -0.08999865214042524,
+        -0.1070608421436231,
+        -0.02068221895527622,
+        1.0549209773053274,
+        0.4569981791655586,
+        -0.00554106884332628,
+        0.4405683111273435,
+        -0.9800507726894202,
+        -0.006736093637046636,
+        0.10756699289453264,
+        -0.3892928762853509,
+        0.24332624076005593,
+        -0.052883952069563867,
+        -0.021558645923665853,
+        0.4281140299323559,
+        0.003994215489586672,
+        -1.467035854572427,
+        0.0013178795393861131,
+        0.031991624960938714,
+        -0.9230167338883419,
+        0.4108287153318888,
+        -0.41159165092773553,
+        -0.1481557837210396,
+        0.31371368710976166,
+        -0.7703826970065002,
+        -0.06836602535468783,
+        -0.09125177974153831,
+        -0.015593002108327925
+      ]
+    },
+    {
+      "case": "stable",
+      "contrast": "D-A",
+      "metric": "challenge_burden",
+      "delta": -0.0067058698241683114,
+      "ci95": [
+        -0.007493000111773633,
+        -0.005910485367411646
+      ],
+      "world_sd": 0.0032399106433854004,
+      "n_worlds": 64,
+      "paired_differences": [
+        -0.007686420166016188,
+        -0.009827301539713904,
+        -0.004654238929036844,
+        -0.0015364340917969734,
+        -0.011505019781901838,
+        -0.0018371915429687032,
+        -0.01089349957031334,
+        -0.006917205826823468,
+        -0.004608575846354317,
+        -0.01143395953776104,
+        -0.006512726542968942,
+        -0.010413657770183002,
+        -0.0020191233138020384,
+        -0.005328047369792219,
+        -0.006965553717448362,
+        -0.004447157809245228,
+        -0.008350134176432957,
+        -0.0038891344238282197,
+        -0.008064150764974617,
+        -0.008464101341146849,
+        -0.014130499720053105,
+        -0.004038613053385761,
+        -0.009424832643229816,
+        -0.0028672203743490814,
+        -0.00653124292968791,
+        -0.0035629469921875153,
+        -0.0017272477962240454,
+        -0.0020842926367192214,
+        -0.0045069746907555825,
+        -0.005992747542318522,
+        -0.008026345133463841,
+        -0.005919225963542085,
+        -0.013560450117188618,
+        -0.010447756334635523,
+        -0.009358313688151891,
+        -0.00621857337890656,
+        -0.010757735022787356,
+        -0.005355992711588722,
+        -0.0023045303190104647,
+        -0.009171101705729786,
+        -0.013236381725261277,
+        -0.009761591809896348,
+        -0.004615048505859959,
+        -0.004736669033203399,
+        -0.007814944788411635,
+        0.0004791757714846887,
+        -0.003813194720052302,
+        -0.004232681861979364,
+        -0.005511798277995147,
+        -0.006855721875000605,
+        -0.00494654175781292,
+        -0.011187718375651676,
+        -0.007132669814453617,
+        -0.006565470481771244,
+        -0.006420892483722929,
+        -0.006416340836588905,
+        -0.004510206647135648,
+        -0.006050687151693181,
+        -0.004442835882161896,
+        -0.010234566601563539,
+        -0.004449244716796971,
+        -0.01208317449218837,
+        -0.006044801653646433,
+        -0.007251384208984798
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "case": "challenge",
+      "mode": "C",
+      "checkpoints": 32,
+      "alive_checkpoints": 27,
+      "exact_restores": 32,
+      "matched_donors": 31,
+      "suppressed": {
+        "mean_burden_delta": -0.0006974669231934803,
+        "mean_action_changes": 2.875,
+        "changed_checkpoints": 5
+      },
+      "matched_history": {
+        "mean_burden_delta": 0.0,
+        "mean_action_changes": 0.0,
+        "changed_checkpoints": 0
+      }
+    },
+    {
+      "case": "challenge",
+      "mode": "D",
+      "checkpoints": 32,
+      "alive_checkpoints": 27,
+      "exact_restores": 32,
+      "matched_donors": 32,
+      "suppressed": {
+        "mean_burden_delta": -0.002194337248535285,
+        "mean_action_changes": 0.84375,
+        "changed_checkpoints": 2
+      },
+      "matched_history": {
+        "mean_burden_delta": 0.0,
+        "mean_action_changes": 0.0,
+        "changed_checkpoints": 0
+      }
+    }
+  ]
+}

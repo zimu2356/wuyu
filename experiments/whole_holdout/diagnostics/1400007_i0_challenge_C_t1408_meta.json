@@ -1,0 +1,39 @@
+{
+  "tick": 1408,
+  "alive": true,
+  "parent_state_sha256": "d0b755f54952e118909482722b6508ab05c639cd2e16b2ed463204c485b4a1ee",
+  "exact_restore": true,
+  "parent_unchanged": true,
+  "branches": {
+    "intact": {
+      "mean_burden": 0.04312016558593887,
+      "final_alive": true,
+      "params_frozen": true,
+      "action_differences_vs_intact": 0
+    },
+    "suppressed": {
+      "mean_burden": 0.04311454054687637,
+      "final_alive": true,
+      "params_frozen": true,
+      "action_differences_vs_intact": 2
+    },
+    "matched_history": {
+      "mean_burden": 0.04312016558593887,
+      "final_alive": true,
+      "params_frozen": true,
+      "action_differences_vs_intact": 0
+    },
+    "restored": {
+      "mean_burden": 0.04312016558593887,
+      "final_alive": true,
+      "params_frozen": true,
+      "action_differences_vs_intact": 0
+    }
+  },
+  "donor_available": true,
+  "donor_tick": 1398,
+  "donor_observation_distance": 0.24067405344157897,
+  "donor_state_distance": 0.005676198984470456,
+  "suppression_distance": 1.753868599920585,
+  "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+}

@@ -1,0 +1,119 @@
+{
+  "cohort": "development",
+  "completed_utc": "2026-10-12T04:54:15.443630+00:00",
+  "config": {
+    "action_cost": 0.002,
+    "body_drift": [
+      0.004,
+      0.004
+    ],
+    "body_relaxation": 0.003,
+    "bootstrap_resamples": 5000,
+    "bootstrap_seed": 730131,
+    "change_tick": 1600,
+    "checkpoints": [
+      400,
+      800,
+      1200,
+      2000,
+      2400
+    ],
+    "claim_boundaries": "Given two body dimensions, zero setpoint, feature map, affine model class, score, exploration bias, WAIT and action channels. No learned skills, goal-category generation, value-standard formation, social interaction, consciousness, or unseen-physics generalization.",
+    "development_calibration": "Report full-buffer coverage and one-step ground-truth oracle versus uniformly random regret at each diagnostic task. Check feasibility and information; parameters and candidate selection cannot be changed to maximize observed intervention effect. Any implementation fix gets a dated note and affected cohort rerun in new directory.",
+    "development_seeds": {
+      "count": 32,
+      "start": 31000
+    },
+    "exploration_weight": 0.15,
+    "fatigue_penalty": 0.08,
+    "holdout_count_candidates": [
+      128,
+      256,
+      512
+    ],
+    "holdout_seed_start": 41000,
+    "interventions": [
+      "retain",
+      "erase_axis0",
+      "erase_axis1",
+      "restore_axis0"
+    ],
+    "life_ticks": 2400,
+    "material_period": 80,
+    "model_window": 24,
+    "noise_sd": 0.003,
+    "precision_selection": "After checkpoint selection, use development SD of S only. Choose smallest count in [128,256,512] with 1.96*SD/sqrt(n)<=0.025. If none, choose 512 and record expected precision shortfall. No holdout-based sample extension.",
+    "precision_target_halfwidth": 0.025,
+    "predictor_comparisons": [
+      "conditional",
+      "action_mean"
+    ],
+    "primary_checkpoint_candidates": [
+      400,
+      800,
+      1200
+    ],
+    "primary_checkpoint_selection": "Earliest candidate at which at least 90% of development individuals have full buffers for all four tools; if none, use 1200 and flag inadequate formation coverage. Never select by intervention effect or candidate winning.",
+    "primary_endpoint": "At the selected checkpoint, paired selective interaction S = ((J(erase0,task0)-J(erase1,task0))+(J(erase1,task1)-J(erase0,task1)))/2. J is the mean squared two-dimensional body deviation after 12 actual actions; positive indicates task-specific rather than generic memory deletion effects.",
+    "primary_interpretation": "Require lower percentile paired-seed bootstrap 95% bound above 0 AND absolute retained/erased/restored outcomes plus predictor selectivity and controls. This is a causal effect of imposed model-memory intervention under this architecture, not a proof of subjective personal history or emergent goals.",
+    "probe_body_level": 0.6,
+    "probe_fatigue": 0.25,
+    "probe_material": 0.5,
+    "probe_tasks": [
+      0,
+      1
+    ],
+    "probe_ticks": 12,
+    "randomness": "Exogenous body noise keyed only by seed, absolute tick and channel; two matched branch worlds share exogenous noise despite different actions. Material schedule deterministic from seed and clock. Decision RNG cloned with agent.",
+    "recording": "All main life events, every checkpoint agent/world state, every diagnostic branch, all model erasures and sample counts, mean-predictor probes, online versus frozen continuation after the hidden change. Every seed and missing formation event stays in denominators.",
+    "ridge": 0.002,
+    "stopping": "Finite 2400-tick lives. WAIT advances the world. Main lives never reset; only cloned diagnostic worlds have matched body/fatigue/material. Formal protocol and source hashes frozen after development and before holdout. Reproduction uses separate output directory.",
+    "study": "WUYU continuing state and selective learned-history interventions",
+    "training_materials": [
+      0.2,
+      0.8
+    ],
+    "version": 1,
+    "wait_recovery": 0.12,
+    "work_fatigue": 0.045
+  },
+  "diagnostic_branches": 1280,
+  "elapsed_seconds": 20.632740832999843,
+  "output_sha256": {
+    "branches.csv": "a43c8fa339800b27921b214fc22564b32c3c1a4796ce6b7b2adc5196f733e4e5",
+    "checkpoints.jsonl.gz": "907a2b99449eb3449f09317bf5f9279a1d636a6a02251b3bd66ec392d94f9fca",
+    "events.jsonl.gz": "1dc53bca5c72e809cbd812cce1b1f9cbf1c2f78f88c4e4e0b84373d0b79af2f6",
+    "final_states.jsonl.gz": "acb5c04439e204fcffe0d6e03fdc26c3b009013c80c09eb82a294d4ab0ba2e2f",
+    "interventions.jsonl.gz": "72489359b8a645f97a241f9c19e68d68494e91b30dbe9a453d1a3496d60a06e3",
+    "life_windows.csv": "4ef927d81de61b432c80c5f1ea8357e743f9352e085d60c3ca76dcfdcd1f25f3",
+    "prediction_probes.csv": "822f847baf05de1101f3dd7da0710064d4ae90a2f357c29b79035c223b8284d2",
+    "predictions.jsonl.gz": "4d828ffdb3dfed83c0a04c9cc6f990fa755e94d30b26214c9c57ff8719d66393"
+  },
+  "python": "3.12.14",
+  "rows": {
+    "checkpoints": 192,
+    "events": 117760,
+    "final_states": 64,
+    "interventions": 640,
+    "predictions": 8000
+  },
+  "seeds": {
+    "count": 32,
+    "start": 31000
+  },
+  "source_sha256": {
+    "DEVELOPMENT_FREEZE.json": "9e309cb54fdedf43c91e07b4075dfee3700da2cf93648fe460e0d72d92c511bb",
+    "GIVEN_AND_LEARNED.md": "21976d6da0a3d7fc0c4605542440e9dd7cdf09073b8ac1fe0fe055a1d699c168",
+    "analyze.py": "29facb1ba77e423b3baa76e99c5a914f0b5bf90299530a996792bc104b639853",
+    "audit.py": "b70bcf8676cd1ab89c59db4fd5f23e6e792fbc956a2eaf69b0c5a39a45de1d45",
+    "calibrate_and_freeze.py": "4f759e3aa5a085cf050500d06e66ded7a0bc5a5870b2a961e36a89ee311981cb",
+    "compare_runs.py": "794782bd5bba383b538eaf42630bd40e580ce9fe1ce37d161378853b91f1715a",
+    "core.py": "f1237d90e8211e1de0c4545e0a55d531af6536247c49d6dc8c82136b1682abbb",
+    "development_protocol.json": "329085530399931becdd5e06b9a42c16913586720ef7d2d6873b6cf9e27c9828",
+    "experiment.py": "11659fff15d0fda48e4cdf98c4b5511e935b5edf3e596f225bfa6de81e3cb505",
+    "run.py": "2e40945c52829c57a1f7e41f5bec1e88df14796c273e44757db1281f10ac191d",
+    "tests/test_mechanisms.py": "75c36f60c63b285bc80087b6b2a8f4782fff273f88c5b236294ae7649149f564"
+  },
+  "started_utc": "2026-10-12T04:53:54.810910+00:00",
+  "status": "complete"
+}

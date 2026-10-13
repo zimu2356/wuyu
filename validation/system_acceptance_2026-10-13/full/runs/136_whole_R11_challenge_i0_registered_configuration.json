@@ -1,0 +1,43 @@
+{
+  "job": {
+    "profile": "whole",
+    "mode": "R11",
+    "case": "challenge",
+    "seed": 1770100,
+    "horizon": 2560,
+    "initialization": 0,
+    "requested_steps": 2560,
+    "kind": "registered_configuration",
+    "id": "136_whole_R11_challenge_i0_registered_configuration"
+  },
+  "passed": true,
+  "initial_state_sha256": "83016445aff9ce6f95f1c73eac396313513f68a5809e48f4382377e476f696ea",
+  "checkpoint_event": 73,
+  "pending_actor_samples": 9,
+  "exact_resume_future_events": 55,
+  "exact_resume": true,
+  "declared_end_is_stable": true,
+  "events": 2560,
+  "action_stream_sha256": "6fd21d5916841997267b5d963b400b850419d07f5f5a5a109c60204c97ce13e5",
+  "final_state_sha256": "2b8d57f3a9d1c3fd519f698cd753ed8ec337b5df275b04ec910ab92fbf1432b5",
+  "mechanisms": {
+    "live_transitions": 2560,
+    "dead_transitions": 0,
+    "revisions": 2,
+    "actual_relation_updates": 1082,
+    "products": 470,
+    "route_denied": 44,
+    "memory_updates": 1462,
+    "learned_skill_completions": 471,
+    "neural_seen": 2560,
+    "neural_replay_updates": 2559,
+    "evidence_updates": 2560,
+    "actor_updates": 80,
+    "relations_observed": 1082,
+    "old_graph_weights_unchanged": true,
+    "relation_read": true,
+    "final_alive": true,
+    "mean_body_burden": 0.05157155266875081
+  },
+  "seconds": 9.07
+}

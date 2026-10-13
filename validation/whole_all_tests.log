@@ -1,0 +1,35 @@
+test_all_combined_mechanisms_resume_exact_future (test_unified.IntegrationTests.test_all_combined_mechanisms_resume_exact_future) ... ok
+test_all_profiles_resume_same_future (test_unified.IntegrationTests.test_all_profiles_resume_same_future) ... ok
+test_checkpoint_tampering_is_detected (test_unified.IntegrationTests.test_checkpoint_tampering_is_detected) ... ok
+test_cli_cross_process_resume_is_byte_identical (test_unified.IntegrationTests.test_cli_cross_process_resume_is_byte_identical) ... ok
+test_combined_decisions_and_probes_do_not_train_or_advance_rng (test_unified.IntegrationTests.test_combined_decisions_and_probes_do_not_train_or_advance_rng) ... ok
+test_complete_typed_state_preserves_rng_and_tuple_keys (test_unified.IntegrationTests.test_complete_typed_state_preserves_rng_and_tuple_keys) ... ok
+test_continuing_history_adapter_matches_original_feedback_order (test_unified.IntegrationTests.test_continuing_history_adapter_matches_original_feedback_order) ... ok
+test_declared_horizon_is_enforced_without_reset (test_unified.IntegrationTests.test_declared_horizon_is_enforced_without_reset) ... ok
+test_exploration_preserves_actual_history_and_body_reset (test_unified.IntegrationTests.test_exploration_preserves_actual_history_and_body_reset) ... ok
+test_fork_erases_only_selected_model_and_parent_is_unchanged (test_unified.IntegrationTests.test_fork_erases_only_selected_model_and_parent_is_unchanged) ... ok
+test_generic_evidence_model_matches_original_including_revisions (test_unified.IntegrationTests.test_generic_evidence_model_matches_original_including_revisions) ... ok
+test_goal_horizon_cannot_silently_replace_native_episode_semantics (test_unified.IntegrationTests.test_goal_horizon_cannot_silently_replace_native_episode_semantics) ... ok
+test_goal_profile_matches_original_all_variants_and_cases (test_unified.IntegrationTests.test_goal_profile_matches_original_all_variants_and_cases) ... ok
+test_legacy_adapters_match_all_eight_native_futures (test_unified.IntegrationTests.test_legacy_adapters_match_all_eight_native_futures) ... ok
+test_migrate08_preserves_declared_content_and_records_rng_change (test_unified.IntegrationTests.test_migrate08_preserves_declared_content_and_records_rng_change) ... ok
+test_native_history_import_rejoins_exact_continuation (test_unified.IntegrationTests.test_native_history_import_rejoins_exact_continuation) ... ok
+test_native_revision_import_matches_original_continuation (test_unified.IntegrationTests.test_native_revision_import_matches_original_continuation) ... ok
+test_original_scientific_sources_unchanged (test_unified.IntegrationTests.test_original_scientific_sources_unchanged) ... ok
+test_source_lock_rejects_silent_implementation_change (test_unified.IntegrationTests.test_source_lock_rejects_silent_implementation_change) ... ok
+test_workshop_only_actual_action_receives_evidence_after_feedback (test_unified.IntegrationTests.test_workshop_only_actual_action_receives_evidence_after_feedback) ... ok
+test_workshop_shadow_keeps_native_policy_body_and_memory (test_unified.IntegrationTests.test_workshop_shadow_keeps_native_policy_body_and_memory) ... ok
+test_workshop_visible_prediction_is_pure_and_schema_checked (test_unified.IntegrationTests.test_workshop_visible_prediction_is_pure_and_schema_checked) ... ok
+test_actor_gradients_all_cells_against_finite_differences (test_whole.WholeTests.test_actor_gradients_all_cells_against_finite_differences) ... ok
+test_cross_device_stage_is_not_progress_in_either_predictor (test_whole.WholeTests.test_cross_device_stage_is_not_progress_in_either_predictor) ... ok
+test_dead_is_absorbing_and_actor_stops_training (test_whole.WholeTests.test_dead_is_absorbing_and_actor_stops_training) ... ok
+test_decision_reads_are_pure (test_whole.WholeTests.test_decision_reads_are_pure) ... ok
+test_explicit_old_migration_relabels_real_history (test_whole.WholeTests.test_explicit_old_migration_relabels_real_history) ... ok
+test_full_resume_mid_multistep_buffer_and_diagnostic_parent (test_whole.WholeTests.test_full_resume_mid_multistep_buffer_and_diagnostic_parent) ... ok
+test_world_route_cost_yield_and_continuous_debits (test_whole.WholeTests.test_world_route_cost_yield_and_continuous_debits) ... ok
+test_zero_residual_recovers_base_and_counts_match (test_whole.WholeTests.test_zero_residual_recovers_base_and_counts_match) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 16.426s
+
+OK

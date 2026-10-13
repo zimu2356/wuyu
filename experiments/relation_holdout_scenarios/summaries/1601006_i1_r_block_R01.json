@@ -1,0 +1,67 @@
+{
+  "total_burden": 0.0033812692891015917,
+  "challenge_burden": 0.003034109707487027,
+  "late_burden": 0.0015271297981770988,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 545,
+  "live_route_denials": 68,
+  "live_structural_denials": 68,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 296,
+  "contradiction_observed": true,
+  "first_denial": 1310,
+  "mean_movement_brier": 0.0271841391536547,
+  "mean_tau": 0.8392617106437683,
+  "mean_entropy": 0.5311326776875008,
+  "actor_updates": 80,
+  "mean_kl": 0.09317980706691742,
+  "post_contradiction_denials": 67,
+  "post_contradiction_live_steps": 1249,
+  "recovery_live_steps": 452,
+  "recovery_denials": 19,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.003034109707487027,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601006,
+  "initialization": 1,
+  "mode": "R01",
+  "case": "r_block",
+  "elapsed_seconds": 8.240863679999165,
+  "trace_sha256": "e9a18d7182fd1273d292a13491da1fcea241721cc302627ee9f7591c265d8bc5",
+  "raw_array_sha256": "db5f00dd68318f929d2be2d58d7c85d3efbdc05320fc117682a038974ab9d5cd",
+  "final_state_sha256": "feb1d7f8ffae2b714b085705f2731983d8b990fac0ab4fe314028e247c204707",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1254,
+      "kind": "route_closed",
+      "blocked_edge": [
+        3,
+        4
+      ]
+    }
+  ],
+  "change_tick": 1254,
+  "recovery_tick": 2108,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

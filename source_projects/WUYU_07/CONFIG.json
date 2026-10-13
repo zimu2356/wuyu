@@ -1,0 +1,19 @@
+{
+  "initializations": [701, 702, 703],
+  "formal_worlds": 32,
+  "lifetime": 1536,
+  "train_updates": 768,
+  "train_batch": 64,
+  "train_unroll": 32,
+  "train_lifetime": 768,
+  "rnn_hidden": 24,
+  "validation_every": 256,
+  "validation_worlds": 16,
+  "model_lr": 1.2,
+  "skill_lr": 1.0,
+  "exploration": 0.08,
+  "memory_capacity": 256,
+  "bootstrap_samples": 4000,
+  "bootstrap_seed": 70007,
+  "checkpoints": [0, 384, 768, 1152, 1408, 1536]
+}

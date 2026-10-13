@@ -1,0 +1,369 @@
+{
+  "discovered_both_but_failed_block": [
+    20012,
+    20019,
+    20024,
+    20034,
+    20040,
+    20057,
+    20068,
+    20078,
+    20079,
+    20082,
+    20090,
+    20093,
+    20098,
+    20106,
+    20112,
+    20114,
+    20118,
+    20119
+  ],
+  "examples": {
+    "stopped_after_feedback:blocked": {
+      "episode_summary": {
+        "budget": "108",
+        "collector": "random",
+        "expected_outcome": "o_0f5d0b",
+        "failure_reason": "stopped_after_feedback",
+        "first_action": "1",
+        "first_choice_correct": "1",
+        "first_goal": "o_0f5d0b",
+        "history_sha256": "d307f2fd0f49d59268a46c6cddcdb59553b106fba8b0e7a3f45f44c4e4811832",
+        "initial_known_route": "True",
+        "initial_target_discovered": "True",
+        "outcome": "",
+        "post_completion_stop": "",
+        "scenario": "blocked",
+        "seed": "20012",
+        "steps": "1",
+        "success": "0",
+        "variant": "learned"
+      },
+      "trace": {
+        "budget": 108,
+        "collector": "random",
+        "history_sha256": "d307f2fd0f49d59268a46c6cddcdb59553b106fba8b0e7a3f45f44c4e4811832",
+        "scenario": "blocked",
+        "seed": 20012,
+        "trace": [
+          {
+            "action": 1,
+            "body": [
+              0.75,
+              0.05
+            ],
+            "decision": {
+              "chosen": "o_0f5d0b",
+              "goal_buffer": "o_0f5d0b",
+              "path_lengths": {
+                "o_0f5d0b": 3,
+                "o_c4375f": 3
+              },
+              "scores": {
+                "o_0f5d0b": 0.5071536273405111,
+                "o_c4375f": -0.32151914054839015
+              }
+            },
+            "experience": {
+              "action": 1,
+              "after": [
+                0.75,
+                0.05
+              ],
+              "before": [
+                0.75,
+                0.05
+              ],
+              "next_state": "s_6d5d99",
+              "outcome": null,
+              "state": "s_6d5d99"
+            },
+            "goal": "o_0f5d0b",
+            "state": "s_6d5d99",
+            "tick": 0
+          },
+          {
+            "action": null,
+            "body": [
+              0.75,
+              0.05
+            ],
+            "decision": {
+              "chosen": null,
+              "goal_buffer": null,
+              "path_lengths": {
+                "o_c4375f": 3
+              },
+              "reason": "no_positive_goal",
+              "scores": {
+                "o_c4375f": -0.32151914054839015
+              }
+            },
+            "goal": null,
+            "state": "s_6d5d99",
+            "tick": 1
+          }
+        ],
+        "variant": "learned"
+      }
+    },
+    "target_not_discovered:blocked": {
+      "episode_summary": {
+        "budget": "108",
+        "collector": "random",
+        "expected_outcome": "o_950649",
+        "failure_reason": "target_not_discovered",
+        "first_action": "",
+        "first_choice_correct": "0",
+        "first_goal": "",
+        "history_sha256": "3072061ae88d4c8e429df4fa44b67cd93e9cbbd03dbb948c8dc9ed11d752a21d",
+        "initial_known_route": "False",
+        "initial_target_discovered": "False",
+        "outcome": "",
+        "post_completion_stop": "",
+        "scenario": "blocked",
+        "seed": "20006",
+        "steps": "0",
+        "success": "0",
+        "variant": "learned"
+      },
+      "trace": {
+        "budget": 108,
+        "collector": "random",
+        "history_sha256": "3072061ae88d4c8e429df4fa44b67cd93e9cbbd03dbb948c8dc9ed11d752a21d",
+        "scenario": "blocked",
+        "seed": 20006,
+        "trace": [
+          {
+            "action": null,
+            "body": [
+              0.75,
+              0.05
+            ],
+            "decision": {
+              "chosen": null,
+              "goal_buffer": null,
+              "path_lengths": {
+                "o_2be460": 3
+              },
+              "reason": "no_positive_goal",
+              "scores": {
+                "o_2be460": -0.31381499009436475
+              }
+            },
+            "goal": null,
+            "state": "s_10e05b",
+            "tick": 0
+          }
+        ],
+        "variant": "learned"
+      }
+    },
+    "target_not_discovered:need_shift": {
+      "episode_summary": {
+        "budget": "108",
+        "collector": "random",
+        "expected_outcome": "o_1a8d08",
+        "failure_reason": "target_not_discovered",
+        "first_action": "",
+        "first_choice_correct": "0",
+        "first_goal": "",
+        "history_sha256": "05078814dd7c9efefbfebae44f1d9e80de803e4dfd7dca854b10d27adba8d77c",
+        "initial_known_route": "False",
+        "initial_target_discovered": "False",
+        "outcome": "",
+        "post_completion_stop": "",
+        "scenario": "need_shift",
+        "seed": "20003",
+        "steps": "0",
+        "success": "0",
+        "variant": "learned"
+      },
+      "trace": {
+        "budget": 108,
+        "collector": "random",
+        "history_sha256": "05078814dd7c9efefbfebae44f1d9e80de803e4dfd7dca854b10d27adba8d77c",
+        "scenario": "need_shift",
+        "seed": 20003,
+        "trace": [
+          {
+            "action": null,
+            "body": [
+              0.05,
+              0.75
+            ],
+            "decision": {
+              "chosen": null,
+              "goal_buffer": null,
+              "path_lengths": {
+                "o_998324": 4
+              },
+              "reason": "no_positive_goal",
+              "scores": {
+                "o_998324": -0.4073029805550819
+              }
+            },
+            "goal": null,
+            "state": "s_0bd086",
+            "tick": 0
+          }
+        ],
+        "variant": "learned"
+      }
+    },
+    "target_not_discovered:quiet": {
+      "episode_summary": {
+        "budget": "108",
+        "collector": "random",
+        "expected_outcome": "o_950649",
+        "failure_reason": "target_not_discovered",
+        "first_action": "",
+        "first_choice_correct": "0",
+        "first_goal": "",
+        "history_sha256": "3072061ae88d4c8e429df4fa44b67cd93e9cbbd03dbb948c8dc9ed11d752a21d",
+        "initial_known_route": "False",
+        "initial_target_discovered": "False",
+        "outcome": "",
+        "post_completion_stop": "",
+        "scenario": "quiet",
+        "seed": "20006",
+        "steps": "0",
+        "success": "0",
+        "variant": "learned"
+      },
+      "trace": {
+        "budget": 108,
+        "collector": "random",
+        "history_sha256": "3072061ae88d4c8e429df4fa44b67cd93e9cbbd03dbb948c8dc9ed11d752a21d",
+        "scenario": "quiet",
+        "seed": 20006,
+        "trace": [
+          {
+            "action": null,
+            "body": [
+              0.75,
+              0.05
+            ],
+            "decision": {
+              "chosen": null,
+              "goal_buffer": null,
+              "path_lengths": {
+                "o_2be460": 3
+              },
+              "reason": "no_positive_goal",
+              "scores": {
+                "o_2be460": -0.31381499009436475
+              }
+            },
+            "goal": null,
+            "state": "s_10e05b",
+            "tick": 0
+          }
+        ],
+        "variant": "learned"
+      }
+    }
+  },
+  "examples_selection": "First numeric seed per failure label/scenario, for illustration only",
+  "missing_outcome_seeds": [
+    20003,
+    20005,
+    20006,
+    20007,
+    20011,
+    20025,
+    20037,
+    20046,
+    20050,
+    20054,
+    20058,
+    20064,
+    20067,
+    20069,
+    20070,
+    20084,
+    20092,
+    20094,
+    20097,
+    20107,
+    20110,
+    20123,
+    20124,
+    20126
+  ],
+  "overlap": [
+    20050,
+    20092,
+    20126
+  ],
+  "status": "descriptive post-run inspection; no new experiment",
+  "stopped_after_block_seeds": [
+    20012,
+    20019,
+    20024,
+    20034,
+    20040,
+    20050,
+    20057,
+    20068,
+    20078,
+    20079,
+    20082,
+    20090,
+    20092,
+    20093,
+    20098,
+    20106,
+    20112,
+    20114,
+    20118,
+    20119,
+    20126
+  ],
+  "stopped_traces_without_remaining_observed_a_route": 21,
+  "unique_failed_seeds": [
+    20003,
+    20005,
+    20006,
+    20007,
+    20011,
+    20012,
+    20019,
+    20024,
+    20025,
+    20034,
+    20037,
+    20040,
+    20046,
+    20050,
+    20054,
+    20057,
+    20058,
+    20064,
+    20067,
+    20068,
+    20069,
+    20070,
+    20078,
+    20079,
+    20082,
+    20084,
+    20090,
+    20092,
+    20093,
+    20094,
+    20097,
+    20098,
+    20106,
+    20107,
+    20110,
+    20112,
+    20114,
+    20118,
+    20119,
+    20123,
+    20124,
+    20126
+  ]
+}

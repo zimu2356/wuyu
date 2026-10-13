@@ -1,0 +1,61 @@
+{
+  "excluded": "run_manifest.json timestamps and elapsed time; scientific data, summaries and audit must be byte-identical",
+  "files": {
+    "audit.json": {
+      "identical": true,
+      "left": "bc57f76129d09c481f7d2a9416937b70814d5fc8a8138c502b0e57fa810d085d",
+      "right": "bc57f76129d09c481f7d2a9416937b70814d5fc8a8138c502b0e57fa810d085d"
+    },
+    "branches.csv": {
+      "identical": true,
+      "left": "8b030d52f529901791d2480b4fa4daf6833a501e46daab8e0ed80b190fbc2670",
+      "right": "8b030d52f529901791d2480b4fa4daf6833a501e46daab8e0ed80b190fbc2670"
+    },
+    "checkpoints.jsonl.gz": {
+      "identical": true,
+      "left": "753a95a3ea4072988aa938e6073a30547abf2bca601602a2380331599ccc06f8",
+      "right": "753a95a3ea4072988aa938e6073a30547abf2bca601602a2380331599ccc06f8"
+    },
+    "events.jsonl.gz": {
+      "identical": true,
+      "left": "3117b1b1bf0a2e378f2a7feca05b3f3b30610c7f1ba83c6ab41244d36a9e2987",
+      "right": "3117b1b1bf0a2e378f2a7feca05b3f3b30610c7f1ba83c6ab41244d36a9e2987"
+    },
+    "final_states.jsonl.gz": {
+      "identical": true,
+      "left": "da899da1570e9848f4f42dcde65605cb298e6ac768a7a2d9875cfe17a541321f",
+      "right": "da899da1570e9848f4f42dcde65605cb298e6ac768a7a2d9875cfe17a541321f"
+    },
+    "individual_effects.csv": {
+      "identical": true,
+      "left": "07ff35da79ef80803d121a1927ab1ec894ed884ff051562213921038c7fbd131",
+      "right": "07ff35da79ef80803d121a1927ab1ec894ed884ff051562213921038c7fbd131"
+    },
+    "interventions.jsonl.gz": {
+      "identical": true,
+      "left": "759c7b1daa702a6d89826fa849119fd1d43f5e5fb6941e2f290b874f0cade744",
+      "right": "759c7b1daa702a6d89826fa849119fd1d43f5e5fb6941e2f290b874f0cade744"
+    },
+    "life_windows.csv": {
+      "identical": true,
+      "left": "bb7b3ae9b558eeb00c257d19a81b3eaa6e6c2cfc0a25198b4bb0bcdcda16968e",
+      "right": "bb7b3ae9b558eeb00c257d19a81b3eaa6e6c2cfc0a25198b4bb0bcdcda16968e"
+    },
+    "prediction_probes.csv": {
+      "identical": true,
+      "left": "31e38b693d78fd8bfeaa2dfb9d875aa6e589bee1e6f218904a6656bd4a4eafca",
+      "right": "31e38b693d78fd8bfeaa2dfb9d875aa6e589bee1e6f218904a6656bd4a4eafca"
+    },
+    "predictions.jsonl.gz": {
+      "identical": true,
+      "left": "2a464f1d3b67e2df44b123bc0a65b6ad062ef73dcf76b8cf3e720023efec0e9b",
+      "right": "2a464f1d3b67e2df44b123bc0a65b6ad062ef73dcf76b8cf3e720023efec0e9b"
+    },
+    "summary.json": {
+      "identical": true,
+      "left": "3a0361e49605eac11fd3e2f59aa7189ee96529e370eb0972112812d5cef0aa73",
+      "right": "3a0361e49605eac11fd3e2f59aa7189ee96529e370eb0972112812d5cef0aa73"
+    }
+  },
+  "status": "passed"
+}

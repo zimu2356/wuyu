@@ -1,0 +1,22 @@
+{
+  "reused_from": "WUYU_07",
+  "original_sha256": {
+    "world.py": "5ed76b2922b7f09b17afeb9e705d6ebc97014afb93bec66225d0d608b3934604",
+    "agent.py": "b7eb2568f2ee29c8bc46124e34552b8fd7c1e6614d1a50f6ecd8fec541236e63",
+    "state.py": "94c966c7db15415d4a478370adaa36b44c82da7ad460ce6307236ce28817a9be"
+  },
+  "unchanged_copies": [
+    "agent.py -> wuyu08/memory.py",
+    "state.py -> wuyu08/state.py"
+  ],
+  "adapted": [
+    "world.py -> wuyu08/world.py: external resource-loss ledger and controlled requirement overrides"
+  ],
+  "new": [
+    "features.py",
+    "network.py",
+    "individual.py",
+    "experiment.py",
+    "training/evaluation/analysis/audit/report/packaging scripts"
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "challenge": {
+    "A": {
+      "windows": [
+        {
+          "start": 1024,
+          "mean_burden": 0.22140907203666638,
+          "alive_at_start": 118,
+          "partial_device_at_start": 90,
+          "mean_blocked_takes": 34.8125
+        },
+        {
+          "start": 1408,
+          "mean_burden": 0.4690246426100186,
+          "alive_at_start": 116,
+          "partial_device_at_start": 63,
+          "mean_blocked_takes": 32.4375
+        },
+        {
+          "start": 1792,
+          "mean_burden": 1.2636868371081482,
+          "alive_at_start": 67,
+          "partial_device_at_start": 54,
+          "mean_blocked_takes": 33.3125
+        },
+        {
+          "start": 2176,
+          "mean_burden": 1.4690174032957093,
+          "alive_at_start": 45,
+          "partial_device_at_start": 59,
+          "mean_blocked_takes": 32.84375
+        }
+      ],
+      "live_blocked_takes": 53.9375,
+      "live_route_denials": 269.7109375,
+      "live_action_changes": 0.0,
+      "live_prediction_mse": 0.047329529996941,
+      "ghost_blocked_flags": 135.4375,
+      "ghost_route_flags": 373.2421875
+    },
+    "B": {
+      "windows": [
+        {
+          "start": 1024,
+          "mean_burden": 0.1918785054009443,
+          "alive_at_start": 120,
+          "partial_device_at_start": 92,
+          "mean_blocked_takes": 34.03125
+        },
+        {
+          "start": 1408,
+          "mean_burden": 0.46047301634594934,
+          "alive_at_start": 116,
+          "partial_device_at_start": 66,
+          "mean_blocked_takes": 31.1015625
+        },
+        {
+          "start": 1792,
+          "mean_burden": 1.2889486224422728,
+          "alive_at_start": 69,
+          "partial_device_at_start": 51,
+          "mean_blocked_takes": 31.734375
+        },
+        {
+          "start": 2176,
+          "mean_burden": 1.5065214746940865,
+          "alive_at_start": 40,
+          "partial_device_at_start": 56,
+          "mean_blocked_takes": 30.046875
+        }
+      ],
+      "mean_write": 0.14189061266370118,
+      "mean_erase_or_reset": 0.11266433104174212,
+      "mean_direct_carry": 0.7596659129485488,
+      "mean_state_norm": 0.2458702324074693,
+      "mean_residual_max": 0.4102999877650291,
+      "max_residual": 0.8103215545415878,
+      "live_blocked_takes": 51.40625,
+      "live_route_denials": 289.4453125,
+      "live_action_changes": 39.9453125,
+      "live_prediction_mse": 0.04762732377760014,
+      "ghost_blocked_flags": 124.9140625,
+      "ghost_route_flags": 405.3984375
+    },
+    "C": {
+      "windows": [
+        {
+          "start": 1024,
+          "mean_burden": 0.17107617654425666,
+          "alive_at_start": 120,
+          "partial_device_at_start": 84,
+          "mean_blocked_takes": 27.484375
+        },
+        {
+          "start": 1408,
+          "mean_burden": 0.4188047184130821,
+          "alive_at_start": 119,
+          "partial_device_at_start": 61,
+          "mean_blocked_takes": 25.703125
+        },
+        {
+          "start": 1792,
+          "mean_burden": 1.1957693756647014,
+          "alive_at_start": 72,
+          "partial_device_at_start": 63,
+          "mean_blocked_takes": 25.453125
+        },
+        {
+          "start": 2176,
+          "mean_burden": 1.4337066328996113,
+          "alive_at_start": 48,
+          "partial_device_at_start": 63,
+          "mean_blocked_takes": 25.453125
+        }
+      ],
+      "mean_write": 0.1431349468184635,
+      "mean_erase_or_reset": 0.14349342958303168,
+      "mean_direct_carry": 0.8568650535307825,
+      "mean_state_norm": 1.7535564741119742,
+      "mean_residual_max": 0.4653862970881164,
+      "max_residual": 0.9377721927594393,
+      "live_blocked_takes": 45.5703125,
+      "live_route_denials": 304.265625,
+      "live_action_changes": 45.890625,
+      "live_prediction_mse": 0.047183414399924115,
+      "ghost_blocked_flags": 106.6875,
+      "ghost_route_flags": 382.296875
+    },
+    "D": {
+      "windows": [
+        {
+          "start": 1024,
+          "mean_burden": 0.21124539176970447,
+          "alive_at_start": 118,
+          "partial_device_at_start": 79,
+          "mean_blocked_takes": 36.625
+        },
+        {
+          "start": 1408,
+          "mean_burden": 0.45103882828813535,
+          "alive_at_start": 116,
+          "partial_device_at_start": 70,
+          "mean_blocked_takes": 33.2421875
+        },
+        {
+          "start": 1792,
+          "mean_burden": 1.2823745183339286,
+          "alive_at_start": 64,
+          "partial_device_at_start": 58,
+          "mean_blocked_takes": 33.7578125
+        },
+        {
+          "start": 2176,
+          "mean_burden": 1.443761043019146,
+          "alive_at_start": 45,
+          "partial_device_at_start": 58,
+          "mean_blocked_takes": 32.390625
+        }
+      ],
+      "mean_write": 0.15948078490328044,
+      "mean_erase_or_reset": 0.10672079946380109,
+      "mean_direct_carry": 0.7480691592209041,
+      "mean_state_norm": 1.1706223853398114,
+      "mean_residual_max": 0.4359901925781742,
+      "max_residual": 0.8694433954078704,
+      "live_blocked_takes": 51.546875,
+      "live_route_denials": 292.1796875,
+      "live_action_changes": 42.03125,
+      "live_prediction_mse": 0.04730200248791536,
+      "ghost_blocked_flags": 138.46875,
+      "ghost_route_flags": 391.515625
+    }
+  },
+  "stable": {
+    "A": {
+      "windows": [
+        {
+          "start": 1024,
+          "mean_burden": 0.013260890519817038,
+          "alive_at_start": 128,
+          "partial_device_at_start": 87,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 1408,
+          "mean_burden": 0.011032292518107847,
+          "alive_at_start": 128,
+          "partial_device_at_start": 77,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 1792,
+          "mean_burden": 0.011255466480917065,
+          "alive_at_start": 128,
+          "partial_device_at_start": 88,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 2176,
+          "mean_burden": 0.011027905274048538,
+          "alive_at_start": 128,
+          "partial_device_at_start": 85,
+          "mean_blocked_takes": 0.0
+        }
+      ],
+      "live_blocked_takes": 0.0,
+      "live_route_denials": 0.0,
+      "live_action_changes": 0.0,
+      "live_prediction_mse": 0.020850877199222243,
+      "ghost_blocked_flags": 0.0,
+      "ghost_route_flags": 0.0
+    },
+    "B": {
+      "windows": [
+        {
+          "start": 1024,
+          "mean_burden": 0.007443217761027519,
+          "alive_at_start": 128,
+          "partial_device_at_start": 79,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 1408,
+          "mean_burden": 0.005077698960164707,
+          "alive_at_start": 128,
+          "partial_device_at_start": 85,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 1792,
+          "mean_burden": 0.0041788273673505376,
+          "alive_at_start": 128,
+          "partial_device_at_start": 85,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 2176,
+          "mean_burden": 0.003297103551635955,
+          "alive_at_start": 128,
+          "partial_device_at_start": 86,
+          "mean_blocked_takes": 0.0
+        }
+      ],
+      "mean_write": 0.15844721824396402,
+      "mean_erase_or_reset": 0.10608080099336803,
+      "mean_direct_carry": 0.7496657841838896,
+      "mean_state_norm": 0.32542355393525213,
+      "mean_residual_max": 0.5786619083955884,
+      "max_residual": 1.1942057381384075,
+      "live_blocked_takes": 0.0,
+      "live_route_denials": 0.0,
+      "live_action_changes": 115.1171875,
+      "live_prediction_mse": 0.024158199409268048,
+      "ghost_blocked_flags": 0.0,
+      "ghost_route_flags": 0.0
+    },
+    "C": {
+      "windows": [
+        {
+          "start": 1024,
+          "mean_burden": 0.006964273745321142,
+          "alive_at_start": 128,
+          "partial_device_at_start": 84,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 1408,
+          "mean_burden": 0.004791123857015294,
+          "alive_at_start": 128,
+          "partial_device_at_start": 83,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 1792,
+          "mean_burden": 0.003978344691162382,
+          "alive_at_start": 128,
+          "partial_device_at_start": 76,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 2176,
+          "mean_burden": 0.0031857201222739648,
+          "alive_at_start": 128,
+          "partial_device_at_start": 84,
+          "mean_blocked_takes": 0.0
+        }
+      ],
+      "mean_write": 0.18327575287548825,
+      "mean_erase_or_reset": 0.13408953417092562,
+      "mean_direct_carry": 0.8167242552153766,
+      "mean_state_norm": 1.747489067260176,
+      "mean_residual_max": 0.6286669466644526,
+      "max_residual": 1.2469374379143119,
+      "live_blocked_takes": 0.0,
+      "live_route_denials": 0.0,
+      "live_action_changes": 125.625,
+      "live_prediction_mse": 0.024340222750069477,
+      "ghost_blocked_flags": 0.0,
+      "ghost_route_flags": 0.0
+    },
+    "D": {
+      "windows": [
+        {
+          "start": 1024,
+          "mean_burden": 0.007642955638224897,
+          "alive_at_start": 128,
+          "partial_device_at_start": 80,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 1408,
+          "mean_burden": 0.005123594830932974,
+          "alive_at_start": 128,
+          "partial_device_at_start": 84,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 1792,
+          "mean_burden": 0.003914163587036387,
+          "alive_at_start": 128,
+          "partial_device_at_start": 87,
+          "mean_blocked_takes": 0.0
+        },
+        {
+          "start": 2176,
+          "mean_burden": 0.003072361440022983,
+          "alive_at_start": 128,
+          "partial_device_at_start": 82,
+          "mean_blocked_takes": 0.0
+        }
+      ],
+      "mean_write": 0.16330575512256473,
+      "mean_erase_or_reset": 0.11005706683499739,
+      "mean_direct_carry": 0.7415612316690385,
+      "mean_state_norm": 1.2083204824011773,
+      "mean_residual_max": 0.5999363956507295,
+      "max_residual": 1.2233619997277856,
+      "live_blocked_takes": 0.0,
+      "live_route_denials": 0.0,
+      "live_action_changes": 119.3359375,
+      "live_prediction_mse": 0.024258895281737088,
+      "ghost_blocked_flags": 0.0,
+      "ghost_route_flags": 0.0
+    }
+  }
+}

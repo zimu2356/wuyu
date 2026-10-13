@@ -1,0 +1,43 @@
+{
+  "job": {
+    "profile": "whole",
+    "mode": "R10",
+    "case": "r_combined",
+    "seed": 1770100,
+    "horizon": 2560,
+    "initialization": 3,
+    "requested_steps": 2560,
+    "kind": "remaining_model_initialization",
+    "id": "155_whole_R10_r_combined_i3_remaining_model_initialization"
+  },
+  "passed": true,
+  "initial_state_sha256": "5cfc87b328babd599f37f71a94d835813ad4471d16861e0cb67963833148fdbe",
+  "checkpoint_event": 73,
+  "pending_actor_samples": 9,
+  "exact_resume_future_events": 55,
+  "exact_resume": true,
+  "declared_end_is_stable": true,
+  "events": 2560,
+  "action_stream_sha256": "8b16d0595bb4c19f5d3bbd27fa6ecf5ab5dcad7ca88c6ea28373bcd8683f06de",
+  "final_state_sha256": "e2066662e71d4e08412fa7ff5ca3ad36eced4f3de77ed045c118456398a36e79",
+  "mechanisms": {
+    "live_transitions": 2543,
+    "dead_transitions": 17,
+    "revisions": 3,
+    "actual_relation_updates": 924,
+    "products": 403,
+    "route_denied": 12,
+    "memory_updates": 1256,
+    "learned_skill_completions": 405,
+    "neural_seen": 2543,
+    "neural_replay_updates": 2542,
+    "evidence_updates": 2543,
+    "actor_updates": 80,
+    "relations_observed": 924,
+    "old_graph_weights_unchanged": true,
+    "relation_read": true,
+    "final_alive": false,
+    "mean_body_burden": 0.11359216399070346
+  },
+  "seconds": 7.76
+}

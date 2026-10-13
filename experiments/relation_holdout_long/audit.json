@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "lives": 64,
+  "physical_steps": 327680,
+  "checks": [
+    "all declared lives",
+    "file and raw-array SHA256",
+    "all pre/post observations and physical shocks",
+    "absorbing death and stopped actor updates",
+    "observable movement belief updates and counts",
+    "all published life summary fields independently recomputed"
+  ]
+}

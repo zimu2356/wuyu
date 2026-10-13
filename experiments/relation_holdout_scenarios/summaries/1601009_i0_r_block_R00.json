@@ -1,0 +1,67 @@
+{
+  "total_burden": 0.03019517232976629,
+  "challenge_burden": 0.01040953398085965,
+  "late_burden": 0.009023716132812743,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 214,
+  "live_route_denials": 76,
+  "live_structural_denials": 76,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 69,
+  "contradiction_observed": true,
+  "first_denial": 1597,
+  "mean_movement_brier": 0.053441209213494933,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.198973482442393,
+  "actor_updates": 80,
+  "mean_kl": 0.012748068198561668,
+  "post_contradiction_denials": 75,
+  "post_contradiction_live_steps": 962,
+  "recovery_live_steps": 553,
+  "recovery_denials": 63,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.01040953398085965,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601009,
+  "initialization": 0,
+  "mode": "R00",
+  "case": "r_block",
+  "elapsed_seconds": 8.14311849600017,
+  "trace_sha256": "e66c86f08a2531b50ca5d9166d311fb650bece94a5e91c9efecbaa8680ae84e3",
+  "raw_array_sha256": "a9c0e40d68cbbec87c98ed5d1f691cf64457a5e1b8a886fd304292d9bf292c63",
+  "final_state_sha256": "bf99502ff59eeee2ffd58e2b69000d63ce1b2aca924eb8b8fd9b8a6ebd512a81",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1257,
+      "kind": "route_closed",
+      "blocked_edge": [
+        5,
+        0
+      ]
+    }
+  ],
+  "change_tick": 1257,
+  "recovery_tick": 2007,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "total_burden": 0.010765602404804979,
+  "challenge_burden": 0.005653261564127754,
+  "late_burden": 0.006546396301041839,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 373,
+  "live_route_denials": 13,
+  "live_structural_denials": 13,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 144,
+  "contradiction_observed": true,
+  "first_denial": 1364,
+  "mean_movement_brier": 0.022119519272696057,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.330845770078341,
+  "actor_updates": 80,
+  "mean_kl": 0.06163973733782768,
+  "post_contradiction_denials": 12,
+  "post_contradiction_live_steps": 1195,
+  "recovery_live_steps": 525,
+  "recovery_denials": 5,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.005653261564127754,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601008,
+  "initialization": 0,
+  "mode": "R10",
+  "case": "r_block",
+  "elapsed_seconds": 8.02949157599869,
+  "trace_sha256": "698e347324f9485ea0a3c24fa8d11f082b7fb9a39a91b5f9f8702c2b24610c83",
+  "raw_array_sha256": "a898ae457d7a8ef7c80a510b646bb6c920ef2101602428e5589b9f47b5e60f49",
+  "final_state_sha256": "a23be79589b715c90bb89bb4f691ba66dc2ae467667c1875e959d0f3992909a0",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1363,
+      "kind": "route_closed",
+      "blocked_edge": [
+        1,
+        2
+      ]
+    }
+  ],
+  "change_tick": 1363,
+  "recovery_tick": 2035,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

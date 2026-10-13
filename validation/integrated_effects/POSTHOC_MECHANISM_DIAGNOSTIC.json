@@ -1,0 +1,70 @@
+{
+  "scope": "post-hoc mechanism diagnosis, all saved lives, no tuning",
+  "matching_actions": {
+    "stationary online vs update": {
+      "exact_lives": 32,
+      "lives": 32,
+      "different_ticks": 0
+    },
+    "stationary evidence vs revision": {
+      "exact_lives": 32,
+      "lives": 32,
+      "different_ticks": 0
+    },
+    "recipe_change online vs update": {
+      "exact_lives": 32,
+      "lives": 32,
+      "different_ticks": 0
+    },
+    "recipe_change evidence vs revision": {
+      "exact_lives": 32,
+      "lives": 32,
+      "different_ticks": 0
+    },
+    "developmental online vs update": {
+      "exact_lives": 32,
+      "lives": 32,
+      "different_ticks": 0
+    },
+    "developmental evidence vs revision": {
+      "exact_lives": 30,
+      "lives": 32,
+      "different_ticks": 102
+    }
+  },
+  "developmental_deaths": {
+    "prior": [
+      920004
+    ],
+    "online": [],
+    "combined": [
+      920004
+    ]
+  },
+  "combined_update_means": {
+    "stationary": {
+      "evidence_updates": 1536.0,
+      "neural_updates": 3071.0,
+      "replay_updates": 1535.0,
+      "memory_updates": 1434.375,
+      "choice_changes": 2.0,
+      "revisions": 1.125
+    },
+    "recipe_change": {
+      "evidence_updates": 1536.0,
+      "neural_updates": 3071.0,
+      "replay_updates": 1535.0,
+      "memory_updates": 1435.5,
+      "choice_changes": 2.0625,
+      "revisions": 1.28125
+    },
+    "developmental": {
+      "evidence_updates": 1505.09375,
+      "neural_updates": 3009.1875,
+      "replay_updates": 1504.09375,
+      "memory_updates": 1081.5,
+      "choice_changes": 2.3125,
+      "revisions": 1.9375
+    }
+  }
+}

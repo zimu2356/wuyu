@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "files": {
+        "60000_stable_B0.json.gz": "7ceb4445be79d728fb5b00339b0f502054ba06e89895e4014883d538c0e07e25",
+        "60000_stable_B0.npy.gz": "4bf166fd52467379634f0351862dcc6a13ea7fdfc794b7faf2414951e18f125c"
+      },
+      "summary": {
+        "active_fraction": 0.3329166666666667,
+        "activity_cost": 1.598,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "b19d71a64e537c99abbb13fc3faef25c5a74cbf23bb760bafdd16a7117d7be66",
+        "first_retest": {
+          "1": 6,
+          "2": 5
+        },
+        "first_revision": null,
+        "late_loss": 0.00855504362836489,
+        "life_loss": 0.008784405894445322,
+        "method": "B0",
+        "n_actions": 5,
+        "post_active_fraction": 0.2578125,
+        "post_loss": 0.007777417000311029,
+        "post_revisions": 0,
+        "pre_loss": 0.007839187716822463,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.02
+        },
+        "retest_fraction": 0.0,
+        "seed": 60000,
+        "tau": 1080,
+        "three_new_samples": {
+          "1": 20,
+          "2": 19
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    },
+    {
+      "files": {
+        "60000_stable_BE.json.gz": "c495a64588519447ce5e2a74061da2d02fe9c16f4fa0c1adf2e9f7b1a6dd3bc6",
+        "60000_stable_BE.npy.gz": "8ec99fda312b984b34268b69a8bfb9a9be43df98d1a24780f3ffcdc84febeae3"
+      },
+      "summary": {
+        "active_fraction": 0.36041666666666666,
+        "activity_cost": 1.73,
+        "case": "stable",
+        "causal_event": null,
+        "changed_axis": 0,
+        "final_state_sha": "c0c540c4ece2f6a67e97527aefb1de4139b0c661e9131d4810af10f8ce4c2320",
+        "first_retest": {
+          "1": 3,
+          "2": 2
+        },
+        "first_revision": null,
+        "late_loss": 0.008685216517014626,
+        "life_loss": 0.00887319640211712,
+        "method": "BE",
+        "n_actions": 5,
+        "post_active_fraction": 0.3359375,
+        "post_loss": 0.008348408752578765,
+        "post_revisions": 0,
+        "pre_loss": 0.007702824715068989,
+        "pre_revisions": 0,
+        "recovery": {
+          "delay": 128,
+          "recovered": true,
+          "threshold": 0.02
+        },
+        "retest_fraction": 0.06958333333333333,
+        "seed": 60000,
+        "tau": 1080,
+        "three_new_samples": {
+          "1": 20,
+          "2": 19
+        },
+        "unaffected_post_revisions": 0,
+        "updates": 2400
+      }
+    }
+  ],
+  "seed": 60000
+}

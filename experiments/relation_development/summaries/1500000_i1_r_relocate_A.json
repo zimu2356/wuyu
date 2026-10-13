@@ -1,0 +1,66 @@
+{
+  "total_burden": 0.011892339600000072,
+  "challenge_burden": 0.010528360089974048,
+  "late_burden": 0.010274227526041546,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 168,
+  "live_route_denials": 17,
+  "live_structural_denials": 17,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 0,
+  "contradiction_observed": true,
+  "first_denial": 1289,
+  "mean_movement_brier": 0.04024083411716997,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.23262452031430084,
+  "actor_updates": 0,
+  "mean_kl": 0.0,
+  "post_contradiction_denials": 16,
+  "post_contradiction_live_steps": 1270,
+  "recovery_live_steps": 600,
+  "recovery_denials": 0,
+  "death_tick": null,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1500000,
+  "initialization": 1,
+  "mode": "A",
+  "case": "r_relocate",
+  "elapsed_seconds": 4.879813288999685,
+  "trace_sha256": "41cf13c07689ad3bc6c697c3f7a02d4d9ec37a6fb107179764152da9f4656e9b",
+  "raw_array_sha256": "289b13c2e8e2c8f6c7444b0f782ffa7881aac04617433720890735441ede3016",
+  "final_state_sha256": "7a5e76773e750796d4e86b799f4ec61b5326761731c8b6eadfea503b7d2e1d2a",
+  "diagnostics": [],
+  "actor_parameters": 0,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1193,
+      "kind": "route_closed",
+      "blocked_edge": [
+        1,
+        2
+      ]
+    },
+    {
+      "tick": 1960,
+      "kind": "route_relocated",
+      "blocked_edge": [
+        0,
+        1
+      ]
+    }
+  ],
+  "change_tick": 1193,
+  "recovery_tick": 1960,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "total_burden": 0.09304660461199905,
+  "challenge_burden": 0.14016060466583144,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "death_tick": null,
+  "products": 546,
+  "blocked_takes": 17,
+  "route_denials": 219,
+  "lost_yield_takes": 43,
+  "changes_vs_base": 57,
+  "changes_vs_native": 59,
+  "actor_updates": 80,
+  "neural_updates": 5119,
+  "memory_updates": 1684,
+  "revisions": 5,
+  "mean_kl": 0.005449990276247263,
+  "physical_cost": [
+    5.159880000000194,
+    4.607999999999885
+  ],
+  "mean_prediction_mse": 0.04822022725012278,
+  "actual_dependent_token_acquisitions": [
+    4,
+    2
+  ],
+  "both_dependent_token_roles_experienced": true,
+  "low_benefit_body_productions": 229,
+  "windows": [
+    {
+      "start": 1024,
+      "body_burden": 0.0414858569205749,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": true,
+      "return_latency": 25,
+      "partial_device_at_start": true,
+      "blocked_takes": 2
+    },
+    {
+      "start": 1408,
+      "body_burden": 0.0939457628515693,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": false,
+      "blocked_takes": 0
+    },
+    {
+      "start": 1792,
+      "body_burden": 0.07465917325001083,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": true,
+      "blocked_takes": 1
+    },
+    {
+      "start": 2176,
+      "body_burden": 0.35055162564117076,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": true,
+      "returned_completion": true,
+      "return_latency": 6,
+      "partial_device_at_start": true,
+      "blocked_takes": 1
+    }
+  ],
+  "completed_return_windows": 2,
+  "observed_blocked_windows": 3,
+  "seed": 1400005,
+  "initialization": 1,
+  "mode": "D",
+  "case": "challenge",
+  "elapsed_seconds": 7.498684949000108,
+  "actor_parameters": 22120,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [
+      {
+        "tick": 384,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 640,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      },
+      {
+        "tick": 896,
+        "max_depth": 0,
+        "known_recipe_action_bound": 8,
+        "fuel_cost_bound": 0.0176,
+        "body1_drift_bound": 0.0144
+      },
+      {
+        "tick": 1024,
+        "max_depth": 2,
+        "known_recipe_action_bound": 24,
+        "fuel_cost_bound": 0.0528,
+        "body1_drift_bound": 0.0432
+      }
+    ],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  },
+  "diagnostics": [
+    {
+      "tick": 1408,
+      "alive": true,
+      "parent_state_sha256": "519f4dd642c472c1439d79085f56fc09825efd117d1f1039a15a5e46745c4fd5",
+      "exact_restore": true,
+      "parent_unchanged": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 0.14458644933594256,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "suppressed": {
+          "mean_burden": 0.14458644933594256,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "matched_history": {
+          "mean_burden": 0.14458644933594256,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "restored": {
+          "mean_burden": 0.14458644933594256,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        }
+      },
+      "donor_available": true,
+      "donor_tick": 1360,
+      "donor_observation_distance": 0.22430773504273127,
+      "donor_state_distance": 0.32757888757891584,
+      "suppression_distance": 1.9630037957059756,
+      "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+    },
+    {
+      "tick": 1792,
+      "alive": true,
+      "parent_state_sha256": "164ef05b91556ad6ec298fe3ab3a44cba5856baed4307ec816ea06a2fd608b15",
+      "exact_restore": true,
+      "parent_unchanged": true,
+      "branches": {
+        "intact": {
+          "mean_burden": 0.16887622121095142,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "suppressed": {
+          "mean_burden": 0.16887622121095142,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "matched_history": {
+          "mean_burden": 0.16887622121095142,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        },
+        "restored": {
+          "mean_burden": 0.16887622121095142,
+          "final_alive": true,
+          "params_frozen": true,
+          "action_differences_vs_intact": 0
+        }
+      },
+      "donor_available": true,
+      "donor_tick": 1784,
+      "donor_observation_distance": 0.41461017836034875,
+      "donor_state_distance": 0.0038955106449569885,
+      "suppression_distance": 2.27769008711088,
+      "limitation": "Historical donor is real and locally matched, but not proven irrelevant or equal-norm. This is a state-use probe, not selective goal-content evidence."
+    }
+  ],
+  "trace_sha256": "2e71b45e15503ac523ff07cb3cd7870a29563b058ccfd056e871add2b64b0a89",
+  "final_state_sha256": "b75ca6703fac4622b210a2bbaa787f7c89f7914abf6fdf522a38aa8998f53e58"
+}

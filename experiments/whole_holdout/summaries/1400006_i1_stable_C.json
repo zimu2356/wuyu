@@ -1,0 +1,89 @@
+{
+  "total_burden": 0.01063550257421888,
+  "challenge_burden": 0.007725770976562622,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "death_tick": null,
+  "products": 771,
+  "blocked_takes": 0,
+  "route_denials": 0,
+  "lost_yield_takes": 0,
+  "changes_vs_base": 94,
+  "changes_vs_native": 98,
+  "actor_updates": 80,
+  "neural_updates": 5119,
+  "memory_updates": 2354,
+  "revisions": 6,
+  "mean_kl": 0.01616373285651207,
+  "physical_cost": [
+    10.034799999999406,
+    1.791999999999931
+  ],
+  "mean_prediction_mse": 0.022651807893015456,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "low_benefit_body_productions": 713,
+  "windows": [
+    {
+      "start": 1024,
+      "body_burden": 0.015175976692708398,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": true,
+      "blocked_takes": 0
+    },
+    {
+      "start": 1408,
+      "body_burden": 0.005435153255208432,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": true,
+      "blocked_takes": 0
+    },
+    {
+      "start": 1792,
+      "body_burden": 0.007011392239583578,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": true,
+      "blocked_takes": 0
+    },
+    {
+      "start": 2176,
+      "body_burden": 0.003280561718750082,
+      "alive_at_start": true,
+      "blocked_opportunity_observed": false,
+      "returned_completion": false,
+      "return_latency": null,
+      "partial_device_at_start": true,
+      "blocked_takes": 0
+    }
+  ],
+  "completed_return_windows": 0,
+  "observed_blocked_windows": 0,
+  "seed": 1400006,
+  "initialization": 1,
+  "mode": "C",
+  "case": "stable",
+  "elapsed_seconds": 6.380631784999878,
+  "actor_parameters": 22120,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  },
+  "diagnostics": [],
+  "trace_sha256": "4b6c8c3fef281ebe6b0881698f5fc5dbc570b0bd00337e0c5d9b53de46c562b9",
+  "final_state_sha256": "7e3a5b8e97bf26e8f465a94bd622b2edcc988ec73a84d8cc47531c758dbfc7ce"
+}

@@ -1,0 +1,39 @@
+{
+  "profile": "goals",
+  "scope": "one complete original-run launcher smoke reproduction, not a rerun of all projects",
+  "returncode": 0,
+  "comparisons": {
+    "run_manifest.json": {
+      "bytes_equal": false,
+      "new_sha256": "0b4549e741a2292cc316aca8d759cbdc4ff040040f14d596aa3fc9da2b313b70"
+    },
+    "history_pairs.csv": {
+      "bytes_equal": true,
+      "new_sha256": "0cb2d79494c46f480d2474f9c40f61d2bd2755c43a22ee75624477df67c706be"
+    },
+    "episodes.csv": {
+      "bytes_equal": true,
+      "new_sha256": "498a11ec40d33207aee71d7f0861a8666989c01835c13b6558633fbf6406342c"
+    },
+    "traces.jsonl.gz": {
+      "bytes_equal": false,
+      "new_sha256": "35ab9717726ebeed1c5ed7a6e09ad840ded9c2b1c63375af6f6d110c2d8a8183",
+      "uncompressed_content_equal": true
+    },
+    "summary.json": {
+      "bytes_equal": true,
+      "new_sha256": "a8717e4159c331770111a805fe8dc3c640a9a676c8eafb201d20510da4ffd2d1"
+    },
+    "training.jsonl.gz": {
+      "bytes_equal": false,
+      "new_sha256": "4798aec26931d519b70986044b281350e0cd898a6ef321319985b39b9c76b1be",
+      "uncompressed_content_equal": true
+    },
+    "learned_states.jsonl.gz": {
+      "bytes_equal": false,
+      "new_sha256": "f3b92d37d02a08dae3df5db196d4e92f3a94af7f00a99f37b5b5f9233852639a",
+      "uncompressed_content_equal": true
+    }
+  },
+  "note": "CSV/summary equal; gzip metadata may differ. Runtime manifest includes current run time/path. See uncompressed comparisons."
+}

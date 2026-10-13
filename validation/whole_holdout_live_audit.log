@@ -1,0 +1,27 @@
+{"audited": 0, "expected": 1024}
+{"audited": 192, "expected": 1024}
+{"audited": 224, "expected": 1024}
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/process.py", line 264, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/tools/audit_whole_results.py", line 21, in check_life
+    if sha(path)!=s['trace_sha256']:raise AssertionError('trace SHA')
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: trace SHA
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspace/scratch/0da092536cba/WUYU_Whole_2026-10-12/tools/audit_whole_live.py", line 26, in <module>
+    value=future.result();complete.append(value)
+          ^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+AssertionError: trace SHA

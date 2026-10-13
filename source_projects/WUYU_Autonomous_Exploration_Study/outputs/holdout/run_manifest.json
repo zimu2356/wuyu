@@ -1,0 +1,118 @@
+{
+  "acquisition_interactions": 732672,
+  "cohort": "holdout",
+  "completed_utc": "2026-10-12T04:11:42.972054+00:00",
+  "elapsed_seconds": 29.801501187000213,
+  "episodes": 23040,
+  "histories": 1152,
+  "output_sha256": {
+    "acquisition.jsonl.gz": "2c0607e805b1601db6acfa5123591d92f5f92e09927f17235e81b11484d5567b",
+    "collector_timing.csv": "9569fe99b11aa58ea6feca019e9fe53cd51c1ee64257cf5ccdba88954168d4a6",
+    "episodes.csv": "4b8ea9bd1a92adfce7dd4a745b12be4abd534ba226ee2e0e63eef6ea916c519d",
+    "initial_learners.jsonl.gz": "1c025c87ae7d75cb14bccf4a582632e3d5ed259a7b869216524c49f5724db247",
+    "knowledge.csv": "4770ce0e9d2875be473e7fa250702b526395439d53b5c8080af1c29a1f43d520",
+    "test_traces.jsonl.gz": "48bdf92ea831c9d12c01ae051beb958f2898a9bc20e7f6b3b7d14a1bf8c1018e"
+  },
+  "protocol": {
+    "action_cost": 0.01,
+    "bootstrap_resamples": 5000,
+    "bootstrap_seed": 61391,
+    "budgets": [
+      108,
+      432,
+      1728
+    ],
+    "claim_boundaries": "Given regulation rule, discrete observations and outcome labels, fixed topology, supplied search and exploration bias. No claims of new values, goal categories, personality, consciousness, continuous life or unseen-topology generalization.",
+    "collector_rules": {
+      "balanced_teacher": "Exact inherited training_experiences(seed, budget/36, noise, body) independently for each budget; controlled arbitrary-position sampling. Privileged reference, not a fair autonomous competitor or formal upper bound. Teacher budgets are not nested trajectories.",
+      "least_visited": "BFS from current state on OBSERVED transitions only; score candidate reachable state-action pairs lexicographically by (visit count, observed path length). Choose uniformly among ties sorted by opaque state label and action. Execute the first action on the chosen route, replan each step. Unknown outgoing actions at discovered states have count zero. No map, outcome identity, effect truth, or evaluator input.",
+      "random": "Uniform primitive action on every interaction. One maximum-budget trajectory per seed; lower budgets are nested prefixes."
+    },
+    "collectors": [
+      "random",
+      "least_visited",
+      "balanced_teacher"
+    ],
+    "decision_rules": "Primary directional claim only if paired bootstrap 95% interval excludes zero positively. Always show effect size, all scenarios and budgets. Other comparisons are descriptive, not multiplicity-corrected confirmatory discoveries. Similar results do not establish universal equivalence.",
+    "development_seeds": {
+      "count": 32,
+      "start": 10000
+    },
+    "directed_collector_seed_offset": 2000000,
+    "effect_noise_sd": 0.025,
+    "failure_accounting": "All seeds remain in denominators, including undiscovered targets and empty catalogues. Diagnostic priority: target not discovered, no initially observed route to expected target, wrong first goal, then stopping/wrong outcome/budget exhaustion. These are descriptive labels, not unique causal identification.",
+    "holdout_seeds": {
+      "count": 128,
+      "start": 20000
+    },
+    "max_test_actions": 12,
+    "primary_budget": 432,
+    "primary_endpoint": "learned passes all four scenarios at budget 432; paired difference least_visited minus random across world seeds",
+    "protocol_version": 1,
+    "random_collector_seed_offset": 1000000,
+    "reset_rules": "Autonomous positions are continuous from the actual previous next_state; environment-defined returns to hub are retained. Body is reset to train_body BEFORE EVERY acquisition action. Evaluation uses independent cloned learners starting at the hub. This is not continuous life.",
+    "satiated_body": [
+      0.0,
+      0.0
+    ],
+    "scenarios": [
+      "quiet",
+      "blocked",
+      "need_shift",
+      "satiated"
+    ],
+    "secondary_endpoints": [
+      "all budgets and individual scenarios",
+      "discovery and transition coverage",
+      "effect estimation RMSE when both outcomes discovered, with denominator reported",
+      "observed path availability",
+      "first choice before test feedback",
+      "post-completion stop",
+      "same-history decision-mechanism contrasts",
+      "collector CPU time as descriptive resource measure"
+    ],
+    "shift_body": [
+      0.05,
+      0.75
+    ],
+    "status": "local protocol fixed before development cohort; not publicly preregistered",
+    "stop_rule": "Run all declared development and holdout seeds once without performance-driven parameter selection. Fix demonstrated implementation bugs with a dated amendment and rerun the entire affected cohort. No extra conditions or seeds selected after seeing holdout. Reproducibility rerun uses a separate output directory.",
+    "study": "WUYU finite autonomous experience acquisition",
+    "test_effect_seed_offset": 9000000,
+    "test_learning": "Every evaluation learner is fitted from that collector's frozen experience prefix. First choice occurs before any test feedback. After each test action all learners may observe actual feedback under inherited rules; blocked change is not announced. Maximum 12 environment actions per episode. Test experience never enters acquisition or another test branch. An extra decision after an outcome measures stopping without an extra world action.",
+    "test_noise": "World mapping fixed by seed. Test effect RNG is reset to seed + 9000000 + scenario index, independent from acquisition; shared across variants and collectors within each scenario.",
+    "train_body": [
+      0.75,
+      0.05
+    ],
+    "variants": [
+      "learned",
+      "no_goal_buffer",
+      "cached_value",
+      "erased_effects",
+      "fixed_target"
+    ]
+  },
+  "protocol_frozen_utc": "2026-10-12T04:02:37.411689+00:00",
+  "python": "3.12.14",
+  "source_sha256": {
+    "GIVEN_AND_LEARNED.md": "40c38cbf904189f1fc82394ce5b6fe9f940dce283574b8a689135e00b526fdaf",
+    "PROTOCOL_FREEZE.json": "b17e22bf36081fbe1de7870ad639451e30facdb8cd5334566014109c2c4c065f",
+    "SPECIFICATION.md": "88344e663258f62f9d2fe2808ac20584ff5f439dd01faca50ebb2d600929d7ee",
+    "analyze.py": "1af389ada2ec21534226e04f3e7c54f18d8b59622df2fb6496863c490166beb1",
+    "audit_data.py": "278d4945e6e0352961281bdab60fd026c7525afc2877a238b21102de6237c78c",
+    "baseline/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "baseline/wuyu_goal_study/__init__.py": "a73507ba8e3c5bf5d7729acb6f54ca1c5feb2ffe7ce696e4faf079543c8add90",
+    "baseline/wuyu_goal_study/core.py": "ce6037b61a59d99bb350e7aec6512888bdd519dbf79266687ac36c59add909c3",
+    "compare_runs.py": "29b32c9e7c5e4d2fc51ba05e0fb930d4daa798c4a406b96d530123f20488f2c3",
+    "freeze_code.py": "503babbd59fa05d36f67ca0113400c14632ced8349cff65f15bbad3031eb60a1",
+    "protocol.json": "7c4ae41827276a63b76db2dbb495f1c714d2d99560cc5a61d83b5f726e122ef7",
+    "run_study.py": "7c52ab49d6f84b88a8d2bef1609dc84b21b02e88fb92aa9cc62f8c75795568cc",
+    "study.py": "f54b550a37d2a0ae2d06ea2af212d2b4bdedebbe7c3aa9c109356054f8508088",
+    "tests/test_study.py": "33b93a3d4874c82d7aa32721b00421d4bd7649b47beef1f1b4604959cfa9f9cd"
+  },
+  "started_utc": "2026-10-12T04:11:13.171412+00:00",
+  "status": "complete",
+  "test_actions": 71614,
+  "world_seeds": 128
+}

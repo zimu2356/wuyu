@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "archives": 12,
+  "members": 9778,
+  "all_archive_and_member_hashes_verified": true,
+  "duplicate_members": 0,
+  "python_files_compiled": 537,
+  "source_only_fresh_extraction": true,
+  "test_suites": [
+    {
+      "suite": "WUYU_02",
+      "returncode": 0,
+      "tests": 7,
+      "seconds": 0.242
+    },
+    {
+      "suite": "WUYU_01",
+      "returncode": 0,
+      "tests": 6,
+      "seconds": 0.292
+    },
+    {
+      "suite": "WUYU_03",
+      "returncode": 0,
+      "tests": 8,
+      "seconds": 0.464
+    },
+    {
+      "suite": "WUYU_05",
+      "returncode": 0,
+      "tests": 8,
+      "seconds": 0.343
+    },
+    {
+      "suite": "WUYU_04",
+      "returncode": 0,
+      "tests": 6,
+      "seconds": 0.696
+    },
+    {
+      "suite": "WUYU_07",
+      "returncode": 0,
+      "tests": 13,
+      "seconds": 0.334
+    },
+    {
+      "suite": "WUYU_Goal_Formation_Study",
+      "returncode": 0,
+      "tests": 11,
+      "seconds": 0.136
+    },
+    {
+      "suite": "WUYU_06",
+      "returncode": 0,
+      "tests": 8,
+      "seconds": 0.672
+    },
+    {
+      "suite": "WUYU_Autonomous_Exploration_Study",
+      "returncode": 0,
+      "tests": 14,
+      "seconds": 0.179
+    },
+    {
+      "suite": "WUYU_08",
+      "returncode": 0,
+      "tests": 9,
+      "seconds": 0.54
+    },
+    {
+      "suite": "WUYU_Continuing_History_Study",
+      "returncode": 0,
+      "tests": 13,
+      "seconds": 0.287
+    },
+    {
+      "suite": "WUYU_Evidence_Revision_Study",
+      "returncode": 0,
+      "tests": 13,
+      "seconds": 0.351
+    },
+    {
+      "suite": "WUYU_INTEGRATED",
+      "returncode": 0,
+      "tests": 15,
+      "seconds": 6.745
+    },
+    {
+      "suite": "current_mainline",
+      "returncode": 0,
+      "tests": 39,
+      "seconds": 20.804
+    }
+  ],
+  "tests": 170,
+  "cli": [
+    {
+      "command": "verify-sources",
+      "returncode": 0
+    },
+    {
+      "command": "list",
+      "returncode": 0
+    },
+    {
+      "command": "run",
+      "returncode": 0
+    },
+    {
+      "command": "resume",
+      "returncode": 0
+    },
+    {
+      "command": "inspect",
+      "returncode": 0
+    }
+  ],
+  "loaded_module": "/workspace/scratch/0da092536cba/wuyu_complete_reassembled/WUYU_Whole_2026-10-12/wuyu_unified/__init__.py",
+  "resumed_R10_events": 192,
+  "scope": "Fresh source-only extraction without old raw data archives or references to the original working tree; repeats the same regression tests to validate delivery completeness."
+}

@@ -1,0 +1,284 @@
+{
+  "protocol_sha256": "4fc1bec7c4d202364f91b1ca6a9bee598ce4466fb621016484af8bf114d4468f",
+  "worlds": 16,
+  "trained_initializations": 3,
+  "events_per_run": 768,
+  "total_runs": 192,
+  "means": {
+    "prior": {
+      "survival": 0.9926215277777778,
+      "final_alive": 0.9791666666666666,
+      "deliveries": 171.22916666666666,
+      "body_area": 1.8925075111219603,
+      "blocked": 12.333333333333334,
+      "prediction_mse": 0.12955245563678472,
+      "updates": 0.0,
+      "replay_updates": 0.0
+    },
+    "online": {
+      "survival": 0.9926215277777778,
+      "final_alive": 0.9791666666666666,
+      "deliveries": 171.1875,
+      "body_area": 1.8922168508572035,
+      "blocked": 12.416666666666666,
+      "prediction_mse": 0.10211681376025335,
+      "updates": 762.3333333333334,
+      "replay_updates": 0.0
+    },
+    "replay": {
+      "survival": 0.9926215277777778,
+      "final_alive": 0.9791666666666666,
+      "deliveries": 171.10416666666666,
+      "body_area": 1.8921608086480024,
+      "blocked": 12.395833333333334,
+      "prediction_mse": 0.08098732139163438,
+      "updates": 1523.6666666666667,
+      "replay_updates": 761.3333333333334
+    },
+    "shadow": {
+      "survival": 0.9926215277777778,
+      "final_alive": 0.9791666666666666,
+      "deliveries": 171.22916666666666,
+      "body_area": 1.8925075111219603,
+      "blocked": 12.333333333333334,
+      "prediction_mse": 0.08109940995826699,
+      "updates": 1523.6666666666667,
+      "replay_updates": 761.3333333333334
+    }
+  },
+  "per_initialization": {
+    "prior": [
+      {
+        "survival": 0.9778645833333334,
+        "final_alive": 0.9375,
+        "deliveries": 166.4375,
+        "body_area": 1.8473101009114568,
+        "blocked": 31.5,
+        "prediction_mse": 0.12372850933909774,
+        "updates": 0.0,
+        "replay_updates": 0.0
+      },
+      {
+        "survival": 1.0,
+        "final_alive": 1.0,
+        "deliveries": 178.1875,
+        "body_area": 1.8963548356119773,
+        "blocked": 4.75,
+        "prediction_mse": 0.13356140667074803,
+        "updates": 0.0,
+        "replay_updates": 0.0
+      },
+      {
+        "survival": 1.0,
+        "final_alive": 1.0,
+        "deliveries": 169.0625,
+        "body_area": 1.9338575968424472,
+        "blocked": 0.75,
+        "prediction_mse": 0.13136745090050844,
+        "updates": 0.0,
+        "replay_updates": 0.0
+      }
+    ],
+    "online": [
+      {
+        "survival": 0.9778645833333334,
+        "final_alive": 0.9375,
+        "deliveries": 166.4375,
+        "body_area": 1.8473101009114568,
+        "blocked": 31.5,
+        "prediction_mse": 0.09781771863359359,
+        "updates": 751.0,
+        "replay_updates": 0.0
+      },
+      {
+        "survival": 1.0,
+        "final_alive": 1.0,
+        "deliveries": 178.0625,
+        "body_area": 1.8954828548177067,
+        "blocked": 5.0,
+        "prediction_mse": 0.10432989286123379,
+        "updates": 768.0,
+        "replay_updates": 0.0
+      },
+      {
+        "survival": 1.0,
+        "final_alive": 1.0,
+        "deliveries": 169.0625,
+        "body_area": 1.9338575968424472,
+        "blocked": 0.75,
+        "prediction_mse": 0.10420282978593268,
+        "updates": 768.0,
+        "replay_updates": 0.0
+      }
+    ],
+    "replay": [
+      {
+        "survival": 0.9778645833333334,
+        "final_alive": 0.9375,
+        "deliveries": 166.375,
+        "body_area": 1.8474050260416652,
+        "blocked": 31.5,
+        "prediction_mse": 0.07735872985430046,
+        "updates": 1501.0,
+        "replay_updates": 750.0
+      },
+      {
+        "survival": 1.0,
+        "final_alive": 1.0,
+        "deliveries": 177.875,
+        "body_area": 1.8952198030598941,
+        "blocked": 4.9375,
+        "prediction_mse": 0.0815343554303038,
+        "updates": 1535.0,
+        "replay_updates": 767.0
+      },
+      {
+        "survival": 1.0,
+        "final_alive": 1.0,
+        "deliveries": 169.0625,
+        "body_area": 1.9338575968424472,
+        "blocked": 0.75,
+        "prediction_mse": 0.08406887889029888,
+        "updates": 1535.0,
+        "replay_updates": 767.0
+      }
+    ],
+    "shadow": [
+      {
+        "survival": 0.9778645833333334,
+        "final_alive": 0.9375,
+        "deliveries": 166.4375,
+        "body_area": 1.8473101009114568,
+        "blocked": 31.5,
+        "prediction_mse": 0.07747309056236701,
+        "updates": 1501.0,
+        "replay_updates": 750.0
+      },
+      {
+        "survival": 1.0,
+        "final_alive": 1.0,
+        "deliveries": 178.1875,
+        "body_area": 1.8963548356119773,
+        "blocked": 4.75,
+        "prediction_mse": 0.08175776143474307,
+        "updates": 1535.0,
+        "replay_updates": 767.0
+      },
+      {
+        "survival": 1.0,
+        "final_alive": 1.0,
+        "deliveries": 169.0625,
+        "body_area": 1.9338575968424472,
+        "blocked": 0.75,
+        "prediction_mse": 0.08406737787769095,
+        "updates": 1535.0,
+        "replay_updates": 767.0
+      }
+    ]
+  },
+  "paired": {
+    "online": {
+      "survival": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "deliveries": {
+        "mean": -0.041666666666666664,
+        "ci95": [
+          -0.125,
+          0.0
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "body_area": {
+        "mean": -0.0002906602647568812,
+        "ci95": [
+          -0.0008719807942706437,
+          0.0
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "blocked": {
+        "mean": 0.08333333333333333,
+        "ci95": [
+          0.0,
+          0.25
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      }
+    },
+    "replay": {
+      "survival": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "deliveries": {
+        "mean": -0.125,
+        "ci95": [
+          -0.24999999999999997,
+          -0.020833333333333332
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "body_area": {
+        "mean": -0.00034670247395825193,
+        "ci95": [
+          -0.0009688663669160484,
+          3.664990912544503e-05
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "blocked": {
+        "mean": 0.0625,
+        "ci95": [
+          -0.0625,
+          0.25
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      }
+    },
+    "shadow": {
+      "survival": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "deliveries": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "body_area": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      },
+      "blocked": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "scope": "world-cluster paired bootstrap; conditional on three trained models"
+      }
+    }
+  },
+  "shadow_actions_identical": true
+}

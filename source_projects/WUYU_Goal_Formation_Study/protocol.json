@@ -1,0 +1,29 @@
+{
+  "study": "WUYU functional goal-selection pilot",
+  "theory_source": "WUYU_Theory_Working_Draft_2026-10-11.md, version 2, section 14",
+  "status": "local protocol frozen before the first batch; not a public preregistration",
+  "seed_start": 0,
+  "n_seeds": 128,
+  "training_repeats_per_state_action": 12,
+  "effect_noise_sd": 0.025,
+  "train_body": [0.75, 0.05],
+  "shift_body": [0.05, 0.75],
+  "satiated_body": [0.0, 0.0],
+  "action_cost": 0.01,
+  "sensitivity_costs": [0.0, 0.03],
+  "max_steps": 12,
+  "variants": ["learned", "no_goal_buffer", "cached_value", "erased_effects", "fixed_target"],
+  "scenarios": ["quiet", "blocked", "need_shift", "satiated"],
+  "bootstrap_resamples": 4000,
+  "bootstrap_seed": 1729,
+  "expected_patterns": {
+    "learned_vs_erased_effects_quiet": "positive paired success-rate difference if learned effect associations matter",
+    "learned_vs_cached_value_need_shift": "positive paired success-rate difference if current-state revaluation matters",
+    "learned_blocked": "observed failure followed by use of a previously experienced alternate route",
+    "learned_vs_no_goal_buffer": "no directional prediction; equality would weaken attribution of persistence to the active goal buffer",
+    "paired_history": "reversing prior outcome effects should change the first selected target at identical current observations",
+    "satiated": "stop if all learned outcome effects have nonpositive predicted regulation benefit after action cost"
+  },
+  "stop_rule": "Run every configured seed and condition once. Do not tune settings to improve results. Fix implementation bugs only, record corrections and rerun the full affected batch.",
+  "claim_limit": "Tests learned instrumental goal selection under a GIVEN regulation rule, not emergence of that rule, open-ended desire, subjectivity, personality, continuous life, language, or a neural model base."
+}

@@ -1,0 +1,67 @@
+{
+  "total_burden": 0.011496354012539359,
+  "challenge_burden": 0.01200047833144563,
+  "late_burden": 0.007365049986979361,
+  "final_alive": true,
+  "alive_fraction": 1.0,
+  "live_steps": 2560,
+  "movement_attempts": 266,
+  "live_route_denials": 19,
+  "live_structural_denials": 19,
+  "live_noise_failures": 0,
+  "live_blocked_takes": 0,
+  "live_action_changes": 108,
+  "contradiction_observed": true,
+  "first_denial": 1197,
+  "mean_movement_brier": 0.05200975009042623,
+  "mean_tau": 1.0,
+  "mean_entropy": 0.25707739588482115,
+  "actor_updates": 80,
+  "mean_kl": 0.03467436507344246,
+  "post_contradiction_denials": 18,
+  "post_contradiction_live_steps": 1362,
+  "recovery_live_steps": 499,
+  "recovery_denials": 9,
+  "death_tick": null,
+  "actual_dependent_token_acquisitions": [
+    0,
+    0
+  ],
+  "both_dependent_token_roles_experienced": false,
+  "prefix_challenge_burden": 0.01200047833144563,
+  "extended_burden": null,
+  "alive_at_2560": true,
+  "death_before_route_change": false,
+  "reopened_crossings": 0,
+  "first_reopened_crossing_latency": null,
+  "seed": 1601012,
+  "initialization": 0,
+  "mode": "R10",
+  "case": "r_block",
+  "elapsed_seconds": 17.589576247999503,
+  "trace_sha256": "3690967dbf2f3fd6e686514a5462e8e2446f48a72deb4fa4f54799c65b5d07ee",
+  "raw_array_sha256": "8be95b4ae37cae8ca67f969b09f5c042434f1fedee45cc74f67eee3507584c0e",
+  "final_state_sha256": "ab31bff2c05ef4682ae8d82d599d780213bea648d7cf42d3d9b8052121cd01df",
+  "diagnostics": [],
+  "actor_parameters": 22515,
+  "relation_parameters": 72,
+  "world_schedule": [
+    {
+      "tick": 1179,
+      "kind": "route_closed",
+      "blocked_edge": [
+        3,
+        4
+      ]
+    }
+  ],
+  "change_tick": 1179,
+  "recovery_tick": 2061,
+  "feasibility": {
+    "acyclic": true,
+    "alternate_ring_route": true,
+    "alternate_body_producer": true,
+    "checks": [],
+    "note": "Constructive known-recipe feasibility; not a guarantee that the agent discovers it or survives earlier losses."
+  }
+}

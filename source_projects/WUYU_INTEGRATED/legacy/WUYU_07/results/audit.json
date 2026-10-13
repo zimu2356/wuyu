@@ -1,0 +1,59 @@
+{
+  "event_slots": 1032192,
+  "skill_origins": 111324,
+  "npz_files": 109,
+  "checkpoint_replays": [
+    {
+      "family": "full",
+      "initialization": 0,
+      "events": 384,
+      "worlds": 32,
+      "all_state_equal": true
+    },
+    {
+      "family": "full",
+      "initialization": 1,
+      "events": 384,
+      "worlds": 32,
+      "all_state_equal": true
+    },
+    {
+      "family": "full",
+      "initialization": 2,
+      "events": 384,
+      "worlds": 32,
+      "all_state_equal": true
+    },
+    {
+      "family": "neural_student",
+      "initialization": 0,
+      "events": 384,
+      "worlds": 32,
+      "all_state_equal": true
+    },
+    {
+      "family": "neural_student",
+      "initialization": 1,
+      "events": 384,
+      "worlds": 32,
+      "all_state_equal": true
+    },
+    {
+      "family": "neural_student",
+      "initialization": 2,
+      "events": 384,
+      "worlds": 32,
+      "all_state_equal": true
+    }
+  ],
+  "probe_steps": 68268,
+  "probe_traces": 4320,
+  "changed_since_rnn_training": [
+    "wuyu07/agent.py",
+    "wuyu07/experiment.py"
+  ],
+  "formal_source_unchanged": true,
+  "neural_runtime_planner_absent": true,
+  "student_global_weights_frozen": true,
+  "physics_and_metrics_verified": true
+}

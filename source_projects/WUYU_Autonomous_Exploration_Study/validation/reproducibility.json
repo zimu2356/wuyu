@@ -1,0 +1,52 @@
+{
+  "comparisons": [
+    {
+      "file": "acquisition.jsonl.gz",
+      "first_sha256": "2c0607e805b1601db6acfa5123591d92f5f92e09927f17235e81b11484d5567b",
+      "identical": true,
+      "second_sha256": "2c0607e805b1601db6acfa5123591d92f5f92e09927f17235e81b11484d5567b"
+    },
+    {
+      "file": "initial_learners.jsonl.gz",
+      "first_sha256": "1c025c87ae7d75cb14bccf4a582632e3d5ed259a7b869216524c49f5724db247",
+      "identical": true,
+      "second_sha256": "1c025c87ae7d75cb14bccf4a582632e3d5ed259a7b869216524c49f5724db247"
+    },
+    {
+      "file": "test_traces.jsonl.gz",
+      "first_sha256": "48bdf92ea831c9d12c01ae051beb958f2898a9bc20e7f6b3b7d14a1bf8c1018e",
+      "identical": true,
+      "second_sha256": "48bdf92ea831c9d12c01ae051beb958f2898a9bc20e7f6b3b7d14a1bf8c1018e"
+    },
+    {
+      "file": "knowledge.csv",
+      "first_sha256": "4770ce0e9d2875be473e7fa250702b526395439d53b5c8080af1c29a1f43d520",
+      "identical": true,
+      "second_sha256": "4770ce0e9d2875be473e7fa250702b526395439d53b5c8080af1c29a1f43d520"
+    },
+    {
+      "file": "episodes.csv",
+      "first_sha256": "4b8ea9bd1a92adfce7dd4a745b12be4abd534ba226ee2e0e63eef6ea916c519d",
+      "identical": true,
+      "second_sha256": "4b8ea9bd1a92adfce7dd4a745b12be4abd534ba226ee2e0e63eef6ea916c519d"
+    },
+    {
+      "file": "summary.json",
+      "first_sha256": "edb832a3e7d14b1295121bb385044dd9e60e6a491a65bb17fec83c8fc74326ca",
+      "identical": true,
+      "second_sha256": "edb832a3e7d14b1295121bb385044dd9e60e6a491a65bb17fec83c8fc74326ca"
+    },
+    {
+      "file": "data_audit.json",
+      "first_sha256": "f84c9584c2312ac5a01795eca846853706f258d61527e762f6c7076a9fca9c9f",
+      "identical": true,
+      "second_sha256": "f84c9584c2312ac5a01795eca846853706f258d61527e762f6c7076a9fca9c9f"
+    }
+  ],
+  "excluded": [
+    "run_manifest.json (timestamps and CPU timing hashes)",
+    "collector_timing.csv",
+    "timing_summary.json"
+  ],
+  "status": "passed"
+}

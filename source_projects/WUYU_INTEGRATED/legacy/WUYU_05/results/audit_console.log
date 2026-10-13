@@ -1,0 +1,76 @@
+{
+  "comparisons": {
+    "learned_minus_fixed": {
+      "mean": -0.004717339409722063,
+      "low": -0.019060668945312026,
+      "high": 0.008952297634548424,
+      "n": 32
+    },
+    "learned_minus_heuristic": {
+      "mean": 0.028889973958332774,
+      "low": 0.014784003363714826,
+      "high": 0.04398898654513807,
+      "n": 32
+    },
+    "learned_minus_matched_mean": {
+      "mean": 0.007240125868055343,
+      "low": -0.0067564561631943765,
+      "high": 0.022288479275172975,
+      "n": 32
+    },
+    "learned_minus_shuffled": {
+      "mean": 0.011054144965277643,
+      "low": -0.0031768798828120995,
+      "high": 0.025911526150173277,
+      "n": 32
+    },
+    "learned_minus_frozen": {
+      "mean": 0.1972140842013882,
+      "low": 0.16195183648003414,
+      "high": 0.23582973904079796,
+      "n": 32
+    },
+    "branches_learned_minus_fixed": {
+      "return": {
+        "mean": -0.001806640625000043,
+        "low": -0.01780659993489551,
+        "high": 0.014218546549478983,
+        "n": 32
+      },
+      "change": {
+        "mean": -0.02061360677083275,
+        "low": -0.03892659505208215,
+        "high": -0.002245890299479304,
+        "n": 32
+      },
+      "noise": {
+        "mean": 0.008268229166666625,
+        "low": -0.012071533203125215,
+        "high": 0.02767964680989577,
+        "n": 32
+      }
+    },
+    "old_b_learned_minus_fixed": {
+      "mean": 0.0027262369791666635,
+      "low": -0.045777384440104166,
+      "high": 0.05517578125,
+      "n": 32
+    }
+  },
+  "gates": {
+    "G1_net_reward": false,
+    "G2_each_branch": false,
+    "G3_old_b": false,
+    "G4_history_correspondence": false
+  },
+  "audit": {
+    "raw_world_accounting": true,
+    "reward_metrics_independently_recomputed": true,
+    "past_statistics_and_learned_rates_recomputed": true,
+    "restored_raw_events_exact": 256,
+    "full_serialized_roundtrip_state_equal": true,
+    "restored_final_network_equal": true,
+    "frozen_numerical_sources_unchanged": true,
+    "existing_mechanism_tests_passed": 8
+  }
+}
